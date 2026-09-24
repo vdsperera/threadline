@@ -1,0 +1,137 @@
+{
+  "id": "route-476-abduction-1996",
+  "title": "The Firestone Trail",
+  "location": "Philadelphia, Pennsylvania",
+  "years": "1996 – late 1990s",
+  "statusBadge": { "label": "Forensic breakthrough", "color": "var(--teal)" },
+  "dek": "A car left running on a Philadelphia highway. A missing driver. What looked like a random carjacking became a case broken open by a tire tread, a strange burn pattern, and DNA — all pointing to a man already convicted of murder once before.",
+  "cardBlurb": "A college athlete's abduction turns into a serial predator's undoing, when a tire impression, a burn pattern, and DNA all trace back to the same man.",
+  "source": "Timeline built from a Forensic Files episode summary and transcript describing the June 1996 abduction and murder of Aimee Willard near Philadelphia, and the forensic evidence — a tire impression, an oil-pan burn pattern, and DNA — that convicted Arthur Bomar. The connection to Maria Cabuenos's disappearance is presented in the episode as strongly suspected but not confirmed as formally charged, so it's treated that way here. Dates beyond June 1996 are approximate, drawn from the episode's own account rather than court records.",
+  "persons": {
+    "aimee": { "name": "Aimee Willard", "role": "22-year-old college athlete, abducted after leaving a bar alone", "status": "Victim, murdered", "statusColor": "var(--rust)" },
+    "bomar": { "name": "Arthur Bomar", "role": "Parolee with a prior murder conviction, tied to the crime by tire, burn, and DNA evidence", "status": "Convicted, sentenced to death", "statusColor": "var(--rust)" },
+    "kobak": { "name": "Andrew Kobak", "role": "Came forward as a witness, became an early suspect", "status": "Cleared by DNA and tire evidence", "statusColor": "var(--brass)" },
+    "cabuenos": { "name": "Maria Cabuenos", "role": "Missing woman whose stolen car Bomar was driving when arrested", "status": "Suspected additional victim", "statusColor": "var(--brass)" }
+  },
+  "events": [
+    { "year": "1996", "date": "June 20, 1996, ~1:30am", "cat": "crime", "persons": ["aimee"],
+      "title": "Aimee leaves a bar alone",
+      "summary": "Aimee Willard, home for the summer from George Mason University, told her mother she was going to Smokey Joe's Bar. She'd never been there before, and left alone around 1:30am.",
+      "detail": "Family described Aimee as someone who rarely went out alone due to her athletic schedule, which made her solo trip to an unfamiliar bar stand out in hindsight.",
+      "quote": null },
+
+    { "year": "1996", "date": "June 20, 1996, ~2:00am", "cat": "crime", "persons": ["aimee"],
+      "title": "Her car is found abandoned, still running",
+      "summary": "An off-duty ambulance crew spotted Aimee's car on a Route 476 exit ramp — engine running, lights on, radio blaring, driver's door open, no one inside.",
+      "detail": "A tire iron, blood, and a blood-stained stone were found in front of the car, along with blood spatter on the guardrail. Investigators believed she'd been attacked violently and quickly, then removed from the scene.",
+      "quote": { "text": "This person was violently attacked in a very fast mode.", "cite": "Investigator on the crime scene" } },
+
+    { "year": "1996", "date": "June 1996", "cat": "forensic", "persons": [],
+      "title": "A tire impression is cast at the scene",
+      "summary": "Next to the car, investigators found and photographed a tire impression, then made a cast of it and sent it to the state crime lab.",
+      "detail": "This impression — later identified as coming from a Firestone 440 13-inch tire — would become one of the case's key forensic threads months later.",
+      "quote": null },
+
+    { "year": "1996", "date": "Morning after", "cat": "invest", "persons": ["aimee"],
+      "title": "Damage to the bumper, and items dropped off later",
+      "summary": "Police theorized Aimee had been bumped from behind near the highway exit, prompting her to pull over. A half mile from her car, they later found her sneakers and underwear — dry and clean, despite recent rain.",
+      "detail": "The condition of the items suggested they'd been placed there after the rain had already passed, meaning the abductor had returned to the area to dispose of them.",
+      "quote": { "text": "I noticed it because it was my car.", "cite": "Gail Willard, Aimee's mother, on the bumper damage" } },
+
+    { "year": "1996", "date": "Days later", "cat": "invest", "persons": ["kobak"],
+      "title": "A tipster becomes a suspect",
+      "summary": "Andrew Kobak came forward saying he'd seen something suspicious near Aimee's car that night. Police already knew him from a prior, uncharged accusation of impersonating a police officer to pull women over.",
+      "detail": "Investigators noted that returning to the scene of a crime, even under the guise of helping, is a pattern sometimes seen in people involved in it — which kept Kobak in the frame for a time.",
+      "quote": null },
+
+    { "year": "1996", "date": "June 21, 1996", "cat": "crime", "persons": ["aimee"],
+      "title": "A body is found in North Philadelphia",
+      "summary": "Less than 24 hours after Aimee disappeared, children playing in a deserted lot found her body. A Nike tattoo on her ankle let her parents confirm her identity.",
+      "detail": "Her family described the discovery as a painful kind of relief — an end to not knowing, even as it confirmed the worst.",
+      "quote": null },
+
+    { "year": "1996", "date": "1996", "cat": "forensic", "persons": ["aimee"],
+      "title": "Autopsy: blunt force trauma and a rape kit",
+      "summary": "An autopsy found Aimee died from multiple blunt force injuries to her head and face, roughly five hours after her abduction. She had also been sexually assaulted, and DNA from a rape kit was sent for testing.",
+      "detail": "Investigators now had what amounted to a genetic fingerprint of the killer — they just needed a name to match it to.",
+      "quote": { "text": "We had essentially the genetic fingerprint of our murderer.", "cite": "Investigator on the case" } },
+
+    { "year": "1996", "date": "1996", "cat": "forensic", "persons": ["kobak"],
+      "title": "Kobak is cleared",
+      "summary": "Forensic analysis showed the tire impression came from a Firestone 440 13-inch tire — not a match to Kobak's car. His DNA also didn't match the rape kit sample, officially clearing him.",
+      "detail": "With their only named suspect eliminated by two separate forensic results, investigators had a full physical evidence profile of the killer, but no name to attach it to.",
+      "quote": null },
+
+    { "year": "1997", "date": "One year later", "cat": "crime", "persons": ["bomar"],
+      "title": "A second woman fights off a similar attack",
+      "summary": "19-year-old Patty Jordan reported an attempted carjacking after a man bumped her car and tried to get her to pull over near a nightclub. She memorized his license plate as she drove away.",
+      "detail": "The plate traced back to 38-year-old Arthur Bomar — the first time his name entered the investigation.",
+      "quote": null },
+
+    { "year": "1997", "date": "1997", "cat": "invest", "persons": ["bomar"],
+      "title": "Bomar's history comes into view",
+      "summary": "Records showed Bomar had been convicted of second-degree murder in Nevada in 1978 and served only 11 years of a life sentence before parole. He also had a 20-year history of assaults on women.",
+      "detail": "Investigators also learned that on the day Aimee disappeared, Philadelphia police had stopped Bomar for an unrelated matter just six blocks from where her body was found.",
+      "quote": null },
+
+    { "year": "1997", "date": "1997", "cat": "invest", "persons": ["bomar", "cabuenos"],
+      "title": "An alias, a stolen car, and a missing woman",
+      "summary": "Police couldn't locate Bomar to question him. He was later arrested under the alias \"Peter Thomas Love\" after a break-in attempt, carrying keys to a Honda that turned out to be registered to his own Ford Escort's plate — which he'd swapped onto a car stolen from Maria Cabuenos, missing for three months.",
+      "detail": "Cabuenos had vanished while reportedly driving on the same highway, Route 476, where Aimee had been taken.",
+      "quote": null },
+
+    { "year": "1997", "date": "1997", "cat": "crime", "persons": ["bomar", "cabuenos"],
+      "title": "A second disappearance looks connected",
+      "summary": "Dried blood was found in the trunk of Cabuenos's car, and its bumpers showed the same kind of scraping as Aimee's car had. Bomar became a suspect in her disappearance too.",
+      "detail": "The parallels — the same highway, similar bumper damage, blood in the vehicle — strengthened investigators' belief that Bomar was responsible for both cases.",
+      "quote": null },
+
+    { "year": "1997", "date": "1997", "cat": "invest", "persons": ["bomar"],
+      "title": "An alibi that didn't hold",
+      "summary": "Bomar claimed he'd been at a birthday party the night Aimee disappeared, not near Smokey Joe's. His own fiancée contradicted him, placing him at the bar that night.",
+      "detail": "The conflicting accounts undercut what had been his central defense against the growing circumstantial case.",
+      "quote": null },
+
+    { "year": "1997", "date": "One year after Aimee's death", "cat": "forensic", "persons": ["aimee"],
+      "title": "Aimee's mother spots something in the autopsy photos",
+      "summary": "Gail Willard, an ER nurse, asked to see photos of Aimee's injuries and identified an unusual mark police had labeled a \"diamond-shaped pattern\" as something else entirely: a burn imprint.",
+      "detail": "Her medical background let her see past the initial description to what the mark actually was — a detail that would later connect directly to physical evidence from Bomar's car.",
+      "quote": { "text": "This isn't a diamond-shaped pattern. This is a burn.", "cite": "Gail Willard, Aimee's mother" } },
+
+    { "year": "1997", "date": "Nearly a year later", "cat": "forensic", "persons": ["bomar"],
+      "title": "Bomar's abandoned car is finally located",
+      "summary": "Investigators traced Bomar's wrecked Ford Escort — involved in an accident months after Aimee's death — to a tow yard, where it had sat exposed to the elements for almost a year.",
+      "detail": "The car's tires included a Firestone 440 13-inch tire matching not just the make, model, and size of the crime-scene impression, but its wear pattern too.",
+      "quote": null },
+
+    { "year": "1997", "date": "1997", "cat": "forensic", "persons": ["bomar", "aimee"],
+      "title": "Blood behind the door panel, and a match to the oil pan",
+      "summary": "Police dismantled the car piece by piece and found blood behind the passenger door panel, later confirmed to be Aimee's. Separately, sunlight on the car's underside revealed an X-and-O pattern on the oil pan that matched the burn imprint on Aimee's body.",
+      "detail": "A forensic pathologist at the Armed Forces Institute of Pathology confirmed the oil pan pattern was consistent with the marks found on Aimee — tying the vehicle itself directly to how she died.",
+      "quote": { "text": "Behind the door panel we found some blood.", "cite": "Investigator describing the search of Bomar's car" } },
+
+    { "year": "1997", "date": "1997", "cat": "forensic", "persons": ["bomar", "aimee"],
+      "title": "DNA closes the loop",
+      "summary": "Semen from Aimee's rape kit was matched to Arthur Bomar's DNA profile — the piece of evidence prosecutors would later call the most damning of all.",
+      "detail": "Combined with the tire impression and the oil pan match, investigators now had three independent forensic threads all pointing to the same man.",
+      "quote": null },
+
+    { "year": "late 1990s", "date": "Before trial", "cat": "outcome", "persons": ["cabuenos", "bomar"],
+      "title": "Maria Cabuenos's remains are found",
+      "summary": "Before Bomar's murder trial, Maria Cabuenos's skeletal remains were found in nearby Bucks County. Like Aimee, she had died from blunt head injuries.",
+      "detail": "Investigators described Bomar as still suspected in Cabuenos's death, though officials were notably guarded about how that case stood at the time.",
+      "quote": null },
+
+    { "year": "late 1990s", "date": "Trial", "cat": "trial", "persons": ["bomar"],
+      "title": "A disruptive defense",
+      "summary": "Bomar's defense argued he had been neglected as a child and had a low IQ. He had to be physically restrained multiple times during the trial for violent outbursts.",
+      "detail": "Outside the courthouse, his family clashed with reporters covering the case, adding to an already tense trial atmosphere.",
+      "quote": null },
+
+    { "year": "late 1990s", "date": "Verdict", "cat": "outcome", "persons": ["bomar", "aimee"],
+      "title": "Convicted and sentenced to death",
+      "summary": "Arthur Bomar was convicted of rape and first-degree murder and sentenced to death. As the verdict was read, he turned and directed threats at Gail Willard.",
+      "detail": "Investigators who worked the case described Bomar as one of the coldest and most remorseless people they'd encountered, and said the tire impression, oil pan match, and DNA together were what made the conviction possible.",
+      "quote": { "text": "We would have been very hard pressed to have the success that we did.", "cite": "Investigator on the case" } }
+  ]
+}
