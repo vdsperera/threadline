@@ -1,0 +1,130 @@
+{
+  "id": "river-park-1996",
+  "title": "The River Park Case",
+  "location": "South Bend, Indiana",
+  "years": "1996 – 2001",
+  "statusBadge": { "label": "Exoneration", "color": "var(--teal)" },
+  "dek": "A serial rapist struck River Park through 1996. Police arrested a man on a bicycle. Witnesses were certain. Five years later, a strand of hair said otherwise.",
+  "cardBlurb": "Eyewitness identifications convict the wrong man — until mitochondrial DNA and a cold-case database match identify the two men who actually committed the crimes.",
+  "source": "Timeline built from a Forensic Files episode summary and transcript describing the 1996 River Park assaults, the wrongful conviction of Richard Alexander, and the 2000–2001 mitochondrial DNA and database evidence that identified Michael Murphy and Mark Williams. Dates for pre-2000 events are approximate, drawn from the episode's own account rather than court records.",
+  "persons": {
+    "alexander": { "name": "Richard Alexander", "role": "Arrested on a bicycle near a crime scene", "status": "Wrongfully convicted", "statusColor": "var(--rust)" },
+    "murphy":    { "name": "Michael Murphy",    "role": "Serial burglar, linked by hair evidence", "status": "Convicted, 30 years", "statusColor": "var(--teal)" },
+    "williams":  { "name": "Mark Williams",     "role": "Matched via sex-offender DNA database", "status": "Convicted, 40 years", "statusColor": "var(--teal)" }
+  },
+  "events": [
+    { "year": "1996", "date": "Spring–Summer 1996", "cat": "crime", "persons": [],
+      "title": "A pattern emerges in River Park",
+      "summary": "Four sexual assault and burglary cases hit South Bend's River Park neighborhood, all on weeknights between 8 and 11pm. Victims describe the same young man: Black, 16–25, about 5'8\" tall, thin build.",
+      "detail": "Investigators noted the assailant varied his weapon and his targets — sometimes a knife, sometimes a gun; sometimes women walking alone, sometimes elderly women in their homes — which is unusual for a serial offender and made the cases harder to connect.",
+      "quote": { "text": "There's nothing more stressful as an investigator than having a serial situation taking place, because we know until we solve this, there are going to be more victims.", "cite": "Det. Sgt. Cindy Eastman" } },
+
+    { "year": "1996", "date": "1996", "cat": "crime", "persons": [],
+      "title": "A home invasion during a storm",
+      "summary": "One victim, asleep during a thunderstorm, was assaulted after the perpetrator kicked in her door and covered her eyes. He wore gloves and a mask, and left almost no physical evidence.",
+      "detail": "The lack of fingerprints and the assailant's use of a mask across multiple incidents told investigators they were dealing with someone deliberate and forensically aware, not opportunistic.",
+      "quote": null },
+
+    { "year": "1996", "date": "July 1996", "cat": "crime", "persons": [],
+      "title": "The most brazen attack — and a bicycle in the grass",
+      "summary": "A couple arguing in their car was approached at gunpoint. The assailant struck the man, abducted the woman, and assaulted her in a wooded area. A police dog tracked his scent to a nearby field, where it was lost near bicycle tire impressions.",
+      "detail": "The tire impressions were the first physical clue linking the attacker to a bicycle — a detail that would shape the entire rest of the investigation, for better and for worse.",
+      "quote": null },
+
+    { "year": "1996", "date": "3 months into the case", "cat": "invest", "persons": ["alexander"],
+      "title": "Richard Alexander is stopped on a bicycle",
+      "summary": "During a stakeout for men on bicycles matching the description, police spotted 31-year-old Richard Alexander riding near a crime scene. He denied any involvement.",
+      "detail": "Alexander had prior brushes with the law but maintained he was simply riding home. A search of his apartment turned up a knife, hoods, and bandanas — none forensically tied to the crimes, but enough to keep him in the frame.",
+      "quote": { "text": "There go a black man. Let's throw this on him.", "cite": "Richard Alexander, describing how he felt he was targeted" } },
+
+    { "year": "1996", "date": "1996", "cat": "invest", "persons": ["alexander"],
+      "title": "A photo lineup — one identification out of several victims",
+      "summary": "Alexander's photo was placed in a six-person lineup. One victim couldn't identify anyone. Her fiancé, who had also been attacked, immediately and confidently picked Alexander.",
+      "detail": "That single confident identification became the anchor for the case against Alexander, even though the woman who was actually assaulted in that incident could not identify him.",
+      "quote": null },
+
+    { "year": "1996", "date": "1996", "cat": "invest", "persons": ["alexander"],
+      "title": "A live lineup, and a voice",
+      "summary": "In a follow-up in-person lineup, suspects were made to repeat phrases the rapist had used, like \"I want your money.\" After hearing Alexander's voice, two more victims identified him — bringing the total to three.",
+      "detail": "Voice identification in a stressful, high-adrenaline lineup setting is considered far less reliable than physical identification, but it carried weight with the victims and, later, the jury.",
+      "quote": null },
+
+    { "year": "1996", "date": "1996", "cat": "forensic", "persons": ["alexander"],
+      "title": "Hair evidence: inconclusive, not exonerating",
+      "summary": "A pubic hair recovered from one crime scene had no root, so it couldn't be DNA tested with the technology available. A visual comparison to Alexander's hair came back inconclusive — neither cleared him nor implicated him.",
+      "detail": "At the time, mitochondrial DNA testing of rootless hair shafts was not yet in routine forensic use. That gap in the science would matter enormously five years later.",
+      "quote": null },
+
+    { "year": "1996", "date": "1996", "cat": "forensic", "persons": ["alexander"],
+      "title": "A semen sample doesn't match Alexander",
+      "summary": "DNA testing on a semen sample from one victim excluded Alexander entirely. He was not charged in that case — but was still charged with rape, confinement, burglary, and theft in three others.",
+      "detail": "This early exculpatory DNA result should have raised more doubt about the identifications in the remaining cases. Instead, prosecutors proceeded on the strength of eyewitness and voice identification alone.",
+      "quote": null },
+
+    { "year": "1996", "date": "1996", "cat": "trial", "persons": ["alexander"],
+      "title": "First trial: a hung jury",
+      "summary": "Juror Barbara Griffin held out for acquittal, unconvinced by the identifications. The jury of nine white and three Black jurors deadlocked, and a mistrial was declared.",
+      "detail": "Griffin later said she had a strong instinct partway through deliberations that Alexander was innocent — a doubt that a second, differently composed jury would not share.",
+      "quote": { "text": "I just on the fourth day, I got a feeling that this man didn't do this.", "cite": "Barbara Griffin, juror" } },
+
+    { "year": "1996", "date": "~4 months later", "cat": "trial", "persons": ["alexander"],
+      "title": "Second trial: conviction and a 70-year sentence",
+      "summary": "Retried before an all-white jury, Alexander was found guilty on two of three assault counts, based on the victims' identifications, and sentenced to 70 years in prison.",
+      "detail": "Even the original investigating detective, Cindy Eastman, said she was surprised by the conviction and privately conflicted — she had doubts but no way to prove them.",
+      "quote": { "text": "I was sorry and somewhat surprised to hear that the jury did convict. I was very conflicted.", "cite": "Det. Sgt. Cindy Eastman" } },
+
+    { "year": "1997–2000", "date": "1997", "cat": "crime", "persons": ["murphy"],
+      "title": "The attacks continue — with Alexander behind bars",
+      "summary": "Similar burglaries and assaults kept happening near River Park after Alexander's conviction. One item stolen during a 1997 assault — a chrome-and-glass wall clock — would later become a key piece of evidence.",
+      "detail": "At the time, no one connected these new crimes to the man already in prison for the earlier ones — but the pattern should have raised questions.",
+      "quote": null },
+
+    { "year": "1997–2000", "date": "April 2000", "cat": "invest", "persons": ["murphy"],
+      "title": "A burglary interrupted — and a name left behind",
+      "summary": "A homeowner called police after finding a tan Cadillac in his driveway and an intruder inside. The intruder fled on foot, leaving the car — and it was full of utility bills and paperwork bearing the name Michael Murphy.",
+      "detail": "A shoe impression at the scene was collected and later matched to a pair of shoes found in Murphy's closet, tightening the case against him for that string of burglaries.",
+      "quote": null },
+
+    { "year": "1997–2000", "date": "2000", "cat": "invest", "persons": ["murphy"],
+      "title": "Detective Harmon connects the dots",
+      "summary": "Investigating the new burglaries, Detective Ryan Harmon learned Murphy had previously been accused of molesting his girlfriend's 9-year-old niece, and heard from Murphy's girlfriend and the girl's mother about a string of burglaries Murphy had described.",
+      "detail": "Harmon contacted Cindy Eastman, the original River Park investigator, and the two began working the older and newer cases together.",
+      "quote": { "text": "Things like that told me that he may be a sex offender.", "cite": "Det. Ryan Harmon" } },
+
+    { "year": "1997–2000", "date": "2000", "cat": "forensic", "persons": ["murphy", "alexander"],
+      "title": "A stolen clock reappears in a photograph",
+      "summary": "Among photos Murphy's girlfriend gave police was one showing a chrome-and-glass wall clock — the same clock stolen during the 1997 assault attributed to \"the River Park rapist.\" A victim confirmed it from her own photos.",
+      "detail": "This was the first concrete link tying Murphy, not Alexander, to the ongoing assaults — and it pointed toward the possibility that Alexander had been imprisoned for someone else's crimes.",
+      "quote": null },
+
+    { "year": "2001", "date": "2001", "cat": "forensic", "persons": ["alexander", "murphy"],
+      "title": "Mitochondrial DNA rewrites the case",
+      "summary": "New mitochondrial DNA testing — unavailable at Alexander's trial — was finally able to analyze the rootless pubic hair. It excluded Richard Alexander and matched Michael Murphy.",
+      "detail": "Mitochondrial DNA, found outside the cell nucleus, is less precise than nuclear DNA but can be recovered from evidence, like hair shafts, that nuclear testing can't use — a technique that didn't exist in ordinary forensic casework in 1996.",
+      "quote": { "text": "We knew then that Richard Alexander was going to be released from prison.", "cite": "Forensic scientist on the mitochondrial DNA match" } },
+
+    { "year": "2001", "date": "2001", "cat": "forensic", "persons": ["williams"],
+      "title": "A database match points to a third man",
+      "summary": "The semen sample from the case — which had never matched Alexander or Murphy — was run against Indiana's sex offender DNA database. It matched a third man entirely: Mark Williams.",
+      "detail": "Investigators realized Alexander, Murphy, and Williams shared a similar build, complexion, and age range, which helps explain how three different victims could confidently — and wrongly, in Alexander's case — identify the same face.",
+      "quote": { "text": "All three of these pictures showed a male black who appeared to be within a close age range... and they did resemble each other.", "cite": "Det. Sgt. Cindy Eastman" } },
+
+    { "year": "2001", "date": "2001", "cat": "outcome", "persons": ["alexander"],
+      "title": "Richard Alexander is released",
+      "summary": "After serving five years and four months for crimes he did not commit, Alexander was released. He said the apology he eventually received didn't undo what the years had cost him and his family.",
+      "detail": "Alexander described prison as dangerous and dehumanizing, and said the case's central injustice was never really made right by an apology alone.",
+      "quote": { "text": "Five-and-a-half years of your life taken from your family, loved ones, kids. That still hurts.", "cite": "Richard Alexander" } },
+
+    { "year": "2001", "date": "2001", "cat": "outcome", "persons": ["murphy"],
+      "title": "Michael Murphy convicted",
+      "summary": "Confronted with the mitochondrial DNA evidence, Murphy confessed. He was convicted of one count of burglary and one count of sexual molestation, and sentenced to 30 years.",
+      "detail": "Murphy separately told investigators he had committed well over 200 burglaries throughout the city — the River Park assaults were only part of a much larger pattern.",
+      "quote": null },
+
+    { "year": "2001", "date": "2001", "cat": "outcome", "persons": ["williams"],
+      "title": "Mark Williams convicted",
+      "summary": "Identified through the DNA database match, Mark Williams was convicted of one count of rape and sentenced to 40 years.",
+      "detail": "With Williams's conviction, the case that had wrongly cost Richard Alexander his freedom was finally attributed to the two men actually responsible.",
+      "quote": null }
+  ]
+}

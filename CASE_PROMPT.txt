@@ -1,0 +1,34 @@
+Turn the attached transcript into a Threadline case, matching this JSON schema exactly:
+
+{
+  "id": "lowercase-hyphenated-id",
+  "title": "...",
+  "location": "...",
+  "years": "...",
+  "statusBadge": { "label": "...", "color": "var(--teal)" },
+  "dek": "...",
+  "cardBlurb": "...",
+  "source": "...",
+  "persons": {
+    "personkey": { "name": "...", "role": "...", "status": "...", "statusColor": "var(--rust)" }
+  },
+  "events": [
+    {
+      "year": "...", "date": "...", "cat": "crime",
+      "persons": ["personkey"],
+      "title": "...", "summary": "...", "detail": "...",
+      "quote": { "text": "...", "cite": "..." }
+    }
+  ]
+}
+
+Rules:
+- "cat" must be one of: crime, invest, forensic, trial, outcome
+- "color" / "statusColor" must be one of: var(--rust), var(--steel), var(--brass), var(--teal), var(--moss)
+- Only include a quote if it's genuinely present in the transcript — never invent or paraphrase dialogue into a quote.
+- If a date isn't stated precisely, use an approximate label (e.g. "late 1990s") rather than inventing a specific one.
+- Order events roughly chronologically.
+- Return ONLY the JSON object, no other text, no markdown code fences.
+
+Transcript:
+[paste transcript here]

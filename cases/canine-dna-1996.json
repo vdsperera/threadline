@@ -1,0 +1,89 @@
+{
+  "id": "canine-dna-1996",
+  "title": "The Dog Who Testified",
+  "location": "Seattle, Washington",
+  "years": "1996 – late 1990s",
+  "statusBadge": { "label": "Forensic first", "color": "var(--teal)" },
+  "dek": "A gang breaks in looking for drugs that don't exist, and shoots everyone in the house — including the family dog. What's left on a sleeve becomes the first canine DNA evidence ever used to convict someone of murder in the U.S.",
+  "cardBlurb": "A botched drug robbery leaves a young couple dead — until their wounded dog's blood, found on a suspect's jacket, becomes a legal first: canine DNA admitted as murder evidence.",
+  "source": "Timeline built from a Forensic Files episode summary and transcript describing the December 1996 killings of Raquel Rivera and Jay Johnson in Seattle, and the canine-DNA evidence that helped convict Kenneth Leuluaialii and George Tuilefano. Exact dates for the investigation and trial beyond the date of the murders are approximate, drawn from the episode's own account rather than court records.",
+  "persons": {
+    "leuluaialii": { "name": "Kenneth Leuluaialii", "role": "\"Sable Claus\" — dog's blood found on his sleeve", "status": "Convicted, life without parole", "statusColor": "var(--rust)" },
+    "tuilefano":   { "name": "George Tuilefano",    "role": "\"Scoopy\" — named by the getaway driver", "status": "Convicted, life without parole", "statusColor": "var(--rust)" },
+    "niko":        { "name": "Charles Niko",        "role": "Getaway driver, named the shooters", "status": "Informant; outcome not detailed", "statusColor": "var(--brass)" },
+    "chief":       { "name": "Chief", "role": "The victims' dog, shot protecting them", "status": "Key forensic evidence source", "statusColor": "var(--teal)" }
+  },
+  "events": [
+    { "year": "1996", "date": "December 6, 1996", "cat": "crime", "persons": [],
+      "title": "A related shooting in Chinatown, three days earlier",
+      "summary": "A man named Johnny Paik survives a shooting in Seattle's Chinatown. The shell casings from that scene would later be matched to the murder weapon used days later.",
+      "detail": "At the time, the Chinatown shooting looked unconnected. It became one of the first threads investigators pulled once they had ballistics from the double homicide to compare it against.",
+      "quote": null },
+
+    { "year": "1996", "date": "December 9, 1996", "cat": "crime", "persons": [],
+      "title": "A couple and their dog are shot in South Park",
+      "summary": "22-year-old Raquel Rivera and her longtime boyfriend Jay Johnson are killed in their South Park home just before dawn. Their six-month-old Labrador mix, Chief, is also shot twice trying to protect them.",
+      "detail": "Investigators found the front door kicked off its hinges, cabinets and drawers gone through, and a scene with \"no finesse\" — a blitz-style attack where the intruders were clearly searching for something before anyone was shot.",
+      "quote": { "text": "It was a blitz-style attack. They're in. They shoot. They shoot the dog. They shoot the owners of the dog.", "cite": "Timothy Bradshaw, prosecutor" } },
+
+    { "year": "1996", "date": "December 9, 1996", "cat": "invest", "persons": ["chief"],
+      "title": "The dog survives long enough to matter forensically",
+      "summary": "Chief was rushed into emergency surgery but died of his wounds. Before that, an officer was sent to draw his blood — a decision made specifically to separate the dog's blood from the victims' at the scene.",
+      "detail": "That single request — draw the dog's blood before anything else happens to the body — turned out to be the piece that made the rest of the case possible.",
+      "quote": { "text": "My thinking at the time was to differentiate between the human blood at the scene and the dog blood.", "cite": "Detective Kevin O'Keefe" } },
+
+    { "year": "1996", "date": "December 1996", "cat": "invest", "persons": [],
+      "title": "A 15-year-old eyewitness across the street",
+      "summary": "A teenager living across the street described two large Samoan men in black forcing entry, shooting the dog, and fleeing minutes later in a red Camaro driven by a third man.",
+      "detail": "The witness couldn't see the shooting itself from his vantage point, but heard the sequence of gunshots and the dog's cries — enough to help investigators reconstruct roughly what had happened inside.",
+      "quote": null },
+
+    { "year": "1996", "date": "Day after the murders", "cat": "invest", "persons": ["niko"],
+      "title": "The getaway car returns to the scene",
+      "summary": "Police spot a red Camaro slowly driving past the crime scene the next afternoon. The driver, Charles Niko, is a known member of the Mad Pack gang — and the teenage witness identifies him as the getaway driver.",
+      "detail": "Investigators had already matched shell casings from the Chinatown shooting to the murder scene, so finding a Samoan man in a red Camaro connected to that gang was the break they needed.",
+      "quote": null },
+
+    { "year": "1996", "date": "1996", "cat": "invest", "persons": ["niko", "leuluaialii", "tuilefano"],
+      "title": "Niko names the shooters",
+      "summary": "Facing the death penalty, Niko told police the motive was drugs — the gang believed the couple had cocaine — and named the shooters as Kenneth Leuluaialii (\"Sable Claus\") and George Tuilefano (\"Scoopy\").",
+      "detail": "Both named men denied involvement and gave alibis. A search of their apartment turned up no murder weapon, and the footprint left at the scene couldn't be matched to either of them — the case against them was still entirely testimonial.",
+      "quote": null },
+
+    { "year": "1996", "date": "1996", "cat": "forensic", "persons": ["leuluaialii"],
+      "title": "Mysterious red stains, no obvious source",
+      "summary": "Eight red stains on the sleeve of Leuluaialii's jacket were sent for DNA testing. The results came back strange: the genetic material wasn't human at all.",
+      "detail": "With no murder weapon, no matching footprint, and now blood that didn't even belong to a person, prosecutors worried they might not have enough to convict anyone.",
+      "quote": { "text": "The genotype does not come back to genes associated with a human being at all.", "cite": "Investigator describing the initial DNA result" } },
+
+    { "year": "1996", "date": "1996", "cat": "invest", "persons": [],
+      "title": "A search for a lab that tests non-human DNA",
+      "summary": "Detectives went looking for a laboratory equipped to run DNA comparisons on animals, and found Dr. Joy Halverson in Davis, California — an expert normally used to verify the parentage of championship show dogs.",
+      "detail": "Halverson's usual work was catching breeders who mixed lower-value puppies in with champion litters and sold them at inflated prices — a very different use case for the same underlying science.",
+      "quote": null },
+
+    { "year": "1996", "date": "1996", "cat": "forensic", "persons": ["leuluaialii", "chief"],
+      "title": "The blood on the sleeve matches Chief exactly",
+      "summary": "Dr. Halverson ran a PCR-based DNA test comparing the sleeve stains to the blood drawn from Chief at his autopsy. It was a perfect match — the blood on Leuluaialii's sleeve belonged to the victims' dog.",
+      "detail": "Investigators also found non-human hairs on the same sleeve, consistent with Chief's — a secondary, weaker piece of corroborating evidence alongside the DNA match.",
+      "quote": { "text": "The result was a perfect match. The blood on Sable Claus's right sleeve was the blood of Chief.", "cite": "Case narration" } },
+
+    { "year": "late 1990s", "date": "Trial", "cat": "trial", "persons": ["leuluaialii", "tuilefano"],
+      "title": "Defense calls it \"hocus pocus\" — the judge disagrees",
+      "summary": "Prosecutors argued Chief was shot at point-blank range while attacking the intruders, causing blowback blood spatter onto Leuluaialii's sleeve. The defense challenged the canine DNA as inadmissible junk science.",
+      "detail": "The judge ruled that legally, animal DNA testing was scientifically equivalent to human DNA testing, and admitted it — a first for a U.S. homicide case.",
+      "quote": { "text": "If the testing was the same, then so was its value as evidence.", "cite": "Case narration, on the judge's ruling" } },
+
+    { "year": "late 1990s", "date": "Trial", "cat": "trial", "persons": ["leuluaialii"],
+      "title": "An alibi that couldn't explain the dog",
+      "summary": "Leuluaialii testified that the blood came from a bar fight in Tacoma days before the murders. Under cross-examination, he couldn't explain why the man he supposedly fought would have been carrying a dog's blood.",
+      "detail": "Combined with the DNA match and the teenage eyewitness's identification, the alibi did little to create reasonable doubt.",
+      "quote": null },
+
+    { "year": "late 1990s", "date": "Verdict", "cat": "outcome", "persons": ["leuluaialii", "tuilefano"],
+      "title": "Life without parole for both men",
+      "summary": "After 12 hours of deliberation, the jury convicted both Leuluaialii and Tuilefano, who were sentenced to life in prison without parole.",
+      "detail": "It became one of the first cases in U.S. legal history where DNA from an animal — rather than a human victim or suspect — helped secure a murder conviction.",
+      "quote": { "text": "If it's alive, it has DNA.", "cite": "Juanita Rivera, Raquel's mother" } }
+  ]
+}

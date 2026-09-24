@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Threadline — Interactive Case Timelines</title>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #EDE7D8;
+    --paper-2: #E3DCC8;
+    --ink: #211C16;
+    --ink-soft: #55503f;
+    --line: #C7BC9E;
+    --rust: #A5402C;
+    --steel: #2F4858;
+    --brass: #96731F;
+    --teal: #2E5C52;
+    --moss: #45633F;
+    --card-bg: #F7F3E7;
+    --shadow: rgba(33,28,22,0.18);
+    box-sizing: border-box;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  html { scroll-padding-top: env(safe-area-inset-top, 0px); height: 100%; }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #1B1712; --paper-2: #221D16; --ink: #EDE7D8; --ink-soft: #b7ae95;
+      --line: #4b4433; --rust: #D9704F; --steel: #7FAFCB; --brass: #D9B85B;
+      --teal: #6FBBA8; --moss: #8FB889; --card-bg: #241F17; --shadow: rgba(0,0,0,0.5);
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #1B1712; --paper-2: #221D16; --ink: #EDE7D8; --ink-soft: #b7ae95;
+    --line: #4b4433; --rust: #D9704F; --steel: #7FAFCB; --brass: #D9B85B;
+    --teal: #6FBBA8; --moss: #8FB889; --card-bg: #241F17; --shadow: rgba(0,0,0,0.5);
+  }
+
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+    -webkit-font-smoothing: antialiased;
+    background-image:
+      radial-gradient(circle at 20% 10%, rgba(0,0,0,0.02), transparent 40%),
+      radial-gradient(circle at 80% 90%, rgba(0,0,0,0.02), transparent 40%);
+  }
+  .mono { font-family: 'Special Elite', 'Courier New', monospace; }
+  a { color: inherit; }
+
+  .topbar {
+    border-bottom: 3px solid var(--ink);
+    padding: 18px clamp(16px, 4vw, 48px);
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+    max-width: 1180px;
+    margin: 0 auto;
+  }
+  .brand {
+    font-family: 'Special Elite', monospace;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: inherit;
+    padding: 0;
+  }
+  .brand .count { color: var(--ink-soft); font-size: 12px; }
+  .back-link {
+    all: unset;
+    cursor: pointer;
+    font-family: 'Special Elite', monospace;
+    font-size: 12.5px;
+    color: var(--ink-soft);
+    border-bottom: 1px dotted var(--ink-soft);
+  }
+  .back-link:hover { color: var(--ink); }
+
+  #view-loading, #view-error {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 60px clamp(16px, 4vw, 48px);
+    font-family: 'Special Elite', monospace;
+    font-size: 13.5px;
+    color: var(--ink-soft);
+  }
+  #view-error { display: none; color: var(--rust); }
+
+  #view-index { display: none; }
+  .index-hero {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 34px clamp(16px, 4vw, 48px) 6px;
+  }
+  .index-hero h1 {
+    font-size: clamp(28px, 4.4vw, 44px);
+    margin: 0 0 8px;
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+  }
+  .index-hero p {
+    max-width: 62ch;
+    color: var(--ink-soft);
+    font-size: 16.5px;
+    line-height: 1.5;
+    margin: 0;
+  }
+  .case-grid {
+    max-width: 1180px;
+    margin: 26px auto 80px;
+    padding: 0 clamp(16px, 4vw, 48px);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 18px;
+  }
+  .case-card {
+    all: unset;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    background: var(--card-bg);
+    border: 1px solid var(--line);
+    border-radius: 2px;
+    padding: 18px 18px 16px;
+    box-shadow: 2px 3px 0 var(--shadow);
+    transition: transform 0.15s ease;
+  }
+  .case-card:hover { transform: translateY(-2px); }
+  .case-card:focus-visible { outline: 2px solid var(--steel); outline-offset: 2px; }
+  .case-tab {
+    font-family: 'Special Elite', monospace;
+    font-size: 11px;
+    color: var(--ink-soft);
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+  }
+  .case-card h3 { margin: 0 0 6px; font-size: 20px; line-height: 1.25; }
+  .case-card p { margin: 0 0 12px; font-size: 14.5px; color: var(--ink-soft); line-height: 1.5; flex-grow: 1; }
+  .case-footer { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+  .status-badge { font-family: 'Special Elite', monospace; font-size: 10.5px; letter-spacing: 0.02em; padding: 2px 8px; border-radius: 2px; border: 1px solid currentColor; }
+  .cat-dots { display: flex; gap: 4px; }
+  .cat-dots span { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+  .empty-index { font-family: 'Special Elite', monospace; font-size: 13.5px; color: var(--ink-soft); padding: 30px 4px; }
+
+  #view-case { display: none; }
+  header.masthead { padding: 22px clamp(16px, 4vw, 48px) 20px; max-width: 1180px; margin: 0 auto; border-bottom: 3px solid var(--ink); }
+  .case-tag { font-family: 'Special Elite', monospace; font-size: 12.5px; letter-spacing: 0.03em; color: var(--ink-soft); display: flex; flex-wrap: wrap; gap: 4px 18px; margin-bottom: 10px; }
+  h1.case-title { font-size: clamp(26px, 4.2vw, 42px); line-height: 1.05; margin: 0 0 8px; font-weight: 700; letter-spacing: -0.01em; }
+  .dek { max-width: 62ch; font-size: 17px; color: var(--ink-soft); line-height: 1.5; margin: 0; }
+
+  .wrap {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 clamp(16px, 4vw, 48px) 80px;
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    gap: 36px;
+  }
+  @media (max-width: 880px) { .wrap { grid-template-columns: 1fr; } }
+
+  aside.rail { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 20px); align-self: start; padding-top: 26px; }
+  @media (max-width: 880px) { aside.rail { position: static; padding-top: 22px; } }
+  .rail h2 { font-family: 'Special Elite', monospace; font-size: 12px; letter-spacing: 0.05em; color: var(--ink-soft); margin: 0 0 10px; }
+  .filters { display: flex; flex-direction: column; gap: 6px; margin-bottom: 30px; }
+  .filter-btn { all: unset; cursor: pointer; display: flex; align-items: center; gap: 9px; font-size: 14.5px; padding: 6px 8px; border-radius: 3px; color: var(--ink); line-height: 1.3; }
+  .filter-btn .dot { width: 10px; height: 10px; border-radius: 50%; flex: none; border: 1.5px solid var(--ink); }
+  .filter-btn[data-active="false"] { opacity: 0.4; }
+  .filter-btn:hover { background: var(--paper-2); }
+  .filter-btn:focus-visible { outline: 2px solid var(--steel); outline-offset: -2px; }
+
+  .persons { display: flex; flex-direction: column; gap: 10px; }
+  .person-card { all: unset; cursor: pointer; display: block; background: var(--card-bg); border: 1px solid var(--line); border-radius: 2px; padding: 10px 12px; box-shadow: 1px 2px 0 var(--shadow); }
+  .person-card[data-active="false"] { opacity: 0.45; }
+  .person-name { font-weight: 600; font-size: 14.5px; }
+  .person-role { font-family: 'Special Elite', monospace; font-size: 11px; color: var(--ink-soft); margin-top: 2px; }
+  .status-chip { display: inline-block; margin-top: 6px; font-family: 'Special Elite', monospace; font-size: 10.5px; letter-spacing: 0.02em; padding: 2px 7px; border-radius: 2px; }
+
+  .reset-btn { all: unset; cursor: pointer; margin-top: 16px; font-family: 'Special Elite', monospace; font-size: 11.5px; color: var(--ink-soft); border-bottom: 1px dotted var(--ink-soft); padding-bottom: 1px; }
+  .reset-btn:hover { color: var(--ink); }
+
+  main.timeline { padding-top: 26px; position: relative; }
+  .spine { position: relative; padding-left: 26px; border-left: 2px solid var(--line); margin-left: 4px; }
+  .year-marker { font-family: 'Special Elite', monospace; font-size: 13px; color: var(--ink-soft); margin: 34px 0 10px -30px; display: flex; align-items: center; gap: 10px; }
+  .year-marker:first-child { margin-top: 0; }
+  .year-marker::before { content: ""; width: 26px; height: 2px; background: var(--line); margin-left: -26px; }
+
+  .event { position: relative; margin-bottom: 6px; }
+  .event[data-hidden="true"] { display: none; }
+  .event::before { content: ""; position: absolute; left: -33px; top: 22px; width: 12px; height: 12px; border-radius: 50%; background: var(--paper); border: 2.5px solid var(--cat-color, var(--ink)); }
+
+  .event-btn { all: unset; cursor: pointer; display: block; width: 100%; padding: 14px 16px; border-radius: 3px; }
+  .event-btn:hover { background: var(--paper-2); }
+  .event-btn:focus-visible { outline: 2px solid var(--steel); outline-offset: -2px; }
+  .event-top { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+  .event-date { font-family: 'Special Elite', monospace; font-size: 12px; color: var(--cat-color, var(--ink-soft)); }
+  .event-title { font-size: 18px; font-weight: 600; margin: 4px 0 0; line-height: 1.3; }
+  .event-summary { margin: 5px 0 0; font-size: 15px; color: var(--ink-soft); line-height: 1.45; max-width: 68ch; }
+  .cat-label { font-family: 'Special Elite', monospace; font-size: 10.5px; letter-spacing: 0.03em; color: var(--cat-color, var(--ink)); border: 1px solid var(--cat-color, var(--ink)); padding: 1px 6px; border-radius: 2px; white-space: nowrap; }
+
+  .event-detail { display: none; margin: 2px 16px 20px; padding: 14px 16px 16px; background: var(--card-bg); border-left: 3px solid var(--cat-color, var(--ink)); border-radius: 0 3px 3px 0; font-size: 15px; line-height: 1.6; box-shadow: 0 1px 0 var(--shadow); }
+  .event.open .event-detail { display: block; }
+  .event.open .event-btn { background: var(--paper-2); }
+  .quote { font-style: italic; color: var(--ink-soft); margin: 10px 0 0; padding-left: 12px; border-left: 2px solid var(--line); }
+  .quote cite { display: block; font-style: normal; font-family: 'Special Elite', monospace; font-size: 11px; margin-top: 4px; color: var(--ink-soft); }
+
+  .empty-state { padding: 40px 16px; color: var(--ink-soft); font-family: 'Special Elite', monospace; font-size: 13.5px; }
+
+  footer { max-width: 1180px; margin: 0 auto; padding: 0 clamp(16px, 4vw, 48px) 50px; font-size: 13px; color: var(--ink-soft); line-height: 1.6; }
+
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <button class="brand" id="brandBtn"><span>Threadline</span><span class="count" id="caseCount"></span></button>
+  <button class="back-link" id="backBtn" style="display:none;">← all cases</button>
+</div>
+
+<div id="view-loading">Loading case files…</div>
+<div id="view-error"></div>
+
+<div id="view-index">
+  <div class="index-hero">
+    <h1>Threadline</h1>
+    <p>A growing library of interactive case timelines — each one traces how a real investigation actually unfolded, evidence by evidence. Open a case to filter its timeline by category or by person.</p>
+  </div>
+  <div class="case-grid" id="caseGrid"></div>
+</div>
+
+<div id="view-case">
+  <header class="masthead">
+    <div class="case-tag" id="caseTag"></div>
+    <h1 class="case-title" id="caseTitle"></h1>
+    <p class="dek" id="caseDek"></p>
+  </header>
+
+  <div class="wrap">
+    <aside class="rail">
+      <h2>filter by category</h2>
+      <div class="filters" id="catFilters"></div>
+      <h2>persons of interest</h2>
+      <div class="persons" id="personFilters"></div>
+      <button class="reset-btn" id="resetBtn">reset all filters</button>
+    </aside>
+    <main class="timeline">
+      <div class="spine" id="spine"></div>
+      <div class="empty-state" id="emptyState" style="display:none;">No events match the current filters. Try resetting.</div>
+    </main>
+  </div>
+
+  <footer id="caseFooter"></footer>
+</div>
+
+<script>
+/* Category vocabulary — shared UI meaning, not per-case data, so it stays in code. */
+const CATS = {
+  crime:   { label: "Crime",             color: "var(--rust)"  },
+  invest:  { label: "Investigation",     color: "var(--steel)" },
+  forensic:{ label: "Forensic evidence", color: "var(--teal)"  },
+  trial:   { label: "Trial",             color: "var(--brass)" },
+  outcome: { label: "Outcome",           color: "var(--moss)"  }
+};
+
+let CASES = [];
+const state = { activeCats: new Set(), activePersons: new Set() };
+
+/* ============ load cases from /cases at runtime ============ */
+async function loadCases() {
+  const manifestRes = await fetch('cases/manifest.json');
+  if (!manifestRes.ok) throw new Error('Could not load cases/manifest.json (' + manifestRes.status + ')');
+  const ids = await manifestRes.json();
+
+  const cases = [];
+  for (const id of ids) {
+    const res = await fetch(`cases/${id}.json`);
+    if (!res.ok) throw new Error(`Could not load cases/${id}.json (${res.status})`);
+    const data = await res.json();
+    if (data.id !== id) {
+      console.warn(`cases/${id}.json has id "${data.id}" — expected "${id}". Using the filename.`);
+    }
+    cases.push(data);
+  }
+  return cases;
+}
+
+/* ============ routing ============ */
+function findCase(id) { return CASES.find(c => c.id === id); }
+
+function goIndex(pushState = true) {
+  document.getElementById('view-index').style.display = 'block';
+  document.getElementById('view-case').style.display = 'none';
+  document.getElementById('backBtn').style.display = 'none';
+  if (pushState) history.pushState({}, '', location.pathname + location.search);
+  renderIndex();
+}
+
+function goCase(id, pushState = true) {
+  const c = findCase(id);
+  if (!c) return goIndex(pushState);
+  state.activeCats = new Set(Object.keys(CATS));
+  state.activePersons = new Set(Object.keys(c.persons));
+  document.getElementById('view-index').style.display = 'none';
+  document.getElementById('view-case').style.display = 'block';
+  document.getElementById('backBtn').style.display = 'inline-flex';
+  if (pushState) history.pushState({ caseId: id }, '', '#' + id);
+  renderCase(c);
+  window.scrollTo(0, 0);
+}
+
+/* ============ index rendering ============ */
+function renderIndex() {
+  document.getElementById('caseCount').textContent = CASES.length
+    ? `${CASES.length} case${CASES.length === 1 ? '' : 's'}` : '';
+  const grid = document.getElementById('caseGrid');
+  grid.innerHTML = '';
+  if (CASES.length === 0) {
+    grid.innerHTML = '<div class="empty-index">No cases yet. Drop a case JSON into /cases and add its id to manifest.json.</div>';
+    return;
+  }
+  CASES.forEach(c => {
+    const usedCats = [...new Set(c.events.map(e => e.cat))];
+    const card = document.createElement('button');
+    card.className = 'case-card';
+    card.innerHTML = `
+      <div class="case-tab mono"><span>${escapeHtml(c.location)}</span><span>${escapeHtml(c.years)}</span></div>
+      <h3>${escapeHtml(c.title)}</h3>
+      <p>${escapeHtml(c.cardBlurb || c.dek)}</p>
+      <div class="case-footer">
+        ${c.statusBadge ? `<span class="status-badge" style="color:${c.statusBadge.color}">${escapeHtml(c.statusBadge.label)}</span>` : '<span></span>'}
+        <div class="cat-dots">${usedCats.map(k => `<span style="background:${CATS[k].color}"></span>`).join('')}</div>
+      </div>
+    `;
+    card.addEventListener('click', () => goCase(c.id));
+    grid.appendChild(card);
+  });
+}
+
+/* ============ case detail rendering ============ */
+function renderCase(c) {
+  document.getElementById('caseTag').innerHTML =
+    `<span>${escapeHtml(c.location.toUpperCase())}</span><span>${escapeHtml(c.years)}</span>`;
+  document.getElementById('caseTitle').textContent = c.title;
+  document.getElementById('caseDek').textContent = c.dek;
+  document.getElementById('caseFooter').textContent = c.source || '';
+
+  const catBox = document.getElementById('catFilters');
+  catBox.innerHTML = '';
+  const usedCats = [...new Set(c.events.map(e => e.cat))];
+  usedCats.forEach(key => {
+    const cat = CATS[key];
+    const btn = document.createElement('button');
+    btn.className = 'filter-btn';
+    btn.dataset.active = 'true';
+    btn.innerHTML = `<span class="dot" style="background:${cat.color}"></span><span>${escapeHtml(cat.label)}</span>`;
+    btn.addEventListener('click', () => {
+      if (state.activeCats.has(key)) state.activeCats.delete(key); else state.activeCats.add(key);
+      btn.dataset.active = state.activeCats.has(key) ? 'true' : 'false';
+      renderTimeline(c);
+    });
+    catBox.appendChild(btn);
+  });
+
+  const personBox = document.getElementById('personFilters');
+  personBox.innerHTML = '';
+  Object.entries(c.persons).forEach(([key, p]) => {
+    const btn = document.createElement('button');
+    btn.className = 'person-card';
+    btn.dataset.active = 'true';
+    btn.innerHTML = `<div class="person-name">${escapeHtml(p.name)}</div>
+      <div class="person-role">${escapeHtml(p.role)}</div>
+      <span class="status-chip" style="border:1px solid ${p.statusColor}; color:${p.statusColor}">${escapeHtml(p.status)}</span>`;
+    btn.addEventListener('click', () => {
+      if (state.activePersons.has(key)) state.activePersons.delete(key); else state.activePersons.add(key);
+      btn.dataset.active = state.activePersons.has(key) ? 'true' : 'false';
+      renderTimeline(c);
+    });
+    personBox.appendChild(btn);
+  });
+
+  document.getElementById('resetBtn').onclick = () => {
+    state.activeCats = new Set(Object.keys(CATS));
+    state.activePersons = new Set(Object.keys(c.persons));
+    document.querySelectorAll('.filter-btn, .person-card').forEach(el => el.dataset.active = 'true');
+    renderTimeline(c);
+  };
+
+  renderTimeline(c);
+}
+
+function eventMatches(ev) {
+  const catOk = state.activeCats.has(ev.cat);
+  const personOk = ev.persons.length === 0 || ev.persons.some(p => state.activePersons.has(p));
+  return catOk && personOk;
+}
+
+function renderTimeline(c) {
+  const spine = document.getElementById('spine');
+  spine.innerHTML = '';
+  let lastYear = null;
+  let visibleCount = 0;
+
+  c.events.forEach(ev => {
+    const visible = eventMatches(ev);
+    if (visible) {
+      visibleCount++;
+      if (ev.year !== lastYear) {
+        const marker = document.createElement('div');
+        marker.className = 'year-marker';
+        marker.textContent = ev.year;
+        spine.appendChild(marker);
+        lastYear = ev.year;
+      }
+    }
+
+    const cat = CATS[ev.cat];
+    const el = document.createElement('div');
+    el.className = 'event';
+    el.dataset.hidden = visible ? 'false' : 'true';
+    el.style.setProperty('--cat-color', cat.color);
+
+    const personNames = ev.persons.map(p => c.persons[p].name.split(' ').pop()).join(' · ');
+
+    el.innerHTML = `
+      <button class="event-btn" aria-expanded="false">
+        <div class="event-top">
+          <span class="event-date mono">${escapeHtml(ev.date)}${personNames ? ' · ' + escapeHtml(personNames) : ''}</span>
+          <span class="cat-label">${escapeHtml(cat.label)}</span>
+        </div>
+        <h3 class="event-title">${escapeHtml(ev.title)}</h3>
+        <p class="event-summary">${escapeHtml(ev.summary)}</p>
+      </button>
+      <div class="event-detail">
+        <p>${escapeHtml(ev.detail)}</p>
+        ${ev.quote ? `<div class="quote">&ldquo;${escapeHtml(ev.quote.text)}&rdquo;<cite>— ${escapeHtml(ev.quote.cite)}</cite></div>` : ''}
+      </div>
+    `;
+
+    const btn = el.querySelector('.event-btn');
+    btn.addEventListener('click', () => {
+      const isOpen = el.classList.contains('open');
+      el.classList.toggle('open', !isOpen);
+      btn.setAttribute('aria-expanded', String(!isOpen));
+    });
+
+    spine.appendChild(el);
+  });
+
+  document.getElementById('emptyState').style.display = visibleCount === 0 ? 'block' : 'none';
+}
+
+/* Escape untrusted text before it goes into innerHTML — case data may eventually
+   come from an automated pipeline, so treat every field as untrusted input. */
+function escapeHtml(str) {
+  if (str == null) return '';
+  return String(str)
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+    .replaceAll("'", '&#39;');
+}
+
+/* ============ nav wiring ============ */
+document.getElementById('brandBtn').addEventListener('click', () => goIndex());
+document.getElementById('backBtn').addEventListener('click', () => goIndex());
+window.addEventListener('popstate', () => {
+  const id = location.hash.replace('#', '');
+  if (id && findCase(id)) goCase(id, false); else goIndex(false);
+});
+
+/* ============ boot ============ */
+loadCases().then(cases => {
+  CASES = cases;
+  document.getElementById('view-loading').style.display = 'none';
+  const initialId = location.hash.replace('#', '');
+  if (initialId && findCase(initialId)) goCase(initialId, false); else goIndex(false);
+}).catch(err => {
+  document.getElementById('view-loading').style.display = 'none';
+  const errBox = document.getElementById('view-error');
+  errBox.style.display = 'block';
+  errBox.textContent = 'Failed to load cases: ' + err.message + ' — check that cases/manifest.json and the files it lists exist and are valid JSON.';
+  console.error(err);
+});
+</script>
+</body>
+</html>
