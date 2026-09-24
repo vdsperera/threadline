@@ -1,0 +1,9 @@
+{
+  "cats": {
+    "crime":   { "label": "Crime",             "color": "var(--rust)"  },
+    "invest":  { "label": "Investigation",     "color": "var(--steel)" },
+    "forensic":{ "label": "Forensic evidence", "color": "var(--teal)"  },
+    "trial":   { "label": "Trial",             "color": "var(--brass)" },
+    "outcome": { "label": "Outcome",           "color": "var(--moss)"  }
+  }
+}
