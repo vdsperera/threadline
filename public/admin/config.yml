@@ -2,6 +2,7 @@ backend:
   name: github
   repo: vdsperera/threadline
   branch: main
+  app_id: Ov23li0fFg5JTv3AV9YO
   # We will add authentication proxy settings here in the next step
 
 media_folder: "public/images"
