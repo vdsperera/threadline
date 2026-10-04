@@ -1,0 +1,313 @@
+{
+    "id": "wichita-falls-serial-1999",
+    "title": "The Coffee Cup",
+    "location": "Wichita Falls, Texas",
+    "years": "1984 – 1999",
+    "statusBadge": {
+        "label": "Cold case solved",
+        "color": "var(--teal)"
+    },
+    "dek": "Four women murdered over a decade, investigated by agencies that never compared notes. A wrongly accused man died before he was cleared. The case finally broke on a discarded coffee cup, still flecked with cheese cracker crumbs.",
+    "cardBlurb": "A decade of unsolved murders, split across jurisdictions that never connected the dots — until cold-case DNA work and a stolen coffee cup trace it all back to one man.",
+    "source": "Timeline built from a Forensic Files episode summary and transcript describing the 1984–1986 Wichita Falls-area murders of Terry Sims, Toni Gibbs, Ellen Blau, and Tina Kimbrew, the wrongful prosecution of Danny Laughlin, and the 1990s cold-case investigation and DNA/fingerprint evidence that identified Faryion Wardrip, including his confession to a previously unknown fifth murder, Debra Taylor. Exact months for several 1980s and 1990s events are approximate, drawn from the episode's own account rather than court records.",
+    "persons": {
+        "wardrip": {
+            "name": "Faryion Wardrip",
+            "role": "Confessed serial killer, caught via DNA from a discarded coffee cup",
+            "status": "Convicted, sentenced to death",
+            "statusColor": "var(--rust)"
+        },
+        "laughlin": {
+            "name": "Danny Laughlin",
+            "role": "Wrongly tried for Toni Gibbs' murder; mistrial, then dismissed",
+            "status": "Posthumously exonerated by DNA",
+            "statusColor": "var(--rust)"
+        },
+        "sims": {
+            "name": "Terry Sims",
+            "role": "21-year-old nurse, murdered in her home",
+            "status": "Murdered",
+            "statusColor": "var(--rust)"
+        },
+        "gibbs": {
+            "name": "Toni Gibbs",
+            "role": "23-year-old nurse, abducted after a night shift",
+            "status": "Murdered",
+            "statusColor": "var(--rust)"
+        },
+        "blau": {
+            "name": "Ellen Blau",
+            "role": "21-year-old, abducted leaving work",
+            "status": "Murdered",
+            "statusColor": "var(--rust)"
+        },
+        "kimbrew": {
+            "name": "Tina Kimbrew",
+            "role": "21-year-old waitress, suffocated in her apartment",
+            "status": "Murdered; Wardrip pleaded guilty in 1986",
+            "statusColor": "var(--rust)"
+        },
+        "taylor": {
+            "name": "Debra Taylor",
+            "role": "Wife and mother, killed after meeting Wardrip at a bar",
+            "status": "Murdered; case unknown until 1999 confession",
+            "statusColor": "var(--rust)"
+        }
+    },
+    "events": [
+        {
+            "year": "1984",
+            "date": "~1984",
+            "cat": "crime",
+            "persons": [
+                "sims"
+            ],
+            "title": "Terry Sims is murdered in her own home",
+            "summary": "21-year-old nurse Terry Sims answered a knock at her door; the man forced his way in. She fought back hard enough to leave a bloody fingerprint on her own shoe before she was sexually assaulted and stabbed to death.",
+            "detail": "A semen sample was preserved from the scene for future DNA testing — technology that didn't yet exist in a form that could identify her killer, but that investigators had the foresight to save anyway.",
+            "quote": {
+                "text": "She is fighting so hard, so ferociously for her life, that he cuts a cord and ties her hands behind her back.",
+                "cite": "Barry Macha, District Attorney"
+            }
+        },
+        {
+            "year": "1985",
+            "date": "January 19, 1985",
+            "cat": "crime",
+            "persons": [
+                "gibbs"
+            ],
+            "title": "Toni Gibbs disappears after her night shift",
+            "summary": "23-year-old nurse Toni Gibbs vanished after working the night shift at Wichita General Hospital. Her car was found abandoned nearby, with no fingerprints or obvious clues inside.",
+            "detail": "Four weeks later, her body was found in a field off US Route 281. An old bus 100 feet away held blood matching Toni — it appeared she'd been stabbed inside it, then crawled out into the field looking for help.",
+            "quote": null
+        },
+        {
+            "year": "1985",
+            "date": "1985",
+            "cat": "invest",
+            "persons": [
+                "laughlin",
+                "gibbs"
+            ],
+            "title": "Danny Laughlin becomes a suspect",
+            "summary": "24-year-old Danny Laughlin, a local male stripper who'd met Toni weeks earlier, was seen riding a motorcycle near where her body was found. He failed a polygraph and made comments suggesting he knew details about the murder.",
+            "detail": "Investigators also learned Laughlin had mentioned knowing where the field was located — circumstantial details that, combined, made him the prime suspect despite the lack of hard forensic evidence.",
+            "quote": null
+        },
+        {
+            "year": "1985",
+            "date": "1985",
+            "cat": "forensic",
+            "persons": [
+                "laughlin"
+            ],
+            "title": "DNA testing comes back inconclusive",
+            "summary": "Semen collected during Toni Gibbs' autopsy was compared to Laughlin's DNA. The results were inconclusive — neither clearing him nor confirming a match.",
+            "detail": "Despite the lack of forensic confirmation, prosecutors charged Laughlin with the murder anyway, built largely on the circumstantial details investigators already had.",
+            "quote": null
+        },
+        {
+            "year": "1985",
+            "date": "1985",
+            "cat": "trial",
+            "persons": [
+                "laughlin"
+            ],
+            "title": "A deadlocked jury, then dismissal",
+            "summary": "With no forensic evidence tying Laughlin to the crime, the case went to trial on circumstantial evidence alone. After two days of deliberation, the jury deadlocked — only one of twelve jurors believed he was guilty — and a mistrial was declared.",
+            "detail": "Prosecutors chose not to retry the case. Laughlin walked away formally unconvicted, but with the accusation still hanging over him.",
+            "quote": null
+        },
+        {
+            "year": "1985",
+            "date": "~1985, about a year after Sims",
+            "cat": "crime",
+            "persons": [
+                "blau"
+            ],
+            "title": "Ellen Blau is abducted and strangled",
+            "summary": "21-year-old Ellen Blau was walking to her car after a midnight shift when a man forced her into it and made her drive to a deserted field, where she was strangled.",
+            "detail": "The killer drove her car back into town and abandoned it. Ellen's body wasn't found for days, and by then was too decomposed to confirm whether she'd been sexually assaulted — she could only be identified through dental records.",
+            "quote": null
+        },
+        {
+            "year": "1986",
+            "date": "16 months after Laughlin's case was dismissed",
+            "cat": "crime",
+            "persons": [
+                "kimbrew"
+            ],
+            "title": "Tina Kimbrew is found dead in her apartment",
+            "summary": "21-year-old waitress Tina Kimbrew was found suffocated on her sofa — fibers from a pillow were found in her lungs. Neighbors reported seeing a tall, dark-haired man in a baseball cap leaving her apartment hours before.",
+            "detail": "Danny Laughlin didn't match the witness description and wasn't considered a suspect in this case — this murder would turn out to belong to someone else entirely.",
+            "quote": null
+        },
+        {
+            "year": "1986",
+            "date": "Days after Kimbrew's murder",
+            "cat": "invest",
+            "persons": [
+                "wardrip",
+                "kimbrew"
+            ],
+            "title": "A man 400 miles away calls with a confession",
+            "summary": "Faryion Wardrip, in Galveston, called police claiming to have information about Tina Kimbrew's murder. He'd known her from a bar where she worked, and where he says she'd supported him through a drug problem.",
+            "detail": "Wardrip admitted to killing her, saying she reminded him of his ex-wife, who had recently ended their marriage. Police believe he confessed because he knew he'd been seen leaving her apartment.",
+            "quote": {
+                "text": "When the rage and all the violence was occurring, I saw her eyes. I saw her face. And I screamed how much I hated her.",
+                "cite": "Faryion Wardrip"
+            }
+        },
+        {
+            "year": "1986",
+            "date": "1986",
+            "cat": "outcome",
+            "persons": [
+                "wardrip",
+                "kimbrew"
+            ],
+            "title": "A guilty plea, and 35 years",
+            "summary": "Faryion Wardrip pleaded guilty to Tina Kimbrew's murder and was sentenced to 35 years in prison. At the time, no one connected him to the other unsolved Wichita Falls murders.",
+            "detail": "In prison, Wardrip got his GED and said he found religion, later describing it as the point he decided to \"come out better\" than he went in.",
+            "quote": null
+        },
+        {
+            "year": "late 1990s",
+            "date": "~1997, after 11 years served",
+            "cat": "outcome",
+            "persons": [
+                "wardrip"
+            ],
+            "title": "Paroled, over the victim's family's objections",
+            "summary": "Despite a decade of effort by Tina Kimbrew's father to keep him behind bars, Wardrip was released on parole after serving just 11 of his 35-year sentence. He moved to Olney, Texas, remarried, and became a respected member of his church community.",
+            "detail": "Neighbors described him as trustworthy and upstanding — a reputation that existed entirely unaware of what investigators were about to uncover.",
+            "quote": {
+                "text": "The victims had no rights. I hate you every day for it.",
+                "cite": "Robert Kimbrew, Tina's father"
+            }
+        },
+        {
+            "year": "late 1990s",
+            "date": "Late 1990s",
+            "cat": "invest",
+            "persons": [
+                "gibbs",
+                "sims"
+            ],
+            "title": "A DA reopens the cold cases",
+            "summary": "District Attorney Barry Macha asked investigator John Little to take a fresh look at the still-unsolved murders of Terry Sims, Toni Gibbs, and Ellen Blau. On a hunch, Macha had the lab compare the semen DNA from the Gibbs and Sims scenes.",
+            "detail": "They matched — proving a single perpetrator was behind both murders. No one had made that connection before, because the cases had been investigated by three separate agencies that rarely communicated.",
+            "quote": {
+                "text": "We received word that they were, in fact, the semen from the same perpetrator. So we knew then that we had a serial murderer.",
+                "cite": "Barry Macha, District Attorney"
+            }
+        },
+        {
+            "year": "late 1990s",
+            "date": "Late 1990s",
+            "cat": "invest",
+            "persons": [
+                "wardrip",
+                "blau",
+                "sims",
+                "gibbs"
+            ],
+            "title": "The old case files point to one name",
+            "summary": "Reviewing the files, John Little found that Wardrip had once admitted, almost in passing, to knowing Ellen Blau — a lead that was never followed up. He also found that Blau's best friend lived near both Wardrip and the street where Terry Sims was killed.",
+            "detail": "Little also discovered Wardrip had worked as a janitor at the same hospital as Toni Gibbs, and lived near where her car was abandoned — a web of coincidences that, once laid out together, pointed unmistakably in one direction.",
+            "quote": {
+                "text": "I mean, when I saw that in the file... it really snapped together for me at that point.",
+                "cite": "John Little, investigator"
+            }
+        },
+        {
+            "year": "late 1990s",
+            "date": "Late 1990s",
+            "cat": "invest",
+            "persons": [
+                "wardrip"
+            ],
+            "title": "A stakeout for a coffee cup",
+            "summary": "Little staked out the factory where Wardrip now worked, hoping to legally collect a discarded item carrying his DNA. He watched Wardrip finish a coffee break, then saw him throw the cup in a trash barrel.",
+            "detail": "Among several discarded cups, Little identified the right one by the coffee left inside and cheese cracker crumbs on the rim — he'd watched Wardrip eating the same crackers minutes earlier.",
+            "quote": {
+                "text": "There was still some coffee in the bottom of his cup, and it had cheese cracker crumbs on the drinking rim... I said, this has got to be the cup.",
+                "cite": "John Little, investigator"
+            }
+        },
+        {
+            "year": "late 1990s",
+            "date": "Late 1990s",
+            "cat": "forensic",
+            "persons": [
+                "wardrip",
+                "sims",
+                "gibbs"
+            ],
+            "title": "An exact match, one in the world's population",
+            "summary": "Lab analyst Judy Floyd extracted DNA from skin cells on the cup and matched it exactly to the semen profiles from both the Sims and Gibbs crime scenes. A rare DQ alpha marker made the match statistically close to unique.",
+            "detail": "The combination of genetic markers in Wardrip's profile was so uncommon it would be expected to occur only once in the entire world's population — about as close to certainty as DNA evidence gets.",
+            "quote": {
+                "text": "I could see that his profile was an exact match to the profiles from the crime scenes.",
+                "cite": "Judy Floyd, forensic analyst"
+            }
+        },
+        {
+            "year": "late 1990s",
+            "date": "Late 1990s",
+            "cat": "forensic",
+            "persons": [
+                "wardrip",
+                "sims"
+            ],
+            "title": "A bloody fingerprint, finally matched",
+            "summary": "The Austin crime lab compared the bloody fingerprint recovered from Terry Sims' shoe years earlier to Wardrip's prints. It was a match — positioned so low on the finger, near the palm, that it had been easy to miss in routine fingerprinting.",
+            "detail": "Investigators believe the print was left when Wardrip pulled the shoes from Sims' feet with blood still on his hands.",
+            "quote": null
+        },
+        {
+            "year": "late 1990s",
+            "date": "Late 1990s",
+            "cat": "outcome",
+            "persons": [
+                "wardrip",
+                "taylor"
+            ],
+            "title": "Arrested, confronted, and a confession to a fifth murder",
+            "summary": "Confronted with the DNA and fingerprint evidence, Wardrip confessed. Then, unprompted, he told investigators about a murder they didn't even know about: Debra Taylor, a wife and mother he'd met in a Fort Worth bar about two months after killing Toni Gibbs.",
+            "detail": "Wardrip said Taylor's husband had briefly left the bar before them; when Taylor refused his advances in the parking lot, he killed her and dumped her body at a construction site. Her husband, Ken, had been informally suspected for 14 years and never charged — his life upended by suspicion for a murder he didn't commit.",
+            "quote": {
+                "text": "But John, there's one more. I believe that her name was Debra Taylor.",
+                "cite": "Faryion Wardrip, during his confession"
+            }
+        },
+        {
+            "year": "late 1990s",
+            "date": "Late 1990s",
+            "cat": "outcome",
+            "persons": [
+                "laughlin"
+            ],
+            "title": "Danny Laughlin is cleared — too late",
+            "summary": "The same DNA evidence that convicted Wardrip also formally exonerated Danny Laughlin, the man wrongly tried for Toni Gibbs' murder more than a decade earlier.",
+            "detail": "Laughlin never learned he'd been cleared — he had died in a car accident three years before the exoneration came through.",
+            "quote": null
+        },
+        {
+            "year": "1999",
+            "date": "October 4, 1999",
+            "cat": "outcome",
+            "persons": [
+                "wardrip"
+            ],
+            "title": "Guilty plea, death sentence, nearly 15 years later",
+            "summary": "Faryion Wardrip pleaded guilty to the murders and was sentenced to death by lethal injection, almost fifteen years after he killed Terry Sims.",
+            "detail": "He later said he never believed he'd gotten away with it — he knew he'd left evidence behind, and was puzzled that his name, which had surfaced in the files as early as 1986, wasn't connected sooner.",
+            "quote": {
+                "text": "I really was a serial killer. Mistakes were made. But the one that was not made was to quit or to give up.",
+                "cite": "Faryion Wardrip"
+            }
+        }
+    ]
+}
