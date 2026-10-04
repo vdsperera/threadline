@@ -1,0 +1,187 @@
+---
+import config from '../../config.json';
+import manifest from '../../cases/manifest.json';
+
+export function getStaticPaths() {
+  const allFiles = import.meta.glob('../../cases/*.json', { eager: true });
+  const allCases = manifest.map(id => allFiles[`../../cases/${id}.json`]);
+  return allCases.map(c => ({
+    params: { id: c.id },
+    props: { caseData: c }
+  }));
+}
+
+const { caseData: c } = Astro.props;
+const CATS = config.cats;
+const usedCats = [...new Set(c.events.map(e => e.cat))];
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{c.title} — Threadline</title>
+<meta name="description" content={c.dek}>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <a href="/" class="brand" style="text-decoration:none;"><span>Threadline</span></a>
+  <a href="/" class="back-link" style="text-decoration:none;">← all cases</a>
+</div>
+
+<div id="view-case">
+  <header class="masthead">
+    <div class="case-tag">
+      <span>{(c.location || '').toUpperCase()}</span>
+      <span>{c.years}</span>
+    </div>
+    <h1 class="case-title">{c.title}</h1>
+    <p class="dek">{c.dek}</p>
+  </header>
+
+  <div class="wrap">
+    <aside class="rail">
+      <h2>filter by category</h2>
+      <div class="filters" id="catFilters">
+        {usedCats.map(key => {
+          const cat = CATS[key];
+          return (
+            <button class="filter-btn" data-active="true" data-key={key}>
+              <span class="dot" style={`background: ${cat.color}`}></span>
+              <span>{cat.label}</span>
+            </button>
+          )
+        })}
+      </div>
+      <h2>persons of interest</h2>
+      <div class="persons" id="personFilters">
+        {Object.entries(c.persons).map(([key, p]) => (
+          <button class="person-card" data-active="true" data-key={key}>
+            <div class="person-name">{p.name}</div>
+            <div class="person-role">{p.role}</div>
+            <span class="status-chip" style={`border: 1px solid ${p.statusColor}; color: ${p.statusColor}`}>{p.status}</span>
+          </button>
+        ))}
+      </div>
+      <button class="reset-btn" id="resetBtn">reset all filters</button>
+    </aside>
+    
+    <main class="timeline">
+      <div class="spine" id="spine">
+        {(() => {
+          let lastYear = null;
+          return c.events.map((ev, i) => {
+            const cat = CATS[ev.cat];
+            const personNames = ev.persons.map(p => c.persons[p].name.split(' ').pop()).join(' · ');
+            const dateStr = personNames ? `${ev.date} · ${personNames}` : ev.date;
+            const yearMarker = ev.year !== lastYear ? <div class="year-marker" data-year={ev.year}>{ev.year}</div> : null;
+            lastYear = ev.year;
+            
+            return (
+              <>
+                {yearMarker}
+                <div class="event" data-cat={ev.cat} data-persons={ev.persons.join(',')} style={`--cat-color: ${cat.color}`}>
+                  <button class="event-btn" aria-expanded="false">
+                    <div class="event-top">
+                      <span class="event-date mono">{dateStr}</span>
+                      <span class="cat-label">{cat.label}</span>
+                    </div>
+                    <h3 class="event-title">{ev.title}</h3>
+                    <p class="event-summary">{ev.summary}</p>
+                  </button>
+                  <div class="event-detail">
+                    <p>{ev.detail}</p>
+                    {ev.quote && (
+                      <div class="quote">
+                        “{ev.quote.text}”
+                        <cite>— {ev.quote.cite}</cite>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </>
+            );
+          });
+        })()}
+      </div>
+      <div class="empty-state" id="emptyState" style="display:none;">No events match the current filters. Try resetting.</div>
+    </main>
+  </div>
+
+  <footer id="caseFooter">{c.source || ''}</footer>
+</div>
+
+<script>
+  // Client side filtering logic (runs independently on each page load)
+  const activeCats = new Set(Array.from(document.querySelectorAll('.filter-btn')).map(b => b.dataset.key));
+  const activePersons = new Set(Array.from(document.querySelectorAll('.person-card')).map(b => b.dataset.key));
+  
+  function renderTimeline() {
+    let visibleCount = 0;
+    document.querySelectorAll('.event').forEach(el => {
+      const cat = el.dataset.cat;
+      const persons = el.dataset.persons ? el.dataset.persons.split(',') : [];
+      
+      const catOk = activeCats.has(cat);
+      const personOk = persons.length === 0 || persons.some(p => activePersons.has(p));
+      const visible = catOk && personOk;
+      
+      el.dataset.hidden = visible ? 'false' : 'true';
+      if (visible) visibleCount++;
+    });
+    
+    // Hide empty year markers
+    document.querySelectorAll('.year-marker').forEach(marker => {
+      let next = marker.nextElementSibling;
+      let hasVisible = false;
+      while (next && !next.classList.contains('year-marker')) {
+        if (next.dataset.hidden === 'false') {
+          hasVisible = true;
+          break;
+        }
+        next = next.nextElementSibling;
+      }
+      marker.style.display = hasVisible ? 'block' : 'none';
+    });
+    
+    document.getElementById('emptyState').style.display = visibleCount === 0 ? 'block' : 'none';
+  }
+
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const key = btn.dataset.key;
+      if (activeCats.has(key)) activeCats.delete(key); else activeCats.add(key);
+      btn.dataset.active = activeCats.has(key) ? 'true' : 'false';
+      renderTimeline();
+    });
+  });
+
+  document.querySelectorAll('.person-card').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const key = btn.dataset.key;
+      if (activePersons.has(key)) activePersons.delete(key); else activePersons.add(key);
+      btn.dataset.active = activePersons.has(key) ? 'true' : 'false';
+      renderTimeline();
+    });
+  });
+
+  document.getElementById('resetBtn')?.addEventListener('click', () => {
+    document.querySelectorAll('.filter-btn').forEach(b => { activeCats.add(b.dataset.key); b.dataset.active = 'true'; });
+    document.querySelectorAll('.person-card').forEach(b => { activePersons.add(b.dataset.key); b.dataset.active = 'true'; });
+    renderTimeline();
+  });
+
+  document.querySelectorAll('.event-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const el = btn.closest('.event');
+      const isOpen = el.classList.contains('open');
+      el.classList.toggle('open', !isOpen);
+      btn.setAttribute('aria-expanded', !isOpen ? 'true' : 'false');
+    });
+  });
+</script>
+</body>
+</html>

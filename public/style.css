@@ -89,7 +89,7 @@
   }
   #view-error { display: none; color: var(--rust); }
 
-  #view-index { display: none; }
+  #view-index { display: block; }
   .index-hero {
     max-width: 1180px;
     margin: 0 auto;
@@ -147,7 +147,7 @@
   .cat-dots span { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
   .empty-index { font-family: 'Special Elite', monospace; font-size: 13.5px; color: var(--ink-soft); padding: 30px 4px; }
 
-  #view-case { display: none; }
+  #view-case { display: block; }
   header.masthead { padding: 22px clamp(16px, 4vw, 48px) 20px; max-width: 1180px; margin: 0 auto; border-bottom: 3px solid var(--ink); }
   .case-tag { font-family: 'Special Elite', monospace; font-size: 12.5px; letter-spacing: 0.03em; color: var(--ink-soft); display: flex; flex-wrap: wrap; gap: 4px 18px; margin-bottom: 10px; }
   h1.case-title { font-size: clamp(26px, 4.2vw, 42px); line-height: 1.05; margin: 0 0 8px; font-weight: 700; letter-spacing: -0.01em; }
