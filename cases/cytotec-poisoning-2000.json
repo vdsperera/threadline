@@ -1,0 +1,100 @@
+{
+  "id": "cytotec-poisoning-2000",
+  "title": "The Vial in His Pocket",
+  "location": "Huber Heights, Ohio",
+  "years": "2000 – early 2000s",
+  "statusBadge": { "label": "Caught on camera", "color": "var(--teal)" },
+  "dek": "A pregnant woman kept getting mysteriously, violently ill — always right after her fiancé, a doctor, made her a drink. When doctors couldn't explain it, she hid a camera in a houseplant and found out for herself.",
+  "cardBlurb": "A physician secretly laces his pregnant fiancée's drinks with a labor-inducing drug — until she catches him on her own hidden camera, then police catch him on theirs.",
+  "source": "Timeline built from a Forensic Files episode summary and transcript describing Michelle Baker's relationship with Dr. Maynard Muntzing II in 2000, the repeated unexplained illnesses during her pregnancy, and the surveillance and forensic chemistry that identified cytotec as the cause. The transcript states the coroner found no cytotec in the placenta and ruled the stillbirth's cause undetermined — that distinction is preserved here rather than presented as a confirmed causal link. Dates beyond the 2000 timeframe are approximate, drawn from the episode's own account rather than court records.",
+  "persons": {
+    "michelle": { "name": "Michelle Baker", "role": "Firefighter and paramedic; secretly recorded her own poisoning", "status": "Survived; daughter stillborn", "statusColor": "var(--rust)" },
+    "muntzing": { "name": "Dr. Maynard Muntzing II", "role": "Physician fiancé who laced Michelle's drinks with cytotec", "status": "Pleaded guilty, 5 years, lost medical license", "statusColor": "var(--rust)" },
+    "tammy": { "name": "Tammy Irwin", "role": "Muntzing's on-and-off girlfriend, later his wife; filled the cytotec prescription", "status": "Pleaded guilty to a lesser charge, probation", "statusColor": "var(--brass)" }
+  },
+  "events": [
+    { "year": "2000", "date": "2000", "cat": "crime", "persons": ["michelle", "muntzing"],
+      "title": "The first mysterious illness, in Key West",
+      "summary": "On a trip meant to end in a beach wedding, Maynard postponed the ceremony instead. That night, after he brought Michelle a drink at the Hard Rock Cafe, she developed sudden cramping and bleeding.",
+      "detail": "Maynard, a doctor himself, reassured her it was nothing serious and had her lie down. The symptoms passed by the next day, and neither Michelle nor her own physician suspected anything at the time.",
+      "quote": null },
+
+    { "year": "2000", "date": "2000", "cat": "invest", "persons": ["michelle", "muntzing"],
+      "title": "A difficult pregnancy, and an admission",
+      "summary": "Back home, Michelle's pregnancy brought recurring cramps and bleeding that doctors couldn't explain. Around the same time, Maynard admitted he still had lingering feelings for a former girlfriend, Tammy Irwin.",
+      "detail": "Michelle was troubled that he'd previously described Tammy so negatively, yet still seemed attached to her — an early crack in a relationship that looked, from the outside, like a whirlwind romance.",
+      "quote": null },
+
+    { "year": "2000", "date": "July 4th weekend, 2000", "cat": "invest", "persons": ["muntzing", "tammy", "michelle"],
+      "title": "A voice on the radio gives him away",
+      "summary": "Maynard said he was on a fishing trip an hour away. That night, Michelle heard his voice on a local radio call-in show, request line — right there in town.",
+      "detail": "She had a neighbor drive her to Tammy Irwin's house and found Maynard there. He admitted Tammy hadn't even known he was living with Michelle. Michelle threw him out.",
+      "quote": { "text": "Fishing trip, huh? It's not what it looks like. It's exactly what it looks like.", "cite": "Exchange between Michelle and Maynard, as depicted in the case account" } },
+
+    { "year": "2000", "date": "2000", "cat": "invest", "persons": ["michelle", "muntzing"],
+      "title": "A picnic reconciliation — and a second sudden illness",
+      "summary": "Maynard apologized and the two reconciled at a picnic. About 40 minutes in, Michelle became violently ill — vomiting, diarrhea, and heavy bleeding — severe enough that she couldn't leave the restroom.",
+      "detail": "An ultrasound afterward showed the fetus was fine, and doctors again chalked it up to stress. The pattern was becoming harder to explain away, even if no one had named it yet.",
+      "quote": null },
+
+    { "year": "2000", "date": "2000", "cat": "invest", "persons": ["michelle", "muntzing"],
+      "title": "Her sister sees the pattern",
+      "summary": "A third episode of cramping, bleeding, and vomiting followed a normal evening together. Michelle's twin sister, Melinda, pointed out something unsettling: the sickness kept happening right after Maynard visited.",
+      "detail": "Michelle then recalled that Maynard had personally brought her drinks both in Key West and at the picnic, right before each episode began.",
+      "quote": { "text": "Don't you find it odd that every time you're with him, after he leaves, you're sick?", "cite": "Melinda, Michelle's twin sister, as recounted by Michelle" } },
+
+    { "year": "2000", "date": "2000", "cat": "invest", "persons": ["muntzing", "tammy", "michelle"],
+      "title": "An overheard conversation raises the stakes",
+      "summary": "Suspecting another lie about a trip, Michelle went to Tammy's house and overheard Maynard tell Tammy not to worry about the pregnancy — that, as far as he knew, it \"could have already been taken care of.\"",
+      "detail": "That single overheard line was the moment Michelle went from suspicious to genuinely afraid for her pregnancy, and she went straight to the police.",
+      "quote": { "text": "She need not worry about that, that as far as he knew, that it could have already been taken care of.", "cite": "Maynard Muntzing, as overheard and recounted by Michelle" } },
+
+    { "year": "2000", "date": "2000", "cat": "invest", "persons": ["michelle"],
+      "title": "Police are skeptical, but ask for proof",
+      "summary": "Detective Jeffrey Colvin found Michelle's account hard to believe at first — poisoning by a physician fiancé wasn't a typical case. Department rules also barred giving a pregnant woman a polygraph.",
+      "detail": "Without physical evidence, there was little police could act on. They told Michelle they'd need proof tying Maynard directly to whatever was happening.",
+      "quote": { "text": "I was certainly skeptical at first... it's beyond my dreams. Something I haven't run into in 25 years.", "cite": "Det. Jeffrey Colvin, Huber Heights PD" } },
+
+    { "year": "2000", "date": "2000", "cat": "invest", "persons": ["michelle", "muntzing", "tammy"],
+      "title": "Michelle sets her own trap",
+      "summary": "Michelle hid a small camera inside a silk plant in her kitchen, invited Maynard to dinner, and asked him to make her a drink while she went outside. The tape showed him pouring an unknown substance into her cup.",
+      "detail": "She swapped the drink for a fresh one, saved the original in a hidden container, and sat through dinner as if nothing had happened. That same night, Maynard told her Tammy was upset because he'd secretly married her that week.",
+      "quote": { "text": "This was the only way that I could keep him away from my baby.", "cite": "Michelle Baker" } },
+
+    { "year": "2000", "date": "2000", "cat": "forensic", "persons": ["muntzing"],
+      "title": "A forensic chemist starts from zero",
+      "summary": "The drink went to the lab, but chemist Mike Wathen had no idea what to test for — hundreds of drugs were possible. A tip from a local pharmacist narrowed it down: cytotec, a stomach-ulcer drug that can also induce labor.",
+      "detail": "Gas chromatography–mass spectrometry testing confirmed a match between the substance in Michelle's drink and known cytotec, giving investigators their first concrete answer.",
+      "quote": { "text": "My first reaction is, you gotta be kidding me. We have no idea what we're looking for here.", "cite": "Mike Wathen, forensic chemist" } },
+
+    { "year": "2000", "date": "2000", "cat": "invest", "persons": ["muntzing", "michelle"],
+      "title": "Police need their own catch, on their own camera",
+      "summary": "Worried a defense attorney could claim Michelle framed him, police set up their own hidden camera — inside a firefighter figurine — and had Michelle invite Maynard to dinner again.",
+      "detail": "Detectives Colvin and May watched from the garage as Maynard, almost identically to before, slipped a vial into Michelle's drink the moment she stepped outside. They moved in and arrested him on the spot.",
+      "quote": { "text": "I told you that you didn't have to have anything to do with this baby, and instead you tried to kill the baby and kill me.", "cite": "Det. Sgt. Richard May, to Muntzing at the arrest" } },
+
+    { "year": "2000", "date": "2000", "cat": "forensic", "persons": ["muntzing"],
+      "title": "A second confirmed sample, and more found in his car",
+      "summary": "Lab tests confirmed the second drink was also spiked with cytotec. A search of Muntzing's car trunk turned up additional supplies of the drug.",
+      "detail": "When asked directly whether \"the problem\" he'd referred to was the baby, he confirmed it was — an admission that, combined with two independently confirmed poisoned samples, left little room for an innocent explanation.",
+      "quote": null },
+
+    { "year": "2000", "date": "2000", "cat": "trial", "persons": ["muntzing"],
+      "title": "Charged, and released on bond",
+      "summary": "Dr. Muntzing was charged with the attempted murder of the baby, then released on bond to await trial.",
+      "detail": "His own physician colleague, who had reassured Michelle during her pregnancy, later said he was ashamed to share a profession with him.",
+      "quote": { "text": "I think that he misused his authority and his ability to obtain a substance, and then he poisoned his ex-fiancée.", "cite": "Dr. John Shie, Michelle's physician" } },
+
+    { "year": "2000", "date": "28 weeks into the pregnancy", "cat": "outcome", "persons": ["michelle"],
+      "title": "Mckayla is stillborn",
+      "summary": "Shortly before trial, Michelle gave birth to a stillborn daughter, whom she named Mckayla. The coroner found no trace of cytotec in the placenta and ruled the cause of death undetermined.",
+      "detail": "Michelle's family gathered to hold the baby and say goodbye. The transcript is explicit that the coroner did not establish a direct medical link between the poisoning and the stillbirth — a distinction worth keeping clear rather than assuming causation.",
+      "quote": { "text": "We all held her, and we all told her how much that we loved her.", "cite": "Michelle Baker" } },
+
+    { "year": "early 2000s", "date": "Plea deal", "cat": "outcome", "persons": ["muntzing", "tammy", "michelle"],
+      "title": "A plea deal, and a guilty verdict",
+      "summary": "Muntzing pleaded guilty to attempted felonious assault. Tammy Irwin pleaded guilty to a lesser charge.",
+      "detail": "Muntzing was sentenced to 5 years in prison and lost his medical license. Tammy received probation. Michelle Baker continued her work as a firefighter and paramedic, hoping her story would help others.",
+      "quote": null }
+  ]
+}

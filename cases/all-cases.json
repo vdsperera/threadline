@@ -1,0 +1,1031 @@
+[
+  {
+    "id": "river-park-1996",
+    "title": "The River Park Case",
+    "location": "South Bend, Indiana",
+    "years": "1996 – 2001",
+    "statusBadge": {
+      "label": "Exoneration",
+      "color": "var(--teal)"
+    },
+    "dek": "A serial rapist struck River Park through 1996. Police arrested a man on a bicycle. Witnesses were certain. Five years later, a strand of hair said otherwise.",
+    "cardBlurb": "Eyewitness identifications convict the wrong man — until mitochondrial DNA and a cold-case database match identify the two men who actually committed the crimes.",
+    "source": "Timeline built from a Forensic Files episode summary and transcript describing the 1996 River Park assaults, the wrongful conviction of Richard Alexander, and the 2000–2001 mitochondrial DNA and database evidence that identified Michael Murphy and Mark Williams. Dates for pre-2000 events are approximate, drawn from the episode's own account rather than court records.",
+    "persons": {
+      "alexander": {
+        "name": "Richard Alexander",
+        "role": "Arrested on a bicycle near a crime scene",
+        "status": "Wrongfully convicted",
+        "statusColor": "var(--rust)"
+      },
+      "murphy": {
+        "name": "Michael Murphy",
+        "role": "Serial burglar, linked by hair evidence",
+        "status": "Convicted, 30 years",
+        "statusColor": "var(--teal)"
+      },
+      "williams": {
+        "name": "Mark Williams",
+        "role": "Matched via sex-offender DNA database",
+        "status": "Convicted, 40 years",
+        "statusColor": "var(--teal)"
+      }
+    },
+    "events": [
+      {
+        "year": "1996",
+        "date": "Spring–Summer 1996",
+        "cat": "crime",
+        "persons": [],
+        "title": "A pattern emerges in River Park",
+        "summary": "Four sexual assault and burglary cases hit South Bend's River Park neighborhood, all on weeknights between 8 and 11pm. Victims describe the same young man: Black, 16–25, about 5'8\" tall, thin build.",
+        "detail": "Investigators noted the assailant varied his weapon and his targets — sometimes a knife, sometimes a gun; sometimes women walking alone, sometimes elderly women in their homes — which is unusual for a serial offender and made the cases harder to connect.",
+        "quote": {
+          "text": "There's nothing more stressful as an investigator than having a serial situation taking place, because we know until we solve this, there are going to be more victims.",
+          "cite": "Det. Sgt. Cindy Eastman"
+        }
+      },
+      {
+        "year": "1996",
+        "date": "1996",
+        "cat": "crime",
+        "persons": [],
+        "title": "A home invasion during a storm",
+        "summary": "One victim, asleep during a thunderstorm, was assaulted after the perpetrator kicked in her door and covered her eyes. He wore gloves and a mask, and left almost no physical evidence.",
+        "detail": "The lack of fingerprints and the assailant's use of a mask across multiple incidents told investigators they were dealing with someone deliberate and forensically aware, not opportunistic.",
+        "quote": null
+      },
+      {
+        "year": "1996",
+        "date": "July 1996",
+        "cat": "crime",
+        "persons": [],
+        "title": "The most brazen attack — and a bicycle in the grass",
+        "summary": "A couple arguing in their car was approached at gunpoint. The assailant struck the man, abducted the woman, and assaulted her in a wooded area. A police dog tracked his scent to a nearby field, where it was lost near bicycle tire impressions.",
+        "detail": "The tire impressions were the first physical clue linking the attacker to a bicycle — a detail that would shape the entire rest of the investigation, for better and for worse.",
+        "quote": null
+      },
+      {
+        "year": "1996",
+        "date": "3 months into the case",
+        "cat": "invest",
+        "persons": [
+          "alexander"
+        ],
+        "title": "Richard Alexander is stopped on a bicycle",
+        "summary": "During a stakeout for men on bicycles matching the description, police spotted 31-year-old Richard Alexander riding near a crime scene. He denied any involvement.",
+        "detail": "Alexander had prior brushes with the law but maintained he was simply riding home. A search of his apartment turned up a knife, hoods, and bandanas — none forensically tied to the crimes, but enough to keep him in the frame.",
+        "quote": {
+          "text": "There go a black man. Let's throw this on him.",
+          "cite": "Richard Alexander, describing how he felt he was targeted"
+        }
+      },
+      {
+        "year": "1996",
+        "date": "1996",
+        "cat": "invest",
+        "persons": [
+          "alexander"
+        ],
+        "title": "A photo lineup — one identification out of several victims",
+        "summary": "Alexander's photo was placed in a six-person lineup. One victim couldn't identify anyone. Her fiancé, who had also been attacked, immediately and confidently picked Alexander.",
+        "detail": "That single confident identification became the anchor for the case against Alexander, even though the woman who was actually assaulted in that incident could not identify him.",
+        "quote": null
+      },
+      {
+        "year": "1996",
+        "date": "1996",
+        "cat": "invest",
+        "persons": [
+          "alexander"
+        ],
+        "title": "A live lineup, and a voice",
+        "summary": "In a follow-up in-person lineup, suspects were made to repeat phrases the rapist had used, like \"I want your money.\" After hearing Alexander's voice, two more victims identified him — bringing the total to three.",
+        "detail": "Voice identification in a stressful, high-adrenaline lineup setting is considered far less reliable than physical identification, but it carried weight with the victims and, later, the jury.",
+        "quote": null
+      },
+      {
+        "year": "1996",
+        "date": "1996",
+        "cat": "forensic",
+        "persons": [
+          "alexander"
+        ],
+        "title": "Hair evidence: inconclusive, not exonerating",
+        "summary": "A pubic hair recovered from one crime scene had no root, so it couldn't be DNA tested with the technology available. A visual comparison to Alexander's hair came back inconclusive — neither cleared him nor implicated him.",
+        "detail": "At the time, mitochondrial DNA testing of rootless hair shafts was not yet in routine forensic use. That gap in the science would matter enormously five years later.",
+        "quote": null
+      },
+      {
+        "year": "1996",
+        "date": "1996",
+        "cat": "forensic",
+        "persons": [
+          "alexander"
+        ],
+        "title": "A semen sample doesn't match Alexander",
+        "summary": "DNA testing on a semen sample from one victim excluded Alexander entirely. He was not charged in that case — but was still charged with rape, confinement, burglary, and theft in three others.",
+        "detail": "This early exculpatory DNA result should have raised more doubt about the identifications in the remaining cases. Instead, prosecutors proceeded on the strength of eyewitness and voice identification alone.",
+        "quote": null
+      },
+      {
+        "year": "1996",
+        "date": "1996",
+        "cat": "trial",
+        "persons": [
+          "alexander"
+        ],
+        "title": "First trial: a hung jury",
+        "summary": "Juror Barbara Griffin held out for acquittal, unconvinced by the identifications. The jury of nine white and three Black jurors deadlocked, and a mistrial was declared.",
+        "detail": "Griffin later said she had a strong instinct partway through deliberations that Alexander was innocent — a doubt that a second, differently composed jury would not share.",
+        "quote": {
+          "text": "I just on the fourth day, I got a feeling that this man didn't do this.",
+          "cite": "Barbara Griffin, juror"
+        }
+      },
+      {
+        "year": "1996",
+        "date": "~4 months later",
+        "cat": "trial",
+        "persons": [
+          "alexander"
+        ],
+        "title": "Second trial: conviction and a 70-year sentence",
+        "summary": "Retried before an all-white jury, Alexander was found guilty on two of three assault counts, based on the victims' identifications, and sentenced to 70 years in prison.",
+        "detail": "Even the original investigating detective, Cindy Eastman, said she was surprised by the conviction and privately conflicted — she had doubts but no way to prove them.",
+        "quote": {
+          "text": "I was sorry and somewhat surprised to hear that the jury did convict. I was very conflicted.",
+          "cite": "Det. Sgt. Cindy Eastman"
+        }
+      },
+      {
+        "year": "1997–2000",
+        "date": "1997",
+        "cat": "crime",
+        "persons": [
+          "murphy"
+        ],
+        "title": "The attacks continue — with Alexander behind bars",
+        "summary": "Similar burglaries and assaults kept happening near River Park after Alexander's conviction. One item stolen during a 1997 assault — a chrome-and-glass wall clock — would later become a key piece of evidence.",
+        "detail": "At the time, no one connected these new crimes to the man already in prison for the earlier ones — but the pattern should have raised questions.",
+        "quote": null
+      },
+      {
+        "year": "1997–2000",
+        "date": "April 2000",
+        "cat": "invest",
+        "persons": [
+          "murphy"
+        ],
+        "title": "A burglary interrupted — and a name left behind",
+        "summary": "A homeowner called police after finding a tan Cadillac in his driveway and an intruder inside. The intruder fled on foot, leaving the car — and it was full of utility bills and paperwork bearing the name Michael Murphy.",
+        "detail": "A shoe impression at the scene was collected and later matched to a pair of shoes found in Murphy's closet, tightening the case against him for that string of burglaries.",
+        "quote": null
+      },
+      {
+        "year": "1997–2000",
+        "date": "2000",
+        "cat": "invest",
+        "persons": [
+          "murphy"
+        ],
+        "title": "Detective Harmon connects the dots",
+        "summary": "Investigating the new burglaries, Detective Ryan Harmon learned Murphy had previously been accused of molesting his girlfriend's 9-year-old niece, and heard from Murphy's girlfriend and the girl's mother about a string of burglaries Murphy had described.",
+        "detail": "Harmon contacted Cindy Eastman, the original River Park investigator, and the two began working the older and newer cases together.",
+        "quote": {
+          "text": "Things like that told me that he may be a sex offender.",
+          "cite": "Det. Ryan Harmon"
+        }
+      },
+      {
+        "year": "1997–2000",
+        "date": "2000",
+        "cat": "forensic",
+        "persons": [
+          "murphy",
+          "alexander"
+        ],
+        "title": "A stolen clock reappears in a photograph",
+        "summary": "Among photos Murphy's girlfriend gave police was one showing a chrome-and-glass wall clock — the same clock stolen during the 1997 assault attributed to \"the River Park rapist.\" A victim confirmed it from her own photos.",
+        "detail": "This was the first concrete link tying Murphy, not Alexander, to the ongoing assaults — and it pointed toward the possibility that Alexander had been imprisoned for someone else's crimes.",
+        "quote": null
+      },
+      {
+        "year": "2001",
+        "date": "2001",
+        "cat": "forensic",
+        "persons": [
+          "alexander",
+          "murphy"
+        ],
+        "title": "Mitochondrial DNA rewrites the case",
+        "summary": "New mitochondrial DNA testing — unavailable at Alexander's trial — was finally able to analyze the rootless pubic hair. It excluded Richard Alexander and matched Michael Murphy.",
+        "detail": "Mitochondrial DNA, found outside the cell nucleus, is less precise than nuclear DNA but can be recovered from evidence, like hair shafts, that nuclear testing can't use — a technique that didn't exist in ordinary forensic casework in 1996.",
+        "quote": {
+          "text": "We knew then that Richard Alexander was going to be released from prison.",
+          "cite": "Forensic scientist on the mitochondrial DNA match"
+        }
+      },
+      {
+        "year": "2001",
+        "date": "2001",
+        "cat": "forensic",
+        "persons": [
+          "williams"
+        ],
+        "title": "A database match points to a third man",
+        "summary": "The semen sample from the case — which had never matched Alexander or Murphy — was run against Indiana's sex offender DNA database. It matched a third man entirely: Mark Williams.",
+        "detail": "Investigators realized Alexander, Murphy, and Williams shared a similar build, complexion, and age range, which helps explain how three different victims could confidently — and wrongly, in Alexander's case — identify the same face.",
+        "quote": {
+          "text": "All three of these pictures showed a male black who appeared to be within a close age range... and they did resemble each other.",
+          "cite": "Det. Sgt. Cindy Eastman"
+        }
+      },
+      {
+        "year": "2001",
+        "date": "2001",
+        "cat": "outcome",
+        "persons": [
+          "alexander"
+        ],
+        "title": "Richard Alexander is released",
+        "summary": "After serving five years and four months for crimes he did not commit, Alexander was released. He said the apology he eventually received didn't undo what the years had cost him and his family.",
+        "detail": "Alexander described prison as dangerous and dehumanizing, and said the case's central injustice was never really made right by an apology alone.",
+        "quote": {
+          "text": "Five-and-a-half years of your life taken from your family, loved ones, kids. That still hurts.",
+          "cite": "Richard Alexander"
+        }
+      },
+      {
+        "year": "2001",
+        "date": "2001",
+        "cat": "outcome",
+        "persons": [
+          "murphy"
+        ],
+        "title": "Michael Murphy convicted",
+        "summary": "Confronted with the mitochondrial DNA evidence, Murphy confessed. He was convicted of one count of burglary and one count of sexual molestation, and sentenced to 30 years.",
+        "detail": "Murphy separately told investigators he had committed well over 200 burglaries throughout the city — the River Park assaults were only part of a much larger pattern.",
+        "quote": null
+      },
+      {
+        "year": "2001",
+        "date": "2001",
+        "cat": "outcome",
+        "persons": [
+          "williams"
+        ],
+        "title": "Mark Williams convicted",
+        "summary": "Identified through the DNA database match, Mark Williams was convicted of one count of rape and sentenced to 40 years.",
+        "detail": "With Williams's conviction, the case that had wrongly cost Richard Alexander his freedom was finally attributed to the two men actually responsible.",
+        "quote": null
+      }
+    ]
+  },
+  {
+    "id": "canine-dna-1996",
+    "title": "The Dog Who Testified",
+    "location": "Seattle, Washington",
+    "years": "1996 – late 1990s",
+    "statusBadge": {
+      "label": "Forensic first",
+      "color": "var(--teal)"
+    },
+    "dek": "A gang breaks in looking for drugs that don't exist, and shoots everyone in the house — including the family dog. What's left on a sleeve becomes the first canine DNA evidence ever used to convict someone of murder in the U.S.",
+    "cardBlurb": "A botched drug robbery leaves a young couple dead — until their wounded dog's blood, found on a suspect's jacket, becomes a legal first: canine DNA admitted as murder evidence.",
+    "source": "Timeline built from a Forensic Files episode summary and transcript describing the December 1996 killings of Raquel Rivera and Jay Johnson in Seattle, and the canine-DNA evidence that helped convict Kenneth Leuluaialii and George Tuilefano. Exact dates for the investigation and trial beyond the date of the murders are approximate, drawn from the episode's own account rather than court records.",
+    "persons": {
+      "leuluaialii": {
+        "name": "Kenneth Leuluaialii",
+        "role": "\"Sable Claus\" — dog's blood found on his sleeve",
+        "status": "Convicted, life without parole",
+        "statusColor": "var(--rust)"
+      },
+      "tuilefano": {
+        "name": "George Tuilefano",
+        "role": "\"Scoopy\" — named by the getaway driver",
+        "status": "Convicted, life without parole",
+        "statusColor": "var(--rust)"
+      },
+      "niko": {
+        "name": "Charles Niko",
+        "role": "Getaway driver, named the shooters",
+        "status": "Informant; outcome not detailed",
+        "statusColor": "var(--brass)"
+      },
+      "chief": {
+        "name": "Chief",
+        "role": "The victims' dog, shot protecting them",
+        "status": "Key forensic evidence source",
+        "statusColor": "var(--teal)"
+      }
+    },
+    "events": [
+      {
+        "year": "1996",
+        "date": "December 6, 1996",
+        "cat": "crime",
+        "persons": [],
+        "title": "A related shooting in Chinatown, three days earlier",
+        "summary": "A man named Johnny Paik survives a shooting in Seattle's Chinatown. The shell casings from that scene would later be matched to the murder weapon used days later.",
+        "detail": "At the time, the Chinatown shooting looked unconnected. It became one of the first threads investigators pulled once they had ballistics from the double homicide to compare it against.",
+        "quote": null
+      },
+      {
+        "year": "1996",
+        "date": "December 9, 1996",
+        "cat": "crime",
+        "persons": [],
+        "title": "A couple and their dog are shot in South Park",
+        "summary": "22-year-old Raquel Rivera and her longtime boyfriend Jay Johnson are killed in their South Park home just before dawn. Their six-month-old Labrador mix, Chief, is also shot twice trying to protect them.",
+        "detail": "Investigators found the front door kicked off its hinges, cabinets and drawers gone through, and a scene with \"no finesse\" — a blitz-style attack where the intruders were clearly searching for something before anyone was shot.",
+        "quote": {
+          "text": "It was a blitz-style attack. They're in. They shoot. They shoot the dog. They shoot the owners of the dog.",
+          "cite": "Timothy Bradshaw, prosecutor"
+        }
+      },
+      {
+        "year": "1996",
+        "date": "December 9, 1996",
+        "cat": "invest",
+        "persons": [
+          "chief"
+        ],
+        "title": "The dog survives long enough to matter forensically",
+        "summary": "Chief was rushed into emergency surgery but died of his wounds. Before that, an officer was sent to draw his blood — a decision made specifically to separate the dog's blood from the victims' at the scene.",
+        "detail": "That single request — draw the dog's blood before anything else happens to the body — turned out to be the piece that made the rest of the case possible.",
+        "quote": {
+          "text": "My thinking at the time was to differentiate between the human blood at the scene and the dog blood.",
+          "cite": "Detective Kevin O'Keefe"
+        }
+      },
+      {
+        "year": "1996",
+        "date": "December 1996",
+        "cat": "invest",
+        "persons": [],
+        "title": "A 15-year-old eyewitness across the street",
+        "summary": "A teenager living across the street described two large Samoan men in black forcing entry, shooting the dog, and fleeing minutes later in a red Camaro driven by a third man.",
+        "detail": "The witness couldn't see the shooting itself from his vantage point, but heard the sequence of gunshots and the dog's cries — enough to help investigators reconstruct roughly what had happened inside.",
+        "quote": null
+      },
+      {
+        "year": "1996",
+        "date": "Day after the murders",
+        "cat": "invest",
+        "persons": [
+          "niko"
+        ],
+        "title": "The getaway car returns to the scene",
+        "summary": "Police spot a red Camaro slowly driving past the crime scene the next afternoon. The driver, Charles Niko, is a known member of the Mad Pack gang — and the teenage witness identifies him as the getaway driver.",
+        "detail": "Investigators had already matched shell casings from the Chinatown shooting to the murder scene, so finding a Samoan man in a red Camaro connected to that gang was the break they needed.",
+        "quote": null
+      },
+      {
+        "year": "1996",
+        "date": "1996",
+        "cat": "invest",
+        "persons": [
+          "niko",
+          "leuluaialii",
+          "tuilefano"
+        ],
+        "title": "Niko names the shooters",
+        "summary": "Facing the death penalty, Niko told police the motive was drugs — the gang believed the couple had cocaine — and named the shooters as Kenneth Leuluaialii (\"Sable Claus\") and George Tuilefano (\"Scoopy\").",
+        "detail": "Both named men denied involvement and gave alibis. A search of their apartment turned up no murder weapon, and the footprint left at the scene couldn't be matched to either of them — the case against them was still entirely testimonial.",
+        "quote": null
+      },
+      {
+        "year": "1996",
+        "date": "1996",
+        "cat": "forensic",
+        "persons": [
+          "leuluaialii"
+        ],
+        "title": "Mysterious red stains, no obvious source",
+        "summary": "Eight red stains on the sleeve of Leuluaialii's jacket were sent for DNA testing. The results came back strange: the genetic material wasn't human at all.",
+        "detail": "With no murder weapon, no matching footprint, and now blood that didn't even belong to a person, prosecutors worried they might not have enough to convict anyone.",
+        "quote": {
+          "text": "The genotype does not come back to genes associated with a human being at all.",
+          "cite": "Investigator describing the initial DNA result"
+        }
+      },
+      {
+        "year": "1996",
+        "date": "1996",
+        "cat": "invest",
+        "persons": [],
+        "title": "A search for a lab that tests non-human DNA",
+        "summary": "Detectives went looking for a laboratory equipped to run DNA comparisons on animals, and found Dr. Joy Halverson in Davis, California — an expert normally used to verify the parentage of championship show dogs.",
+        "detail": "Halverson's usual work was catching breeders who mixed lower-value puppies in with champion litters and sold them at inflated prices — a very different use case for the same underlying science.",
+        "quote": null
+      },
+      {
+        "year": "1996",
+        "date": "1996",
+        "cat": "forensic",
+        "persons": [
+          "leuluaialii",
+          "chief"
+        ],
+        "title": "The blood on the sleeve matches Chief exactly",
+        "summary": "Dr. Halverson ran a PCR-based DNA test comparing the sleeve stains to the blood drawn from Chief at his autopsy. It was a perfect match — the blood on Leuluaialii's sleeve belonged to the victims' dog.",
+        "detail": "Investigators also found non-human hairs on the same sleeve, consistent with Chief's — a secondary, weaker piece of corroborating evidence alongside the DNA match.",
+        "quote": {
+          "text": "The result was a perfect match. The blood on Sable Claus's right sleeve was the blood of Chief.",
+          "cite": "Case narration"
+        }
+      },
+      {
+        "year": "late 1990s",
+        "date": "Trial",
+        "cat": "trial",
+        "persons": [
+          "leuluaialii",
+          "tuilefano"
+        ],
+        "title": "Defense calls it \"hocus pocus\" — the judge disagrees",
+        "summary": "Prosecutors argued Chief was shot at point-blank range while attacking the intruders, causing blowback blood spatter onto Leuluaialii's sleeve. The defense challenged the canine DNA as inadmissible junk science.",
+        "detail": "The judge ruled that legally, animal DNA testing was scientifically equivalent to human DNA testing, and admitted it — a first for a U.S. homicide case.",
+        "quote": {
+          "text": "If the testing was the same, then so was its value as evidence.",
+          "cite": "Case narration, on the judge's ruling"
+        }
+      },
+      {
+        "year": "late 1990s",
+        "date": "Trial",
+        "cat": "trial",
+        "persons": [
+          "leuluaialii"
+        ],
+        "title": "An alibi that couldn't explain the dog",
+        "summary": "Leuluaialii testified that the blood came from a bar fight in Tacoma days before the murders. Under cross-examination, he couldn't explain why the man he supposedly fought would have been carrying a dog's blood.",
+        "detail": "Combined with the DNA match and the teenage eyewitness's identification, the alibi did little to create reasonable doubt.",
+        "quote": null
+      },
+      {
+        "year": "late 1990s",
+        "date": "Verdict",
+        "cat": "outcome",
+        "persons": [
+          "leuluaialii",
+          "tuilefano"
+        ],
+        "title": "Life without parole for both men",
+        "summary": "After 12 hours of deliberation, the jury convicted both Leuluaialii and Tuilefano, who were sentenced to life in prison without parole.",
+        "detail": "It became one of the first cases in U.S. legal history where DNA from an animal — rather than a human victim or suspect — helped secure a murder conviction.",
+        "quote": {
+          "text": "If it's alive, it has DNA.",
+          "cite": "Juanita Rivera, Raquel's mother"
+        }
+      }
+    ]
+  },
+  {
+    "id": "route-476-abduction-1996",
+    "title": "The Firestone Trail",
+    "location": "Philadelphia, Pennsylvania",
+    "years": "1996 – late 1990s",
+    "statusBadge": {
+      "label": "Forensic breakthrough",
+      "color": "var(--teal)"
+    },
+    "dek": "A car left running on a Philadelphia highway. A missing driver. What looked like a random carjacking became a case broken open by a tire tread, a strange burn pattern, and DNA — all pointing to a man already convicted of murder once before.",
+    "cardBlurb": "A college athlete's abduction turns into a serial predator's undoing, when a tire impression, a burn pattern, and DNA all trace back to the same man.",
+    "source": "Timeline built from a Forensic Files episode summary and transcript describing the June 1996 abduction and murder of Aimee Willard near Philadelphia, and the forensic evidence — a tire impression, an oil-pan burn pattern, and DNA — that convicted Arthur Bomar. The connection to Maria Cabuenos's disappearance is presented in the episode as strongly suspected but not confirmed as formally charged, so it's treated that way here. Dates beyond June 1996 are approximate, drawn from the episode's own account rather than court records.",
+    "persons": {
+      "aimee": {
+        "name": "Aimee Willard",
+        "role": "22-year-old college athlete, abducted after leaving a bar alone",
+        "status": "Victim, murdered",
+        "statusColor": "var(--rust)"
+      },
+      "bomar": {
+        "name": "Arthur Bomar",
+        "role": "Parolee with a prior murder conviction, tied to the crime by tire, burn, and DNA evidence",
+        "status": "Convicted, sentenced to death",
+        "statusColor": "var(--rust)"
+      },
+      "kobak": {
+        "name": "Andrew Kobak",
+        "role": "Came forward as a witness, became an early suspect",
+        "status": "Cleared by DNA and tire evidence",
+        "statusColor": "var(--brass)"
+      },
+      "cabuenos": {
+        "name": "Maria Cabuenos",
+        "role": "Missing woman whose stolen car Bomar was driving when arrested",
+        "status": "Suspected additional victim",
+        "statusColor": "var(--brass)"
+      }
+    },
+    "events": [
+      {
+        "year": "1996",
+        "date": "June 20, 1996, ~1:30am",
+        "cat": "crime",
+        "persons": [
+          "aimee"
+        ],
+        "title": "Aimee leaves a bar alone",
+        "summary": "Aimee Willard, home for the summer from George Mason University, told her mother she was going to Smokey Joe's Bar. She'd never been there before, and left alone around 1:30am.",
+        "detail": "Family described Aimee as someone who rarely went out alone due to her athletic schedule, which made her solo trip to an unfamiliar bar stand out in hindsight.",
+        "quote": null
+      },
+      {
+        "year": "1996",
+        "date": "June 20, 1996, ~2:00am",
+        "cat": "crime",
+        "persons": [
+          "aimee"
+        ],
+        "title": "Her car is found abandoned, still running",
+        "summary": "An off-duty ambulance crew spotted Aimee's car on a Route 476 exit ramp — engine running, lights on, radio blaring, driver's door open, no one inside.",
+        "detail": "A tire iron, blood, and a blood-stained stone were found in front of the car, along with blood spatter on the guardrail. Investigators believed she'd been attacked violently and quickly, then removed from the scene.",
+        "quote": {
+          "text": "This person was violently attacked in a very fast mode.",
+          "cite": "Investigator on the crime scene"
+        }
+      },
+      {
+        "year": "1996",
+        "date": "June 1996",
+        "cat": "forensic",
+        "persons": [],
+        "title": "A tire impression is cast at the scene",
+        "summary": "Next to the car, investigators found and photographed a tire impression, then made a cast of it and sent it to the state crime lab.",
+        "detail": "This impression — later identified as coming from a Firestone 440 13-inch tire — would become one of the case's key forensic threads months later.",
+        "quote": null
+      },
+      {
+        "year": "1996",
+        "date": "Morning after",
+        "cat": "invest",
+        "persons": [
+          "aimee"
+        ],
+        "title": "Damage to the bumper, and items dropped off later",
+        "summary": "Police theorized Aimee had been bumped from behind near the highway exit, prompting her to pull over. A half mile from her car, they later found her sneakers and underwear — dry and clean, despite recent rain.",
+        "detail": "The condition of the items suggested they'd been placed there after the rain had already passed, meaning the abductor had returned to the area to dispose of them.",
+        "quote": {
+          "text": "I noticed it because it was my car.",
+          "cite": "Gail Willard, Aimee's mother, on the bumper damage"
+        }
+      },
+      {
+        "year": "1996",
+        "date": "Days later",
+        "cat": "invest",
+        "persons": [
+          "kobak"
+        ],
+        "title": "A tipster becomes a suspect",
+        "summary": "Andrew Kobak came forward saying he'd seen something suspicious near Aimee's car that night. Police already knew him from a prior, uncharged accusation of impersonating a police officer to pull women over.",
+        "detail": "Investigators noted that returning to the scene of a crime, even under the guise of helping, is a pattern sometimes seen in people involved in it — which kept Kobak in the frame for a time.",
+        "quote": null
+      },
+      {
+        "year": "1996",
+        "date": "June 21, 1996",
+        "cat": "crime",
+        "persons": [
+          "aimee"
+        ],
+        "title": "A body is found in North Philadelphia",
+        "summary": "Less than 24 hours after Aimee disappeared, children playing in a deserted lot found her body. A Nike tattoo on her ankle let her parents confirm her identity.",
+        "detail": "Her family described the discovery as a painful kind of relief — an end to not knowing, even as it confirmed the worst.",
+        "quote": null
+      },
+      {
+        "year": "1996",
+        "date": "1996",
+        "cat": "forensic",
+        "persons": [
+          "aimee"
+        ],
+        "title": "Autopsy: blunt force trauma and a rape kit",
+        "summary": "An autopsy found Aimee died from multiple blunt force injuries to her head and face, roughly five hours after her abduction. She had also been sexually assaulted, and DNA from a rape kit was sent for testing.",
+        "detail": "Investigators now had what amounted to a genetic fingerprint of the killer — they just needed a name to match it to.",
+        "quote": {
+          "text": "We had essentially the genetic fingerprint of our murderer.",
+          "cite": "Investigator on the case"
+        }
+      },
+      {
+        "year": "1996",
+        "date": "1996",
+        "cat": "forensic",
+        "persons": [
+          "kobak"
+        ],
+        "title": "Kobak is cleared",
+        "summary": "Forensic analysis showed the tire impression came from a Firestone 440 13-inch tire — not a match to Kobak's car. His DNA also didn't match the rape kit sample, officially clearing him.",
+        "detail": "With their only named suspect eliminated by two separate forensic results, investigators had a full physical evidence profile of the killer, but no name to attach it to.",
+        "quote": null
+      },
+      {
+        "year": "1997",
+        "date": "One year later",
+        "cat": "crime",
+        "persons": [
+          "bomar"
+        ],
+        "title": "A second woman fights off a similar attack",
+        "summary": "19-year-old Patty Jordan reported an attempted carjacking after a man bumped her car and tried to get her to pull over near a nightclub. She memorized his license plate as she drove away.",
+        "detail": "The plate traced back to 38-year-old Arthur Bomar — the first time his name entered the investigation.",
+        "quote": null
+      },
+      {
+        "year": "1997",
+        "date": "1997",
+        "cat": "invest",
+        "persons": [
+          "bomar"
+        ],
+        "title": "Bomar's history comes into view",
+        "summary": "Records showed Bomar had been convicted of second-degree murder in Nevada in 1978 and served only 11 years of a life sentence before parole. He also had a 20-year history of assaults on women.",
+        "detail": "Investigators also learned that on the day Aimee disappeared, Philadelphia police had stopped Bomar for an unrelated matter just six blocks from where her body was found.",
+        "quote": null
+      },
+      {
+        "year": "1997",
+        "date": "1997",
+        "cat": "invest",
+        "persons": [
+          "bomar",
+          "cabuenos"
+        ],
+        "title": "An alias, a stolen car, and a missing woman",
+        "summary": "Police couldn't locate Bomar to question him. He was later arrested under the alias \"Peter Thomas Love\" after a break-in attempt, carrying keys to a Honda that turned out to be registered to his own Ford Escort's plate — which he'd swapped onto a car stolen from Maria Cabuenos, missing for three months.",
+        "detail": "Cabuenos had vanished while reportedly driving on the same highway, Route 476, where Aimee had been taken.",
+        "quote": null
+      },
+      {
+        "year": "1997",
+        "date": "1997",
+        "cat": "crime",
+        "persons": [
+          "bomar",
+          "cabuenos"
+        ],
+        "title": "A second disappearance looks connected",
+        "summary": "Dried blood was found in the trunk of Cabuenos's car, and its bumpers showed the same kind of scraping as Aimee's car had. Bomar became a suspect in her disappearance too.",
+        "detail": "The parallels — the same highway, similar bumper damage, blood in the vehicle — strengthened investigators' belief that Bomar was responsible for both cases.",
+        "quote": null
+      },
+      {
+        "year": "1997",
+        "date": "1997",
+        "cat": "invest",
+        "persons": [
+          "bomar"
+        ],
+        "title": "An alibi that didn't hold",
+        "summary": "Bomar claimed he'd been at a birthday party the night Aimee disappeared, not near Smokey Joe's. His own fiancée contradicted him, placing him at the bar that night.",
+        "detail": "The conflicting accounts undercut what had been his central defense against the growing circumstantial case.",
+        "quote": null
+      },
+      {
+        "year": "1997",
+        "date": "One year after Aimee's death",
+        "cat": "forensic",
+        "persons": [
+          "aimee"
+        ],
+        "title": "Aimee's mother spots something in the autopsy photos",
+        "summary": "Gail Willard, an ER nurse, asked to see photos of Aimee's injuries and identified an unusual mark police had labeled a \"diamond-shaped pattern\" as something else entirely: a burn imprint.",
+        "detail": "Her medical background let her see past the initial description to what the mark actually was — a detail that would later connect directly to physical evidence from Bomar's car.",
+        "quote": {
+          "text": "This isn't a diamond-shaped pattern. This is a burn.",
+          "cite": "Gail Willard, Aimee's mother"
+        }
+      },
+      {
+        "year": "1997",
+        "date": "Nearly a year later",
+        "cat": "forensic",
+        "persons": [
+          "bomar"
+        ],
+        "title": "Bomar's abandoned car is finally located",
+        "summary": "Investigators traced Bomar's wrecked Ford Escort — involved in an accident months after Aimee's death — to a tow yard, where it had sat exposed to the elements for almost a year.",
+        "detail": "The car's tires included a Firestone 440 13-inch tire matching not just the make, model, and size of the crime-scene impression, but its wear pattern too.",
+        "quote": null
+      },
+      {
+        "year": "1997",
+        "date": "1997",
+        "cat": "forensic",
+        "persons": [
+          "bomar",
+          "aimee"
+        ],
+        "title": "Blood behind the door panel, and a match to the oil pan",
+        "summary": "Police dismantled the car piece by piece and found blood behind the passenger door panel, later confirmed to be Aimee's. Separately, sunlight on the car's underside revealed an X-and-O pattern on the oil pan that matched the burn imprint on Aimee's body.",
+        "detail": "A forensic pathologist at the Armed Forces Institute of Pathology confirmed the oil pan pattern was consistent with the marks found on Aimee — tying the vehicle itself directly to how she died.",
+        "quote": {
+          "text": "Behind the door panel we found some blood.",
+          "cite": "Investigator describing the search of Bomar's car"
+        }
+      },
+      {
+        "year": "1997",
+        "date": "1997",
+        "cat": "forensic",
+        "persons": [
+          "bomar",
+          "aimee"
+        ],
+        "title": "DNA closes the loop",
+        "summary": "Semen from Aimee's rape kit was matched to Arthur Bomar's DNA profile — the piece of evidence prosecutors would later call the most damning of all.",
+        "detail": "Combined with the tire impression and the oil pan match, investigators now had three independent forensic threads all pointing to the same man.",
+        "quote": null
+      },
+      {
+        "year": "late 1990s",
+        "date": "Before trial",
+        "cat": "outcome",
+        "persons": [
+          "cabuenos",
+          "bomar"
+        ],
+        "title": "Maria Cabuenos's remains are found",
+        "summary": "Before Bomar's murder trial, Maria Cabuenos's skeletal remains were found in nearby Bucks County. Like Aimee, she had died from blunt head injuries.",
+        "detail": "Investigators described Bomar as still suspected in Cabuenos's death, though officials were notably guarded about how that case stood at the time.",
+        "quote": null
+      },
+      {
+        "year": "late 1990s",
+        "date": "Trial",
+        "cat": "trial",
+        "persons": [
+          "bomar"
+        ],
+        "title": "A disruptive defense",
+        "summary": "Bomar's defense argued he had been neglected as a child and had a low IQ. He had to be physically restrained multiple times during the trial for violent outbursts.",
+        "detail": "Outside the courthouse, his family clashed with reporters covering the case, adding to an already tense trial atmosphere.",
+        "quote": null
+      },
+      {
+        "year": "late 1990s",
+        "date": "Verdict",
+        "cat": "outcome",
+        "persons": [
+          "bomar",
+          "aimee"
+        ],
+        "title": "Convicted and sentenced to death",
+        "summary": "Arthur Bomar was convicted of rape and first-degree murder and sentenced to death. As the verdict was read, he turned and directed threats at Gail Willard.",
+        "detail": "Investigators who worked the case described Bomar as one of the coldest and most remorseless people they'd encountered, and said the tire impression, oil pan match, and DNA together were what made the conviction possible.",
+        "quote": {
+          "text": "We would have been very hard pressed to have the success that we did.",
+          "cite": "Investigator on the case"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cytotec-poisoning-2000",
+    "title": "The Vial in His Pocket",
+    "location": "Huber Heights, Ohio",
+    "years": "2000 – early 2000s",
+    "statusBadge": {
+      "label": "Caught on camera",
+      "color": "var(--teal)"
+    },
+    "dek": "A pregnant woman kept getting mysteriously, violently ill — always right after her fiancé, a doctor, made her a drink. When doctors couldn't explain it, she hid a camera in a houseplant and found out for herself.",
+    "cardBlurb": "A physician secretly laces his pregnant fiancée's drinks with a labor-inducing drug — until she catches him on her own hidden camera, then police catch him on theirs.",
+    "source": "Timeline built from a Forensic Files episode summary and transcript describing Michelle Baker's relationship with Dr. Maynard Muntzing II in 2000, the repeated unexplained illnesses during her pregnancy, and the surveillance and forensic chemistry that identified cytotec as the cause. The transcript states the coroner found no cytotec in the placenta and ruled the stillbirth's cause undetermined — that distinction is preserved here rather than presented as a confirmed causal link. Dates beyond the 2000 timeframe are approximate, drawn from the episode's own account rather than court records.",
+    "persons": {
+      "michelle": {
+        "name": "Michelle Baker",
+        "role": "Firefighter and paramedic; secretly recorded her own poisoning",
+        "status": "Survived; daughter stillborn",
+        "statusColor": "var(--rust)"
+      },
+      "muntzing": {
+        "name": "Dr. Maynard Muntzing II",
+        "role": "Physician fiancé who laced Michelle's drinks with cytotec",
+        "status": "Pleaded guilty, 5 years, lost medical license",
+        "statusColor": "var(--rust)"
+      },
+      "tammy": {
+        "name": "Tammy Irwin",
+        "role": "Muntzing's on-and-off girlfriend, later his wife; filled the cytotec prescription",
+        "status": "Pleaded guilty to a lesser charge, probation",
+        "statusColor": "var(--brass)"
+      }
+    },
+    "events": [
+      {
+        "year": "2000",
+        "date": "2000",
+        "cat": "crime",
+        "persons": [
+          "michelle",
+          "muntzing"
+        ],
+        "title": "The first mysterious illness, in Key West",
+        "summary": "On a trip meant to end in a beach wedding, Maynard postponed the ceremony instead. That night, after he brought Michelle a drink at the Hard Rock Cafe, she developed sudden cramping and bleeding.",
+        "detail": "Maynard, a doctor himself, reassured her it was nothing serious and had her lie down. The symptoms passed by the next day, and neither Michelle nor her own physician suspected anything at the time.",
+        "quote": null
+      },
+      {
+        "year": "2000",
+        "date": "2000",
+        "cat": "invest",
+        "persons": [
+          "michelle",
+          "muntzing"
+        ],
+        "title": "A difficult pregnancy, and an admission",
+        "summary": "Back home, Michelle's pregnancy brought recurring cramps and bleeding that doctors couldn't explain. Around the same time, Maynard admitted he still had lingering feelings for a former girlfriend, Tammy Irwin.",
+        "detail": "Michelle was troubled that he'd previously described Tammy so negatively, yet still seemed attached to her — an early crack in a relationship that looked, from the outside, like a whirlwind romance.",
+        "quote": null
+      },
+      {
+        "year": "2000",
+        "date": "July 4th weekend, 2000",
+        "cat": "invest",
+        "persons": [
+          "muntzing",
+          "tammy",
+          "michelle"
+        ],
+        "title": "A voice on the radio gives him away",
+        "summary": "Maynard said he was on a fishing trip an hour away. That night, Michelle heard his voice on a local radio call-in show, request line — right there in town.",
+        "detail": "She had a neighbor drive her to Tammy Irwin's house and found Maynard there. He admitted Tammy hadn't even known he was living with Michelle. Michelle threw him out.",
+        "quote": {
+          "text": "Fishing trip, huh? It's not what it looks like. It's exactly what it looks like.",
+          "cite": "Exchange between Michelle and Maynard, as depicted in the case account"
+        }
+      },
+      {
+        "year": "2000",
+        "date": "2000",
+        "cat": "invest",
+        "persons": [
+          "michelle",
+          "muntzing"
+        ],
+        "title": "A picnic reconciliation — and a second sudden illness",
+        "summary": "Maynard apologized and the two reconciled at a picnic. About 40 minutes in, Michelle became violently ill — vomiting, diarrhea, and heavy bleeding — severe enough that she couldn't leave the restroom.",
+        "detail": "An ultrasound afterward showed the fetus was fine, and doctors again chalked it up to stress. The pattern was becoming harder to explain away, even if no one had named it yet.",
+        "quote": null
+      },
+      {
+        "year": "2000",
+        "date": "2000",
+        "cat": "invest",
+        "persons": [
+          "michelle",
+          "muntzing"
+        ],
+        "title": "Her sister sees the pattern",
+        "summary": "A third episode of cramping, bleeding, and vomiting followed a normal evening together. Michelle's twin sister, Melinda, pointed out something unsettling: the sickness kept happening right after Maynard visited.",
+        "detail": "Michelle then recalled that Maynard had personally brought her drinks both in Key West and at the picnic, right before each episode began.",
+        "quote": {
+          "text": "Don't you find it odd that every time you're with him, after he leaves, you're sick?",
+          "cite": "Melinda, Michelle's twin sister, as recounted by Michelle"
+        }
+      },
+      {
+        "year": "2000",
+        "date": "2000",
+        "cat": "invest",
+        "persons": [
+          "muntzing",
+          "tammy",
+          "michelle"
+        ],
+        "title": "An overheard conversation raises the stakes",
+        "summary": "Suspecting another lie about a trip, Michelle went to Tammy's house and overheard Maynard tell Tammy not to worry about the pregnancy — that, as far as he knew, it \"could have already been taken care of.\"",
+        "detail": "That single overheard line was the moment Michelle went from suspicious to genuinely afraid for her pregnancy, and she went straight to the police.",
+        "quote": {
+          "text": "She need not worry about that, that as far as he knew, that it could have already been taken care of.",
+          "cite": "Maynard Muntzing, as overheard and recounted by Michelle"
+        }
+      },
+      {
+        "year": "2000",
+        "date": "2000",
+        "cat": "invest",
+        "persons": [
+          "michelle"
+        ],
+        "title": "Police are skeptical, but ask for proof",
+        "summary": "Detective Jeffrey Colvin found Michelle's account hard to believe at first — poisoning by a physician fiancé wasn't a typical case. Department rules also barred giving a pregnant woman a polygraph.",
+        "detail": "Without physical evidence, there was little police could act on. They told Michelle they'd need proof tying Maynard directly to whatever was happening.",
+        "quote": {
+          "text": "I was certainly skeptical at first... it's beyond my dreams. Something I haven't run into in 25 years.",
+          "cite": "Det. Jeffrey Colvin, Huber Heights PD"
+        }
+      },
+      {
+        "year": "2000",
+        "date": "2000",
+        "cat": "invest",
+        "persons": [
+          "michelle",
+          "muntzing",
+          "tammy"
+        ],
+        "title": "Michelle sets her own trap",
+        "summary": "Michelle hid a small camera inside a silk plant in her kitchen, invited Maynard to dinner, and asked him to make her a drink while she went outside. The tape showed him pouring an unknown substance into her cup.",
+        "detail": "She swapped the drink for a fresh one, saved the original in a hidden container, and sat through dinner as if nothing had happened. That same night, Maynard told her Tammy was upset because he'd secretly married her that week.",
+        "quote": {
+          "text": "This was the only way that I could keep him away from my baby.",
+          "cite": "Michelle Baker"
+        }
+      },
+      {
+        "year": "2000",
+        "date": "2000",
+        "cat": "forensic",
+        "persons": [
+          "muntzing"
+        ],
+        "title": "A forensic chemist starts from zero",
+        "summary": "The drink went to the lab, but chemist Mike Wathen had no idea what to test for — hundreds of drugs were possible. A tip from a local pharmacist narrowed it down: cytotec, a stomach-ulcer drug that can also induce labor.",
+        "detail": "Gas chromatography–mass spectrometry testing confirmed a match between the substance in Michelle's drink and known cytotec, giving investigators their first concrete answer.",
+        "quote": {
+          "text": "My first reaction is, you gotta be kidding me. We have no idea what we're looking for here.",
+          "cite": "Mike Wathen, forensic chemist"
+        }
+      },
+      {
+        "year": "2000",
+        "date": "2000",
+        "cat": "invest",
+        "persons": [
+          "muntzing",
+          "michelle"
+        ],
+        "title": "Police need their own catch, on their own camera",
+        "summary": "Worried a defense attorney could claim Michelle framed him, police set up their own hidden camera — inside a firefighter figurine — and had Michelle invite Maynard to dinner again.",
+        "detail": "Detectives Colvin and May watched from the garage as Maynard, almost identically to before, slipped a vial into Michelle's drink the moment she stepped outside. They moved in and arrested him on the spot.",
+        "quote": {
+          "text": "I told you that you didn't have to have anything to do with this baby, and instead you tried to kill the baby and kill me.",
+          "cite": "Det. Sgt. Richard May, to Muntzing at the arrest"
+        }
+      },
+      {
+        "year": "2000",
+        "date": "2000",
+        "cat": "forensic",
+        "persons": [
+          "muntzing"
+        ],
+        "title": "A second confirmed sample, and more found in his car",
+        "summary": "Lab tests confirmed the second drink was also spiked with cytotec. A search of Muntzing's car trunk turned up additional supplies of the drug.",
+        "detail": "When asked directly whether \"the problem\" he'd referred to was the baby, he confirmed it was — an admission that, combined with two independently confirmed poisoned samples, left little room for an innocent explanation.",
+        "quote": null
+      },
+      {
+        "year": "2000",
+        "date": "2000",
+        "cat": "trial",
+        "persons": [
+          "muntzing"
+        ],
+        "title": "Charged, and released on bond",
+        "summary": "Dr. Muntzing was charged with the attempted murder of the baby, then released on bond to await trial.",
+        "detail": "His own physician colleague, who had reassured Michelle during her pregnancy, later said he was ashamed to share a profession with him.",
+        "quote": {
+          "text": "I think that he misused his authority and his ability to obtain a substance, and then he poisoned his ex-fiancée.",
+          "cite": "Dr. John Shie, Michelle's physician"
+        }
+      },
+      {
+        "year": "2000",
+        "date": "28 weeks into the pregnancy",
+        "cat": "outcome",
+        "persons": [
+          "michelle"
+        ],
+        "title": "Mckayla is stillborn",
+        "summary": "Shortly before trial, Michelle gave birth to a stillborn daughter, whom she named Mckayla. The coroner found no trace of cytotec in the placenta and ruled the cause of death undetermined.",
+        "detail": "Michelle's family gathered to hold the baby and say goodbye. The transcript is explicit that the coroner did not establish a direct medical link between the poisoning and the stillbirth — a distinction worth keeping clear rather than assuming causation.",
+        "quote": {
+          "text": "We all held her, and we all told her how much that we loved her.",
+          "cite": "Michelle Baker"
+        }
+      },
+      {
+        "year": "early 2000s",
+        "date": "Plea deal",
+        "cat": "outcome",
+        "persons": [
+          "muntzing",
+          "tammy",
+          "michelle"
+        ],
+        "title": "A plea deal, and a guilty verdict",
+        "summary": "Muntzing pleaded guilty to attempted felonious assault. Tammy Irwin pleaded guilty to a lesser charge.",
+        "detail": "Muntzing was sentenced to 5 years in prison and lost his medical license. Tammy received probation. Michelle Baker continued her work as a firefighter and paramedic, hoping her story would help others.",
+        "quote": null
+      }
+    ]
+  }
+]

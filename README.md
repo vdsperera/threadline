@@ -54,7 +54,12 @@ it lists, and renders them. To add a case, you're only ever touching the `cases/
    ]
    ```
 
-5. **Test locally (optional but recommended).** Because this uses `fetch()`, opening
+5. **Bundle the cases.** The app loads a single combined JSON file for performance. Run this in your terminal from the project folder:
+   ```
+   node build-cases.js
+   ```
+
+6. **Test locally (optional but recommended).** Because this uses `fetch()`, opening
    `index.html` directly as a `file://` URL won't work in most browsers — you need a
    tiny local server. From inside the `threadline` folder:
    ```
@@ -62,7 +67,7 @@ it lists, and renders them. To add a case, you're only ever touching the `cases/
    ```
    then open `http://localhost:8000` in your browser.
 
-6. **Commit and push.** If this folder is connected to Vercel, Netlify, or GitHub
+7. **Commit and push.** If this folder is connected to Vercel, Netlify, or GitHub
    Pages, pushing to your repo redeploys the site automatically with the new case live.
 
 ## Deploying (one-time setup)

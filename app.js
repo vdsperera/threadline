@@ -10,21 +10,9 @@ async function loadCases() {
   CATS = config.cats;
   state.activeCats = new Set(Object.keys(CATS));
 
-  const manifestRes = await fetch('cases/manifest.json');
-  if (!manifestRes.ok) throw new Error('Could not load cases/manifest.json (' + manifestRes.status + ')');
-  const ids = await manifestRes.json();
-
-  const casePromises = ids.map(async (id) => {
-    const res = await fetch(`cases/${id}.json`);
-    if (!res.ok) throw new Error(`Could not load cases/${id}.json (${res.status})`);
-    const data = await res.json();
-    if (data.id !== id) {
-      console.warn(`cases/${id}.json has id "${data.id}" — expected "${id}". Using the filename.`);
-    }
-    return data;
-  });
-
-  CASES = await Promise.all(casePromises);
+  const res = await fetch('cases/all-cases.json');
+  if (!res.ok) throw new Error(`Could not load cases/all-cases.json (${res.status})`);
+  CASES = await res.json();
 }
 
 /* ============ routing ============ */
