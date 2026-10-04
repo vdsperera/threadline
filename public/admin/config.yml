@@ -1,0 +1,46 @@
+backend:
+  name: github
+  repo: vdsperera/threadline
+  branch: main
+  # We will add authentication proxy settings here in the next step
+
+media_folder: "public/images"
+public_folder: "/images"
+
+site_url: https://vdsperera.github.io/threadline
+logo_url: https://vdsperera.github.io/threadline/favicon.svg
+
+collections:
+  - name: "cases"
+    label: "Case Timelines"
+    folder: "cases"
+    create: true
+    slug: "{{id}}"
+    extension: "json"
+    format: "json"
+    fields:
+      - {label: "ID (slug)", name: "id", widget: "string", hint: "e.g. river-park-1996"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Location", name: "location", widget: "string"}
+      - {label: "Years", name: "years", widget: "string"}
+      - {label: "Theme", name: "theme", widget: "string", required: false}
+      - {label: "Description (Dek)", name: "dek", widget: "text"}
+      - label: "Events"
+        name: "events"
+        widget: "list"
+        fields:
+          - {label: "Date", name: "date", widget: "string", hint: "e.g. Aug 30, 1996"}
+          - {label: "Category", name: "cat", widget: "string", hint: "e.g. incident, legal, forensic"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Summary", name: "summary", widget: "text", required: false}
+          - {label: "Details (HTML/Markdown)", name: "detail", widget: "markdown", required: false}
+          - label: "Persons"
+            name: "persons"
+            widget: "list"
+            required: false
+            field: {label: "Person ID", name: "person", widget: "string"}
+          - label: "Sources"
+            name: "sources"
+            widget: "list"
+            required: false
+            field: {label: "Source Link", name: "source", widget: "string"}
