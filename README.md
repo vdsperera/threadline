@@ -16,6 +16,27 @@ This project includes a built-in visual writing dashboard.
 
 ---
 
+## ⏱️ Automated Scheduled Publishing (Queue)
+
+Threadline includes an automated publishing pipeline powered by **GitHub Actions**:
+
+1. **Queue Cases:** Drop new case `.json` files into the [`queue/`](file:///c:/Activities/Projects/threadline/queue) folder.
+2. **Schedule:** The workflow runs every **Monday** and **Wednesday** at **19:00 IST** (`13:30 UTC`).
+3. **Execution:** On each scheduled run:
+   - Takes **1 case** from `queue/` (in alphabetical/numbered order).
+   - Moves it to `cases/<id>.json`.
+   - Adds the case ID to `cases/manifest.json`.
+   - Commits and pushes the change, automatically triggering a deployment to GitHub Pages.
+   - If `queue/` is empty, it safely does nothing.
+4. **Manual Trigger / Dry Run:**
+   - From GitHub: Go to **Actions** -> **Publish Scheduled Cases** -> **Run workflow**.
+   - Locally: Test anytime with `npm run publish:dry-run`.
+
+> [!IMPORTANT]
+> **One-time GitHub Setup**: In your GitHub repository, navigate to **Settings** → **Actions** → **General** → **Workflow permissions**, and ensure **Read and write permissions** is selected so GitHub Actions can commit the published cases back to `main`.
+
+---
+
 ## 💻 For Software Engineers
 Threadline is built with a highly optimized, zero-database architecture designed for maximum performance, security, and SEO.
 
