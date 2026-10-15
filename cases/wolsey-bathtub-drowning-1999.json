@@ -1,0 +1,250 @@
+{
+  "id": "wolsey-bathtub-drowning-1999",
+  "title": "The Note in the Liturgy Book",
+  "location": "Wolsey, South Dakota",
+  "years": "1999 – early 2000s",
+  "statusBadge": {
+    "label": "Computer forensics breakthrough",
+    "color": "var(--teal)"
+  },
+  "dek": "A minister's wife drowns in her own bathtub. Her husband says it was an accident. Months later, at trial, a suicide note surfaces from nowhere — and a forensic look inside two computers tells a very different story about who actually wrote it.",
+  "cardBlurb": "A pastor's wife drowns under suspicious circumstances — until a secretly drafted suicide note and a trail of deleted computer files unravel his story at trial.",
+  "source": "Timeline built from a Forensic Files episode summary and transcript describing the May 1999 death of Sharon Guthrie in Wolsey, South Dakota, the investigation and trial of her husband, Reverend Bill Guthrie, and the computer forensics and fingerprint evidence that undermined his suicide-note defense. Exact dates beyond the ones explicitly stated in the transcript are approximate.",
+  "persons": {
+    "sharon": {
+      "name": "Sharon Guthrie",
+      "role": "Minister's wife, found drowned in her bathtub",
+      "status": "Died, manner of death contested",
+      "statusColor": "var(--rust)"
+    },
+    "bill": {
+      "name": "Bill Guthrie",
+      "role": "Her husband, a pastor; accused and later convicted of her murder",
+      "status": "Convicted, sentenced to life",
+      "statusColor": "var(--rust)"
+    },
+    "suzanne": {
+      "name": "Suzanne Hewitt",
+      "role": "Bill and Sharon's oldest daughter; helped investigators, believes her father guilty",
+      "status": "No longer speaks to her sister Jenalu",
+      "statusColor": "var(--brass)"
+    },
+    "jenalu": {
+      "name": "Jenalu Simpson",
+      "role": "Bill and Sharon's daughter; believes her father is innocent",
+      "status": "Stayed in contact with her father",
+      "statusColor": "var(--brass)"
+    }
+  },
+  "events": [
+    {
+      "year": "1999",
+      "date": "May 14, 1999",
+      "cat": "crime",
+      "persons": [
+        "sharon",
+        "bill"
+      ],
+      "title": "Sharon Guthrie is found unconscious in the bathtub",
+      "summary": "Reverend Bill Guthrie called an ambulance after finding his wife Sharon unconscious in an overflowing bathtub. He said he'd left her drawing a bath, gone to the church to pray for about ten minutes, and returned to find her face down in the water.",
+      "detail": "Emergency crews restarted her heart and placed her on a respirator, but she never regained consciousness. Doctors found no signs of brain activity, and she was pronounced dead the next day.",
+      "quote": null
+    },
+    {
+      "year": "1999",
+      "date": "1999",
+      "cat": "forensic",
+      "persons": [
+        "sharon"
+      ],
+      "title": "An autopsy, and an unexpected drug",
+      "summary": "The autopsy found no signs of trauma or illness, but blood drawn when Sharon first arrived at the hospital — while still alive — allowed for far more reliable toxicology than testing after death. It revealed temazepam, a sedative she had not been prescribed, at a very high concentration.",
+      "detail": "The medical examiner listed the cause of death as drowning, with the temazepam overdose a contributing factor, but left the manner of death undetermined — accident, suicide, or homicide were all still on the table.",
+      "quote": {
+        "text": "The most important drug was temazepam... present in very high concentrations.",
+        "cite": "Dr. Brad Randall, medical examiner"
+      }
+    },
+    {
+      "year": "1999",
+      "date": "1999",
+      "cat": "invest",
+      "persons": [
+        "bill",
+        "sharon"
+      ],
+      "title": "The prescription, and a suspicious pattern",
+      "summary": "Investigators traced the temazepam to a prescription in Bill Guthrie's own name. He suggested Sharon might have taken it accidentally while sleepwalking, though none of their daughters recalled her ever doing so.",
+      "detail": "Investigators also found that weeks before her death, Bill had filled his temazepam prescription at one pharmacy, then told a second pharmacy he'd lost it and got a second supply — and that his clothes were dry despite his claim of trying to physically pull Sharon from the tub.",
+      "quote": null
+    },
+    {
+      "year": "1999",
+      "date": "1999",
+      "cat": "invest",
+      "persons": [
+        "bill"
+      ],
+      "title": "A hidden affair comes to light",
+      "summary": "Investigators learned Bill had an ongoing affair with a woman from his former Nebraska congregation, using a cover story of medical counseling trips to continue seeing her after moving to South Dakota — trips the church had sometimes even paid mileage for.",
+      "detail": "The affair had reportedly ended that January when his mistress grew tired of its secrecy, pressured him for more, and ultimately broke things off.",
+      "quote": null
+    },
+    {
+      "year": "1999",
+      "date": "1999",
+      "cat": "invest",
+      "persons": [
+        "bill",
+        "suzanne"
+      ],
+      "title": "A daughter wears a wire",
+      "summary": "With Bill now a suspect, police asked his daughter Suzanne to confront him wearing a hidden microphone, hoping he might open up to her as a parent.",
+      "detail": "He denied everything — the affair, obtaining the extra medication, all of it — leaving investigators with suspicion but no direct admission.",
+      "quote": null
+    },
+    {
+      "year": "1999",
+      "date": "Late July 1999",
+      "cat": "forensic",
+      "persons": [
+        "bill",
+        "sharon"
+      ],
+      "title": "The church computer is seized",
+      "summary": "Investigators confiscated the church's computer hoping to find revealing emails between Bill and his mistress. The emails themselves turned up nothing, so they brought in computer forensics expert Judd Robbins to search deeper.",
+      "detail": "Robbins explained that deleting a file doesn't erase it — it just marks that space as available, often leaving recoverable traces behind if nothing has overwritten it yet.",
+      "quote": null
+    },
+    {
+      "year": "1999",
+      "date": "1999",
+      "cat": "forensic",
+      "persons": [
+        "bill"
+      ],
+      "title": "Searches for sleeping pills, and bathtub accidents",
+      "summary": "Robbins found that someone had run numerous internet searches about sleeping pills and downloaded articles specifically about temazepam about a month before Sharon died — the last one on April 27th.",
+      "detail": "He also found searches about bathtub accidents, a detail that struck him as odd until he learned how Sharon had actually died. On April 29th, Bill requested the temazepam prescription he filled at two pharmacies; it was refilled again on May 12th and 13th, the day before she died.",
+      "quote": null
+    },
+    {
+      "year": "1999",
+      "date": "1999",
+      "cat": "trial",
+      "persons": [
+        "bill",
+        "sharon"
+      ],
+      "title": "Arrest, and a chocolate-milk theory",
+      "summary": "Based on the computer evidence, Bill Guthrie was arrested and charged with murder. Prosecutors theorized he wanted out of the marriage without the professional cost of divorce, and laced Sharon's daily chocolate milk with sedatives before going to pray at the church.",
+      "detail": "Their theory held that once the drug took effect, he placed her unconscious body in the tub, filled it with water, and let her drown — then returned home to find her and call for help.",
+      "quote": {
+        "text": "I felt we had a pretty good circumstantial case, but all our evidence was circumstantial.",
+        "cite": "Mike Moore, prosecutor"
+      }
+    },
+    {
+      "year": "1999",
+      "date": "1999",
+      "cat": "trial",
+      "persons": [
+        "jenalu",
+        "sharon"
+      ],
+      "title": "A daughter's doubt",
+      "summary": "Jenalu Simpson, another of the Guthries' daughters, wasn't convinced her father was guilty. She pointed to an earlier incident where Sharon had overdosed on Benadryl and needed medical attention, which Jenalu believed was a bid for attention, not evidence of foul play.",
+      "detail": "The family was already split on what they believed had happened, well before the trial produced its most dramatic twist.",
+      "quote": null
+    },
+    {
+      "year": "1999",
+      "date": "At trial",
+      "cat": "trial",
+      "persons": [
+        "bill",
+        "sharon",
+        "suzanne"
+      ],
+      "title": "A suicide note appears, out of nowhere",
+      "summary": "At his murder trial, Bill Guthrie revealed a typed, unsigned suicide note from Sharon, which he said he'd found hidden in a liturgy book in the church office weeks after her death. It was dated the day before she died and addressed to their daughter Suzanne.",
+      "detail": "The note apologized for \"ruining\" an earlier wedding and referenced a minor incident from years before — details that gave it an air of authenticity the prosecution hadn't anticipated.",
+      "quote": {
+        "text": "I won't be there, so put your mind at ease. You will understand after the wedding is done.",
+        "cite": "The suicide note attributed to Sharon Guthrie"
+      }
+    },
+    {
+      "year": "1999",
+      "date": "At trial",
+      "cat": "forensic",
+      "persons": [
+        "sharon",
+        "bill"
+      ],
+      "title": "Fingerprint testing raises new questions",
+      "summary": "Fingerprint expert Cynthia Orton treated the note with ninhydrin, a chemical that reveals fingerprints left by perspiration — often associated with the stress of writing something as significant as a suicide note.",
+      "detail": "The prints found didn't match Bill or his attorney, who he said he'd given the note to directly. Since Sharon had never been fingerprinted, even at autopsy, there was no way yet to compare the prints to her.",
+      "quote": {
+        "text": "Somebody was perspiring quite heavily while they were handling that document.",
+        "cite": "Cynthia Orton, fingerprint expert"
+      }
+    },
+    {
+      "year": "1999",
+      "date": "At trial",
+      "cat": "forensic",
+      "persons": [
+        "bill"
+      ],
+      "title": "A second computer tells a different story",
+      "summary": "Investigators learned Bill owned a second computer, recently given to his daughter and son-in-law. On its hard drive, Judd Robbins found a file named \"Sharon\" — missing its main body text, but sharing the note's exact closing line, date, fonts, margins, and a matching typo.",
+      "detail": "The file had been created in August, three months after Sharon's death — and Robbins found it interspersed in the computer's file history with several of Bill's sermons from that same month, letting him reconstruct a timeline of Bill writing sermons and the \"suicide note\" in alternating sessions.",
+      "quote": {
+        "text": "I think at that point, it made me realize... that he was guilty for this.",
+        "cite": "Judd Robbins, computer forensics expert"
+      }
+    },
+    {
+      "year": "1999",
+      "date": "Verdict",
+      "cat": "outcome",
+      "persons": [
+        "bill"
+      ],
+      "title": "Convicted of first-degree murder",
+      "summary": "The jury convicted William Guthrie of first-degree murder, and he was sentenced to life in prison.",
+      "detail": "Prosecutor Mike Moore said the forensic evidence — the toxicology, the computer searches, and the reconstructed note — was the entire case; without it, he said, there would have been no way to charge Guthrie at all.",
+      "quote": null
+    },
+    {
+      "year": "early 2000s",
+      "date": "After the trial",
+      "cat": "forensic",
+      "persons": [
+        "sharon",
+        "bill"
+      ],
+      "title": "An exhumation, and a lingering mystery",
+      "summary": "After the trial, Sharon's body was exhumed for reburial in Nebraska, and her fingerprints were finally obtained. Cynthia Orton compared them to the prints on the suicide note — they did not match either Sharon or Bill.",
+      "detail": "Whose fingerprints are actually on the note has never been explained. The case's forensic conclusion — that Bill wrote and planted it — stood regardless, but that one specific detail was left unresolved.",
+      "quote": {
+        "text": "The question that leaves me with is whose fingerprints are on that document?",
+        "cite": "Cynthia Orton, fingerprint expert"
+      }
+    },
+    {
+      "year": "early 2000s",
+      "date": "Aftermath",
+      "cat": "outcome",
+      "persons": [
+        "suzanne",
+        "jenalu"
+      ],
+      "title": "A family divided",
+      "summary": "Suzanne believes her father is guilty. Jenalu, despite the forensic evidence, believes he's innocent and has stayed in contact with him. The two sisters no longer speak to each other.",
+      "detail": "One daughter summed up the year of the investigation and trial as costing her, in different ways, both of her parents and her sister.",
+      "quote": null
+    }
+  ]
+}
