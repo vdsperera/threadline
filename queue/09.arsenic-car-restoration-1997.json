@@ -1,0 +1,106 @@
+{
+"id": "arsenic-car-restoration-1997",
+"title": "The Jar Labeled Baking Powder",
+"location": "Bartlett, Tennessee",
+"years": "1997 – late 1990s",
+"statusBadge": { "label": "No single tox hit, convicted anyway", "color": "var(--teal)" },
+"dek": "A man's dream business turns into a mystery illness no doctor can explain. He suspects his best friend and business partner — and asks police, in advance, to autopsy him if he dies.",
+"cardBlurb": "A business partner slowly poisons a sick man's dream, draining his company and his health at the same time — until segmented hair testing proves exactly when, and a hidden envelope proves with what.",
+"source": "Timeline built from a Forensic Files episode summary and transcript describing Phil Rouss's 1997–late 1990s illness and the financial and forensic investigation that led to the conviction of his business partner, Steve White, for attempted murder. The transcript notes prosecutors could not conclusively prove the exact method of poisoning, only that White had the means and opportunity — that distinction is preserved here rather than presented as fully resolved. Exact dates beyond the 1997 business opening are approximate, drawn from the episode's own account.",
+"persons": {
+"phil":  { "name": "Phil Rouss",  "role": "Owner of Top Quality car restoration; became mysteriously ill", "status": "Survived, permanent nerve damage", "statusColor": "var(--rust)" },
+"steve": { "name": "Steve White", "role": "Phil's business partner, next-door neighbor, and chemistry teacher", "status": "Convicted, 31 years", "statusColor": "var(--rust)" },
+"merigian": { "name": "Dr. Kevin Merigian", "role": "Forensic toxicologist who identified the poisoning", "status": "Key forensic witness", "statusColor": "var(--teal)" }
+},
+"events": [
+{ "year": "1997", "date": "1997", "cat": "crime", "persons": ["phil", "steve"],
+"title": "A dream business, and a partner who invests",
+"summary": "Phil Rouss left a sales career to open Top Quality, an antique car restoration shop in Bartlett, Tennessee. The business succeeded quickly, and Phil brought in his best friend and next-door neighbor, Steve White, as an investor and partner.",
+"detail": "Phil's friend Kimo Coelho also joined the company. By all appearances, things were going well for everyone involved.",
+"quote": null },
+
+{ "year": "1997", "date": "Two months after opening", "cat": "crime", "persons": ["phil"],
+"title": "A sudden, unexplained illness",
+"summary": "Just two months into the business, Phil began losing energy, suffering severe stomach pain, and experiencing numbness in his hands and feet. Ultrasounds and CAT scans came back negative, and his condition kept worsening.",
+"detail": "He lost 30 pounds and began struggling cognitively — at one point telling his wife he thought he had Alzheimer's after forgetting the route to his own shop.",
+"quote": { "text": "I was in such bad pain that I actually took my shirt off and laid on the kitchen floor on the linoleum.", "cite": "Phil Rouss" } },
+
+{ "year": "1997", "date": "December 1997", "cat": "invest", "persons": ["phil"],
+"title": "Phil asks police for a future autopsy",
+"summary": "Convinced he was dying and that someone might be poisoning him, Phil went to police headquarters with an unusual request: if he died, he wanted an autopsy performed. Officers were skeptical, and even his own family thought he was overreacting.",
+"detail": "Phil later said nothing could have convinced him otherwise that night — doctors, meanwhile, were doubtful his illness was workplace-related, since no one else at the shop had gotten sick.",
+"quote": { "text": "Nothing in the world could have convinced me that I was wrong that night.", "cite": "Phil Rouss" } },
+
+{ "year": "1997", "date": "While Phil was out sick", "cat": "invest", "persons": ["steve", "phil"],
+"title": "Bounced checks and a business running dry",
+"summary": "With Steve White handling day-to-day operations while Phil was ill, Phil heard rumors the company wasn't paying its suppliers. A bank visit confirmed it: ten company checks had bounced from insufficient funds.",
+"detail": "Reviewing the checks, Phil found Steve had been paying his own cell phone bill, personal insurance, and liquor purchases out of company funds.",
+"quote": null },
+
+{ "year": "1997", "date": "1997", "cat": "invest", "persons": ["steve", "phil"],
+"title": "A $100,000 policy, in Steve's favor",
+"summary": "Phil noticed a company check to an unfamiliar company, American National, and called to ask about it. It turned out to be a $100,000 life insurance policy — on Phil's life, with Steve White as the sole owner and beneficiary.",
+"detail": "There was no reciprocal policy naming Phil as beneficiary on Steve's life. Steve's wife later said the policy was only meant to protect their investment in case Phil died.",
+"quote": null },
+
+{ "year": "1997", "date": "1997", "cat": "invest", "persons": ["steve", "phil"],
+"title": "Accounts closed, and a 2% surprise",
+"summary": "Steve closed the company's bank accounts without telling Phil, withdrawing the remaining balance and leaving outstanding checks unpaid. When Phil's lawyer reviewed the partnership agreement, they discovered Phil owned only 2% of the business he'd founded — Steve owned the remaining 98%.",
+"detail": "Phil said he'd signed a number of documents Steve brought over without fully understanding them, trusting a friend he'd known for years.",
+"quote": { "text": "He was completely duped into signing this contract.", "cite": "Case narration" } },
+
+{ "year": "late 1990s", "date": "late 1990s", "cat": "forensic", "persons": ["phil", "merigian"],
+"title": "A toxicologist finds arsenic",
+"summary": "Phil consulted Dr. Kevin Merigian, a leading forensic toxicologist. A urine test revealed arsenic in Phil's system at a level of 63 — elevated but not lethal, and not explainable by diet, since Phil hadn't eaten large amounts of seafood.",
+"detail": "Merigian explained that arsenic doesn't stay traceable in the body long — it's excreted or sequestered in bone — meaning this single test could confirm exposure but not pin down when or how much.",
+"quote": { "text": "Mr. Rouss, do you know of anybody that might want you dead?", "cite": "Dr. Kevin Merigian, to Phil Rouss" } },
+
+{ "year": "late 1990s", "date": "late 1990s", "cat": "invest", "persons": ["phil", "steve"],
+"title": "A pattern Phil hadn't noticed before",
+"summary": "Thinking back, Phil realized he consistently got sick after eating or drinking with Steve White. He also learned Steve had trained as a chemist and taught chemistry at a local high school.",
+"detail": "The combination — recurring illness tied to specific meals, and a business partner with real chemistry expertise — reframed everything Phil had been experiencing.",
+"quote": null },
+
+{ "year": "late 1990s", "date": "late 1990s", "cat": "forensic", "persons": ["phil", "merigian"],
+"title": "Hair testing builds a timeline of exposure",
+"summary": "Dr. Merigian told Phil to stop cutting his hair, since hair preserves a chemical record of exposure over time as it grows. Once it was long enough, a strand was cut into quarter-inch segments and tested for 22 metals using ICP analysis.",
+"detail": "The results showed no poison exposure during a hospital stay, but clear traces of mercury during the periods Phil had been living and working at home — pinpointing not just that he'd been poisoned, but roughly when.",
+"quote": { "text": "I had no doubt that he was poisoned with heavy metals.", "cite": "Dr. Kevin Merigian" } },
+
+{ "year": "late 1990s", "date": "late 1990s", "cat": "invest", "persons": ["steve"],
+"title": "A makeshift lab in the backyard shed",
+"summary": "Once the poisoning was confirmed, state law required police notification, and the financial dispute between Phil and Steve gave investigators grounds for a search warrant on White's home. In a backyard shed, they found jars of unusual powders and lab equipment.",
+"detail": "A jar labeled \"baking powder\" tested positive for mercury and an odorless, tasteless formulation of arsenic. Steve's wife said the setup was meant to interest their children in science.",
+"quote": null },
+
+{ "year": "late 1990s", "date": "late 1990s", "cat": "forensic", "persons": ["steve"],
+"title": "A hidden envelope, and a handwriting match",
+"summary": "A search of the restoration shop turned up an envelope hidden behind an electrical panel, containing arsenic, antimony, mercury, and lead. A forensic document examiner compared the handwriting on it to known samples of Steve's.",
+"detail": "Confronted with the lab results, Steve called the accusation absurd and offered to drink whatever they'd found — while separately arguing that if he'd wanted to kill Phil, he'd have used something faster-acting than arsenic.",
+"quote": { "text": "If I was going to kill this guy, I sure wouldn't use arsenic. I'd do it with something much quicker and lethal.", "cite": "Steve White, to police" } },
+
+{ "year": "late 1990s", "date": "late 1990s", "cat": "trial", "persons": ["steve"],
+"title": "Arrested, but the delivery method unproven",
+"summary": "Steve White was arrested and charged with attempted murder. Prosecutors were never able to conclusively prove exactly how the poisons entered Phil's body — only that White had clear opportunity.",
+"detail": "Phil and his friend Kimo recalled several specific incidents: Steve swapping entrées at a restaurant, insisting Phil finish a full bottle of wine, leaving Phil alone with coffee during visits, and both men falling ill after Steve brought them hamburgers.",
+"quote": { "text": "We were able to prove that he had ample opportunity.", "cite": "Prosecutor on the case" } },
+
+{ "year": "late 1990s", "date": "Trial", "cat": "trial", "persons": ["steve", "phil"],
+"title": "A defense built on trace amounts",
+"summary": "White's defense argued the evidence was circumstantial and that lab results showed only trace, non-lethal amounts of heavy metals in Phil's system. Prosecutors countered that this was deliberate — a slow decline unlikely to raise suspicion.",
+"detail": "Prosecutors argued that possessing the poisons at all was the relevant fact, regardless of whether any single dose would have been lethal on its own.",
+"quote": { "text": "The mere fact that the defendant had arsenic, antimony, lead, mercury at his disposal was the relevant fact.", "cite": "Prosecutor on the case" } },
+
+{ "year": "late 1990s", "date": "Trial", "cat": "trial", "persons": ["steve", "phil"],
+"title": "A motive built on debt and a payout",
+"summary": "Prosecutors argued White's motive was financial: roughly $90,000 in credit card debt, a $100,000 life insurance policy on Phil that only White stood to collect, and full ownership of the business if Phil died.",
+"detail": "Witnesses, including several waitresses, described White as an unusually generous tipper — once leaving a $60 tip on a $15 check — painting a picture of someone spending well beyond a teacher's income.",
+"quote": null },
+
+{ "year": "late 1990s", "date": "Verdict", "cat": "outcome", "persons": ["steve", "phil"],
+"title": "Convicted, 31 years",
+"summary": "After a week-long trial, the jury found Steve White guilty of first-degree attempted murder, theft, and sales tax violations. He was sentenced to 31 years in prison.",
+"detail": "Phil's wife credited the heavy metals testing and Dr. Merigian's work directly with saving his life. Phil's car restoration business ultimately closed, and he was left with permanent numbness and mobility problems from the nerve damage.",
+"quote": { "text": "If it hadn't been for the heavy metals test and Dr. Merigian running all tests on my husband, he would have been dead.", "cite": "Phil Rouss's wife" } }
+]
+}

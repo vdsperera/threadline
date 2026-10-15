@@ -1,0 +1,108 @@
+{
+"id": "tracy-jo-shine-refrigerator-1999",
+"title": "The Refrigerator in Evidence Storage",
+"location": "Houston, Texas",
+"years": "1987 – 1999",
+"statusBadge": { "label": "No-body conviction", "color": "var(--teal)" },
+"dek": "A young dancer's promising future unravels into addiction, then disappearance. The only clue was a refrigerator police believed once held her body — and a detective who refused to let it be thrown away for twelve years.",
+"cardBlurb": "A missing woman, a suspect who refused to talk, and a refrigerator kept in evidence storage for over a decade — until mitochondrial DNA finally proved what everyone already suspected.",
+"source": "Timeline built from a Forensic Files episode summary and transcript describing the disappearance of Tracy Jo Shine in Houston, Texas, the initial investigation by Detective Marcel Dionne, and the 1999 cold-case reexamination that used mitochondrial DNA to connect a refrigerator in evidence storage to her, leading to Michael Neal's conviction without a recovered body. Exact years for earlier events are approximate, inferred from the stated 12-year gap to the 1999 cold-case unit's involvement.",
+"persons": {
+"tracyjo": { "name": "Tracy Jo Shine", "role": "Former dance student; disappeared after a drug arrest and jail release", "status": "Murdered; body never recovered", "statusColor": "var(--rust)" },
+"michael": { "name": "Michael Neal", "role": "Tracy Jo's boyfriend; bailed her out the night she vanished", "status": "Convicted of murder, 45 years, no body found", "statusColor": "var(--rust)" },
+"robert":  { "name": "Robert Neal", "role": "Michael's brother; co-owned the car lot where the refrigerator was found", "status": "Gave testimony in exchange for a deal; already serving time on drug charges", "statusColor": "var(--brass)" },
+"virginia":{ "name": "Virginia Shine", "role": "Tracy Jo's mother; filed the missing person report", "status": "Still searching for her daughter's remains", "statusColor": "var(--brass)" },
+"barbara": { "name": "Barbara McAllister", "role": "Michael's mother; found the body, never reported it", "status": "Never prosecuted, statute of limitations expired", "statusColor": "var(--brass)" }
+},
+"events": [
+{ "year": "1980s", "date": "Her teenage years", "cat": "crime", "persons": ["tracyjo", "michael"],
+"title": "From a performing arts school to addiction",
+"summary": "Tracy Jo Shine, a promising dance student at Houston's High School for Performing Arts, began experimenting with drugs, her grades slipped, and she became involved with 31-year-old Michael Neal, recently released from prison.",
+"detail": "She eventually dropped out of school and moved in with Neal and his mother at 18, a trajectory her mother Virginia described watching with growing helplessness.",
+"quote": { "text": "Tracy was not the Tracy she was before she did the drugs. Tracy had become someone else that was controlled by drugs.", "cite": "Virginia Shine, Tracy Jo's mother" } },
+
+{ "year": "1980s", "date": "~1987", "cat": "invest", "persons": ["tracyjo", "michael"],
+"title": "An arrest, and a deal to testify",
+"summary": "While investigating Michael Neal for a racially motivated drive-by shooting, Detective Marcel Dionne found Tracy Jo using drugs at Neal's home and arrested her. At the station, she offered to testify that Neal committed the shooting in exchange for leniency on her own charge.",
+"detail": "Dionne agreed to the deal. Early the next morning, Neal himself came in and posted Tracy Jo's bail. She was never seen alive again.",
+"quote": null },
+
+{ "year": "1980s", "date": "Day after her release", "cat": "crime", "persons": ["tracyjo", "virginia"],
+"title": "A last visit, then silence",
+"summary": "Tracy Jo visited her mother to borrow money the day after her release — the last time her family saw her. She had always stayed in touch before; the sudden silence worried Virginia immediately.",
+"detail": "When Virginia called Neal's home for news, she was told Tracy Jo no longer lived there, and he offered nothing further.",
+"quote": { "text": "I, for some reason, just felt something was wrong.", "cite": "Virginia Shine" } },
+
+{ "year": "1980s", "date": "Weeks later", "cat": "invest", "persons": ["michael", "tracyjo"],
+"title": "An anonymous tip names a refrigerator",
+"summary": "After Virginia filed a missing person report, Dionne received an anonymous call describing a girl killed by her boyfriend and stuffed in a refrigerator, later taken to a used car lot. The caller eventually identified the victim as Tracy Jo Shine.",
+"detail": "The tip specifically named the refrigerator's location: the used car lot owned by Michael Neal and his brother, Robert.",
+"quote": { "text": "She was telling me about this girl that was apparently killed by her boyfriend, stuffed in a refrigerator, and taken out to a car lot.", "cite": "Detective Marcel Dionne" } },
+
+{ "year": "1980s", "date": "Following the tip", "cat": "forensic", "persons": ["tracyjo"],
+"title": "A refrigerator, cleaned with bleach",
+"summary": "Detectives recovered the refrigerator from the car lot, but it had been recently cleaned with bleach. Taking it apart, they found a piece of human tissue with hair follicles in the freezer unit.",
+"detail": "Early RFLP DNA testing on the tissue failed, and a visual hair comparison to a sample from Tracy Jo's own hairbrush came back inconclusive — the technology of the time simply couldn't extract a usable answer.",
+"quote": null },
+
+{ "year": "1980s", "date": "Following months", "cat": "invest", "persons": ["michael"],
+"title": "A detective who wouldn't stop digging — literally",
+"summary": "With no forensic breakthrough, Dionne spent months searching anywhere he suspected a body might be buried — draining ponds, searching on horseback and four-wheelers across Harris County.",
+"detail": "He also found Tracy Jo's jewelry being sold in the display case of Neal's mother's consignment shop — in poor taste, investigators felt, but not proof of a crime on its own.",
+"quote": { "text": "I was given the nickname of 'Digger,' because every time I received a phone call, I was digging someone.", "cite": "Detective Marcel Dionne" } },
+
+{ "year": "1980s", "date": "As the case stalled", "cat": "invest", "persons": [],
+"title": "The refrigerator goes into storage — and stays there",
+"summary": "With the investigation faltering, Dionne had no choice but to move on to other cases. But he refused to let the refrigerator and other evidence be discarded, insisting every year that the case remained open.",
+"detail": "That single decision — to keep the refrigerator in storage rather than dispose of it — would turn out to matter more than anyone knew at the time.",
+"quote": null },
+
+{ "year": "1990s", "date": "Years later", "cat": "outcome", "persons": ["michael", "robert"],
+"title": "Both brothers imprisoned, for unrelated crimes",
+"summary": "Michael Neal was later convicted in a separate shooting and sentenced to life in prison. His brother Robert was convicted on a methamphetamine charge. Both continued denying any knowledge of Tracy Jo's disappearance.",
+"detail": "For over a decade, there was no trace of Tracy Jo anywhere — no credit history, no driver's license activity, no employment record of any kind.",
+"quote": null },
+
+{ "year": "1999", "date": "1999", "cat": "invest", "persons": ["tracyjo"],
+"title": "A cold case unit reopens the file",
+"summary": "The Harris County Sheriff's Department formed a new cold case unit under Detectives Roger Wedgeworth and Harry Fikaris, and Tracy Jo Shine's case was among the first they reviewed.",
+"detail": "Their first move was to retest the original tissue sample with newer PCR DNA technology — but after more than 12 years, the sample was too degraded, and the original hair evidence couldn't even be located.",
+"quote": null },
+
+{ "year": "1999", "date": "1999", "cat": "forensic", "persons": [],
+"title": "The refrigerator, still in storage, gets a second look",
+"summary": "Investigators were astonished the refrigerator was still in the property room after more than a decade. Reasoning that fluids might have seeped into the wiring harness on its back when the unit was laid down, they had it swabbed in areas never examined the first time.",
+"detail": "A forensic scientist swabbing the wiring found what looked like a small piece of human skin — a detail the original investigation, focused on the freezer compartment itself, had never reached.",
+"quote": { "text": "There are so many nooks and crannies in a refrigerator... that if body fluid is going to seep through, it would be impossible, probably, to clean it all.", "cite": "Forensic investigator on the case" } },
+
+{ "year": "1999", "date": "1999", "cat": "forensic", "persons": ["tracyjo", "virginia"],
+"title": "Mitochondrial DNA, and a match through her mother",
+"summary": "Standard PCR testing on the skin sample failed. Forensic scientist Bill Watson then tried a newer FBI technique, mitochondrial DNA testing, which succeeded — but there was no confirmed sample of Tracy Jo's own DNA to compare it to.",
+"detail": "Since mitochondrial DNA passes unchanged from mother to child, Watson obtained a profile from Virginia Shine instead. It matched the skin recovered from the refrigerator's wiring — strong evidence the material was Tracy Jo's, found somewhere a body couldn't have left a trace by accident.",
+"quote": { "text": "Had Tracy Jo's DNA been discovered on the handle of the refrigerator, that might not have been unusual. But skin found on the wiring on the back harness was a completely different matter.", "cite": "Investigator on the significance of the find" } },
+
+{ "year": "1999", "date": "1999", "cat": "invest", "persons": ["michael", "robert"],
+"title": "Robert Neal makes a deal",
+"summary": "With the new DNA evidence, Michael Neal was charged with murder. His brother Robert, after years in prison on the drug conviction, agreed to cooperate in exchange for a deal, implicating his brother, mother, and sister.",
+"detail": "Robert told police Michael had bailed Tracy Jo out specifically to prevent her from testifying against him in the drive-by shooting case — eliminating her as a witness was the motive for the murder.",
+"quote": null },
+
+{ "year": "1999", "date": "1999", "cat": "invest", "persons": ["robert", "michael", "tracyjo", "barbara"],
+"title": "How it happened, according to Robert",
+"summary": "Robert demonstrated to detectives, with a choking motion, how Michael had strangled Tracy Jo in his bedroom, then left her body there for three days until the smell of decomposition led their mother to discover it.",
+"detail": "Barbara never reported the death. Robert said he helped move the refrigerator to the car lot afterward but deliberately didn't look inside, and that Michael later transferred the body into a 55-gallon drum whose final location remains unknown.",
+"quote": { "text": "He said, I can assume that Tracy Jo Shine was in there, but I never saw her in there.", "cite": "Robert Neal, describing what his brother told him" } },
+
+{ "year": "1999", "date": "Verdict", "cat": "outcome", "persons": ["michael"],
+"title": "Convicted without a body",
+"summary": "Despite having no recovered body, prosecutors secured Michael Neal's conviction for Tracy Jo Shine's murder, and he was sentenced to an additional 45 years — not eligible for parole until 2017.",
+"detail": "Investigators credited the outcome directly to Dionne's refusal, years earlier, to let the refrigerator be discarded as an old, inactive piece of evidence.",
+"quote": { "text": "His biggest mistake was in thinking he'd get away with it.", "cite": "Investigator on the case" } },
+
+{ "year": "1999", "date": "After the conviction", "cat": "outcome", "persons": ["virginia", "michael", "barbara"],
+"title": "No grave, and no accountability for concealment",
+"summary": "Barbara McAllister was never prosecuted for concealing the death, since the statute of limitations had expired. Virginia Shine said she would never stop searching for her daughter's remains, which Michael Neal has refused to disclose.",
+"detail": "Detective Dionne described finally securing the conviction, after more than a decade of effort, as one of the most significant moments of his career.",
+"quote": { "text": "I can't ever forgive him for that.", "cite": "Virginia Shine, on Neal's continued silence about the burial location" } }
+]
+}

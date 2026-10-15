@@ -1,0 +1,133 @@
+{
+"id": "jack-reeves-mail-order-bride-1994",
+"title": "Which One?",
+"location": "Arlington & Lake Whitney, Texas",
+"years": "1961 – late 1990s",
+"statusBadge": { "label": "Two wives, two convictions", "color": "var(--rust)" },
+"dek": "A mail-order bride vanishes after a lunch with friends. Her husband seems strangely unbothered. Digging into his past reveals two earlier wives who also died under circumstances everyone had been too quick to accept.",
+"cardBlurb": "A husband's calm over his missing wife leads detectives back into his history — two earlier wives, both dead, one ruled a suicide no one had actually investigated.",
+"source": "Timeline built from a Forensic Files episode summary and transcript describing the October 1994 disappearance of Emelita Reeves in Arlington, Texas, and the investigation that uncovered her husband Jack Reeves's involvement in the earlier deaths of his second wife, Sharon, and suspicious circumstances around the death of his third wife, Myeong. The episode also draws on Patricia Springer's book \"Mail Order Murder.\" Exact years for Sharon's and Myeong's deaths are not stated precisely in the transcript and are approximated here based on the marriage and timeline details given.",
+"persons": {
+"emelita": { "name": "Emelita Reeves", "role": "26-year-old Filipina immigrant; Jack's fourth wife", "status": "Murdered", "statusColor": "var(--rust)" },
+"jack":    { "name": "Jack Reeves",    "role": "52-year-old former Army sergeant; married five times", "status": "Convicted of two murders, 35 + 99 years", "statusColor": "var(--rust)" },
+"sharon":  { "name": "Sharon Reeves",  "role": "Jack's second wife; her death was initially ruled suicide", "status": "Murdered; death reclassified as homicide 16 years later", "statusColor": "var(--rust)" },
+"myeong":  { "name": "Myeong-Hi Chong Reeves", "role": "Jack's third wife; drowned at Lake Whitney", "status": "Died under suspicious circumstances; never formally investigated", "statusColor": "var(--brass)" },
+"theo":    { "name": "Theo", "role": "Jack and Emelita's young son (pseudonym used in the episode)", "status": "Key child witness to the burial", "statusColor": "var(--brass)" },
+"monalisa":{ "name": "Monalisa Pate", "role": "Emelita's partner; last known to be with her the night she vanished", "status": "Cleared of involvement", "statusColor": "var(--brass)" }
+},
+"events": [
+{ "year": "1987", "date": "1987", "cat": "crime", "persons": ["emelita", "jack"],
+"title": "A bride chosen for the highest bid",
+"summary": "Jack Reeves flew to the Philippines to meet Emelita through a mail-order bride service, outbidding two other suitors by offering her father more money. Emelita's family had pushed her toward marrying a wealthy American to escape poverty.",
+"detail": "Once in Texas, Jack kept his word, sending Emelita's family $250 a month — a huge sum compared to the roughly $3 a month her father had been earning.",
+"quote": null },
+
+{ "year": "1994", "date": "October 11, 1994", "cat": "crime", "persons": ["emelita"],
+"title": "A lunch, a confession, and a disappearance",
+"summary": "At lunch with friends, Emelita confided she was no longer in love with Jack, but with another woman, and wanted to start a new life. She went shopping afterward and never came home.",
+"detail": "When friends couldn't reach her by phone or pager, they called police.",
+"quote": null },
+
+{ "year": "1994", "date": "1994", "cat": "invest", "persons": ["jack"],
+"title": "A husband who isn't worried",
+"summary": "Jack told police he wasn't particularly concerned, suggesting Emelita had run off with her female lover. Friends described him as controlling and jealous specifically about Emelita having male friends.",
+"detail": "He seemed confident she would simply return, as he said she always did.",
+"quote": null },
+
+{ "year": "1994", "date": "1994", "cat": "invest", "persons": ["monalisa"],
+"title": "Police confirm the relationship",
+"summary": "Investigators located and questioned Monalisa Pate, who confirmed she and Emelita were in a relationship and that she'd been with her until 8pm the night she disappeared — but didn't know where Emelita went afterward.",
+"detail": "Her account gave police a timeline for Emelita's last known hours, though it left a gap before her disappearance.",
+"quote": null },
+
+{ "year": "1994", "date": "Two days later", "cat": "crime", "persons": ["emelita"],
+"title": "Her car turns up abandoned",
+"summary": "Emelita's car was found in a supermarket parking lot a few miles from home.",
+"detail": "Jack, reinterviewed, shifted from saying she'd run off to offering to help the search — bringing in an item he thought could help search dogs track her scent.",
+"quote": null },
+
+{ "year": "1994", "date": "1994", "cat": "forensic", "persons": ["emelita"],
+"title": "The car tells a different story",
+"summary": "A detailed search of the abandoned car found the driver's seat positioned for someone much taller than the petite Emelita. The steering wheel was unlocked and the alarm unset — both things she always did without fail.",
+"detail": "None of Emelita's clothing was missing from home, inconsistent with someone planning to leave. Search dogs, given her scent, found nothing.",
+"quote": null },
+
+{ "year": "1994", "date": "1994", "cat": "invest", "persons": ["jack", "emelita"],
+"title": "Fear, money, and a sudden trip out of town",
+"summary": "When police asked Jack to come retrieve Emelita's car, they learned he'd left town for Lake Whitney, where he often camped. Investigators also learned he'd recently offered Emelita $30,000 to stay with him, and had once asked her to have sex with one of his sons, which she refused.",
+"detail": "Friends recalled Emelita expressing real fear that Jack would kill her, in her own words, \"as he had killed his other wives\" — a comment that sent investigators looking into his marital history.",
+"quote": null },
+
+{ "year": "1960s–1970s", "date": "Background", "cat": "invest", "persons": ["jack", "sharon", "myeong"],
+"title": "Four marriages, two suspicious deaths",
+"summary": "Investigators learned Jack had been married four times before Emelita. His first marriage, to a 15-year-old, had been annulled by her mother. His second wife, Sharon, died of a shotgun wound ruled a suicide. His third wife, Myeong, drowned at Lake Whitney.",
+"detail": "Both Sharon's and Myeong's deaths had been accepted at the time without real scrutiny — no homicide investigation, and in Myeong's case, no autopsy at all before cremation.",
+"quote": null },
+
+{ "year": "1960s–1970s", "date": "Approx. 1970s", "cat": "invest", "persons": ["myeong", "jack"],
+"title": "A drowning that didn't add up",
+"summary": "Myeong drowned in 10 feet of water at Lake Whitney after apparently falling from a raft while Jack was away gathering fishing bait. The local game warden found the raft undamaged with a full air supply, and questioned how an adult could fall off and fail to simply swim or stand in water that shallow.",
+"detail": "At the funeral, Myeong's sister noticed bruises and scrapes, and long parallel scratch marks on Jack's own hands — marks she suspected came from fingernails, not an accident. Her concerns went nowhere; no investigation followed, and Myeong was cremated.",
+"quote": { "text": "Long parallel scratches on his hands... were those from her fingernails?", "cite": "Myeong's sister, recalling her suspicions" } },
+
+{ "year": "1994", "date": "1994", "cat": "invest", "persons": ["jack"],
+"title": "A fabricated DNA trap",
+"summary": "Detective Tom LeNoir, now suspicious of Jack's pattern, invented a detailed but entirely false claim that DNA from a body would permanently embed itself in carpet fibers and could be detected no matter how thoroughly it was cleaned.",
+"detail": "The next day, under covert police surveillance, Jack replaced the carpet in his home — a reaction LeNoir considered confirmation of guilt, even though it produced no usable physical evidence.",
+"quote": { "text": "There was absolutely no reason for him to take that particular activity at that particular time.", "cite": "Tom LeNoir, detective" } },
+
+{ "year": "1960s", "date": "Reexamined in 1994", "cat": "forensic", "persons": ["sharon", "jack"],
+"title": "Blood spatter rewrites Sharon's story",
+"summary": "LeNoir sent the single surviving crime-scene photo from Sharon's death to blood spatter expert Tom Bevel. Jack had claimed Sharon was sitting on the bed and fired the shotgun with her toe. The spatter pattern told a different story.",
+"detail": "An L-shaped blood pattern on Sharon's thigh showed she had been standing when the wound first bled, with the pattern changing direction only after she fell backward — a sequence inconsistent with Jack's account, and one that gave LeNoir probable cause to exhume her body sixteen years later.",
+"quote": { "text": "Had Sharon Reeves been sitting, the blood spatter as well as the blood flows would have looked entirely different.", "cite": "Tom Bevel, blood spatter analyst" } },
+
+{ "year": "1994", "date": "After exhumation", "cat": "forensic", "persons": ["sharon"],
+"title": "An autopsy, 16 years late",
+"summary": "Medical examiner Dr. Jeffrey Barnard found the shotgun wound's trajectory was sharply angled left and downward — a path that, given Sharon's upright position, would have made it physically impossible for her to hold the weapon and reach the trigger herself.",
+"detail": "Sharon's death was officially ruled undetermined, suggestive of homicide. Since Jack was the only other person in the house at the time, investigators reasoned that if Sharon hadn't pulled the trigger, he had to have.",
+"quote": { "text": "I had no doubt whatsoever that this was not the case of a self-inflicted gunshot wound.", "cite": "Dr. Jeffrey Barnard, medical examiner" } },
+
+{ "year": "1995", "date": "1995", "cat": "outcome", "persons": ["jack"],
+"title": "Arrested while seeking a fifth wife",
+"summary": "After Emelita's disappearance, Jack renewed his Cherry Blossoms subscription and found a new prospective bride in the Philippines. Before they could meet, he was arrested — not for Emelita's disappearance, which police still lacked evidence for, but for Sharon's murder.",
+"detail": "When told he was under arrest for killing his wife, Jack reportedly asked which one — a response that stunned even the officers arresting him.",
+"quote": { "text": "Jack said, which one?", "cite": "Account of Jack Reeves's reaction at his arrest" } },
+
+{ "year": "1995", "date": "Trial", "cat": "trial", "persons": ["jack", "sharon"],
+"title": "A reenactment that sealed the case",
+"summary": "At trial for Sharon's murder, prosecutors staged a physical reenactment of Jack's claim that Sharon shot herself with her toe. A female officer attempting the same motion couldn't maneuver her toe into the trigger guard at all.",
+"detail": "The case rested on proving Sharon couldn't have pulled the trigger herself and that no one but Jack was present to have done it. Jack was found guilty and sentenced to 35 years in prison.",
+"quote": null },
+
+{ "year": "1995", "date": "October 1, 1995", "cat": "crime", "persons": ["emelita"],
+"title": "A shallow grave, almost a year later",
+"summary": "Deer hunters at Lake Whitney stumbled on a shallow grave, nearly a year to the day after Emelita vanished.",
+"detail": "The remains were sent to the medical examiner's office in Fort Worth for identification and analysis.",
+"quote": null },
+
+{ "year": "1995", "date": "1995", "cat": "forensic", "persons": ["emelita"],
+"title": "Identified, but the cause of death stayed hidden",
+"summary": "Deputy chief medical examiner Marc Krouse matched the remains to Emelita using dental records. She was found without clothing, jewelry, or personal items — inconsistent with someone who had chosen to leave. But the bones showed no trauma, no bullet or knife wounds, and the hyoid bone, which can show signs of strangulation, was missing.",
+"detail": "With no direct injury evidence, Krouse turned to an unconventional source: diatoms, microscopic organisms that live in water, found concentrated in the soil around where her lungs had been.",
+"quote": null },
+
+{ "year": "1995", "date": "1995", "cat": "forensic", "persons": ["emelita"],
+"title": "Diatoms point to drowning",
+"summary": "A high concentration of diatoms specifically in the lung area of the grave, compared to much lower levels elsewhere in the soil, suggested Emelita had inhaled water containing them before death — evidence consistent with drowning.",
+"detail": "The manner of death was ruled a homicide. Krouse concluded she had likely been killed by drowning, then buried hastily, not carefully.",
+"quote": { "text": "I'm more certain than not that she was drowned in a homicidal manner.", "cite": "Dr. Marc Krouse, medical examiner" } },
+
+{ "year": "1995", "date": "1995", "cat": "invest", "persons": ["theo", "jack", "emelita"],
+"title": "A young son points the way",
+"summary": "Police later took Jack and Emelita's young son, Theo, to Lake Whitney. The child spontaneously told them to watch out for \"the big hole,\" pointing toward the area of his mother's grave, and said she had been hurt in the bathtub by his father.",
+"detail": "Investigators believed it was likely Jack had actually brought his son along at the time he buried Emelita, given how specifically the boy could identify the location.",
+"quote": null },
+
+{ "year": "late 1990s", "date": "Second trial", "cat": "outcome", "persons": ["jack", "emelita"],
+"title": "Convicted again, sentenced to 99 years",
+"summary": "Jack stood trial a second time, this time for Emelita's murder, and was convicted. He was sentenced to 99 years in prison, with no parole eligibility until age 106.",
+"detail": "Those who studied the case described Jack as a cold, manipulative sociopath who treated any wife's talk of leaving as a death sentence for her.",
+"quote": { "text": "When he heard the D word, meaning divorce, from any of his wives, he considered it to be death. And he killed them.", "cite": "Case narration" } }
+]
+}

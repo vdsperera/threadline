@@ -1,0 +1,101 @@
+{
+"id": "denise-huber-freezer-1991",
+"title": "The Freezer in the Driveway",
+"location": "Newport Beach, California / Prescott, Arizona",
+"years": "1991 – 1997",
+"statusBadge": { "label": "Three-year cold case", "color": "var(--teal)" },
+"dek": "A young woman's car is found abandoned on a California freeway, flat tire, flashers on, no sign of a struggle. For three years, nothing. Then a neighbor 350 miles away reports a running freezer plugged into an extension cord.",
+"cardBlurb": "A woman vanishes from a roadside breakdown with no trace — until a suspicious freezer, running nonstop in a stranger's driveway three years later and 350 miles away, ends the search.",
+"source": "Timeline built from a Forensic Files episode summary and transcript describing the June 1991 disappearance of Denise Huber in Newport Beach, California, the 1994 discovery of her remains in John Famalaro's possession in Prescott, Arizona, and the forensic work — fingerprinting, DNA, skull reconstruction, and luminol testing — that reconstructed the case and led to his 1997 conviction.",
+"persons": {
+"denise":   { "name": "Denise Huber",   "role": "23-year-old waitress and sales assistant, last seen driving home from a concert", "status": "Murdered", "statusColor": "var(--rust)" },
+"famalaro": { "name": "John Famalaro",  "role": "Handyman and painter; kept Denise's body in a freezer for three years", "status": "Convicted, sentenced to death", "statusColor": "var(--rust)" },
+"calvert":  { "name": "Robert Calvert", "role": "Denise's date that night; last known person to see her", "status": "Investigated, no evidence found", "statusColor": "var(--brass)" },
+"horrocks": { "name": "Steve Horrocks", "role": "Denise's boyfriend, who'd backed out of the concert plans that night", "status": "Cooperated fully, cleared", "statusColor": "var(--brass)" }
+},
+"events": [
+{ "year": "1991", "date": "June 2, 1991, night", "cat": "crime", "persons": ["denise", "calvert"],
+"title": "A concert, a drink, and a drive home",
+"summary": "Denise Huber went to a concert with a casual friend, Robert Calvert, after her boyfriend couldn't make it. Afterward they stopped for a drink, where an old acquaintance tried unsuccessfully to get her to leave with him instead.",
+"detail": "Denise and Rob left together around 1am; she dropped him at his home with no romantic contact between them, then drove off alone. He was the last known person to see her.",
+"quote": null },
+
+{ "year": "1991", "date": "June 1991", "cat": "crime", "persons": ["denise"],
+"title": "Her car is found abandoned, flashers on",
+"summary": "Denise's car was found on the Costa Mesa freeway, three miles from home, with a flat tire. The interior was undisturbed — no blood, no broken windows, no damage — but her purse and shoes were gone, as if she'd stepped out and started walking for help.",
+"detail": "Search dogs briefly picked up a scent along the freeway shoulder before losing it entirely. A later analysis showed the tire hadn't been tampered with — it had simply blown from being under-inflated.",
+"quote": { "text": "The flashers were on, like the car had broken down and she was going to get out and go walk for help.", "cite": "Investigator describing the scene" } },
+
+{ "year": "1991", "date": "1991", "cat": "invest", "persons": ["calvert", "horrocks"],
+"title": "Early suspects are investigated and cleared",
+"summary": "Police looked closely at Robert Calvert, her date that night, and Steve Horrocks, her boyfriend who'd backed out of the concert. Both cooperated fully, and the acquaintance from the bar was able to establish an alibi placing him elsewhere.",
+"detail": "With no physical evidence pointing anywhere and all known associates accounted for, the investigation stalled almost immediately.",
+"quote": null },
+
+{ "year": "1991", "date": "1991", "cat": "invest", "persons": ["denise"],
+"title": "A community mobilizes, and the trail goes cold",
+"summary": "Denise's family and local police turned to the media — buttons, bumper stickers, a freeway banner — generating hundreds of tips, most well-meaning, some not.",
+"detail": "Detective Lynda Geisler stayed in close, steady contact with the Huber family throughout, even as three years passed without a single solid lead.",
+"quote": { "text": "We'd hear from psychics who never did know anything... we'd hear from crackpots.", "cite": "Family member on the tip line" } },
+
+{ "year": "1994", "date": "1994", "cat": "invest", "persons": ["famalaro"],
+"title": "A neighbor's suspicion, 350 miles away",
+"summary": "In Prescott, Arizona, a neighbor reported a stolen-looking Ryder truck with California plates parked in a driveway, an extension cord running from it into the house, and whatever was inside the truck running around the clock.",
+"detail": "The truck turned out to be stolen from California. Inside was an industrial freezer, and inside that, a large black garbage bag — which investigators realized, on touch, contained a human arm.",
+"quote": null },
+
+{ "year": "1994", "date": "1994", "cat": "forensic", "persons": ["denise", "famalaro"],
+"title": "A race against thawing",
+"summary": "The freezer belonged to 39-year-old John Famalaro. Knowing the body would decompose rapidly once thawed, medical examiner Dr. Ann Bucholtz worked quickly — collecting watery fluid as it melted and even recovering a usable semen sample, remarkable after three years frozen.",
+"detail": "She removed handcuffs from the body and defrosted the hands slowly and carefully, since skin on frozen fingertips degrades fastest and holds the best chance of a usable fingerprint.",
+"quote": { "text": "It was sheer luck that we even got any sperm at all in a woman who's frozen three years.", "cite": "Dr. Ann Bucholtz, medical examiner" } },
+
+{ "year": "1994", "date": "1994", "cat": "forensic", "persons": ["denise"],
+"title": "Fingerprints identify her within a day",
+"summary": "Investigators rolled fingerprints from the recovered hands, just as they would for a living person being booked, and ran them against a missing persons database. They matched Denise Huber, missing for three years.",
+"detail": "Her family, who had lived in uncertainty for three years, described identification as a strange kind of relief — not closure, but an end to not knowing.",
+"quote": null },
+
+{ "year": "1994", "date": "1994", "cat": "invest", "persons": ["famalaro", "denise"],
+"title": "A box marked \"Christmas\"",
+"summary": "Famalaro refused to explain why Denise's body was in his freezer, 350 miles from where she'd disappeared. A search of his home turned up a box, labeled as holding Christmas items, containing her bloody clothing, driver's license, and scuffed high-heeled shoes.",
+"detail": "Investigators also found credit card records showing Famalaro had bought the freezer just days after Denise vanished, along with blood-stained clothing of his own whose owner wasn't yet confirmed.",
+"quote": null },
+
+{ "year": "1994", "date": "1994", "cat": "forensic", "persons": ["denise", "famalaro"],
+"title": "Bone marrow confirms the blood match",
+"summary": "With no accessible blood sample from Denise available, investigators used bone marrow instead to extract DNA for comparison. It matched the blood found on Famalaro's clothing.",
+"detail": "A search of his basement also turned up a police officer's uniform and evidence of a disturbing pattern — a girlfriend described being handcuffed and left exposed, consistent with fantasies investigators believed Famalaro had acted on before.",
+"quote": null },
+
+{ "year": "1994", "date": "1994", "cat": "forensic", "persons": ["denise"],
+"title": "Reconstructing a shattered skull",
+"summary": "Dr. Bucholtz found Denise's skull severely damaged. Forensic anthropologist Dr. Laura Fulginiti was brought in to piece it back together, starting with the most structurally simple regions and working toward the smaller, more complex facial bones.",
+"detail": "The reconstruction revealed patterned injuries from two different weapons, with small plastic fragments embedded in the fracture lines — proof she had already been bagged when the fatal blows were struck.",
+"quote": null },
+
+{ "year": "1994", "date": "1994", "cat": "forensic", "persons": ["denise", "famalaro"],
+"title": "Thirty-one blows, and a DNA match",
+"summary": "The skull reconstruction showed Denise had been struck 31 times. Semen recovered from her clothing was matched to Famalaro's DNA profile.",
+"detail": "Investigators found the scale of violence difficult to process, describing a need to compartmentalize the details of the attack in order to keep working the case.",
+"quote": { "text": "For me, it's a matter of here's the puzzle, my job is to put the puzzle together... and then I can go home and cry in the shower.", "cite": "Dr. Laura Fulginiti, forensic anthropologist" } },
+
+{ "year": "1994", "date": "1994", "cat": "forensic", "persons": ["famalaro", "denise"],
+"title": "Luminol finds the crime scene",
+"summary": "Investigators learned Famalaro had rented a warehouse in Newport Beach around the time Denise disappeared. A later tenant pointed them to a stain in a corner that had been hosed away, but initial testing found nothing.",
+"detail": "Spraying the area with luminol after dark revealed what conventional testing had missed — blood residue that DNA testing matched to Denise. A nail gun recovered from the same warehouse matched indentations found in her skull.",
+"quote": null },
+
+{ "year": "1994", "date": "1994", "cat": "outcome", "persons": ["famalaro", "denise"],
+"title": "Reconstructing what happened",
+"summary": "Based on the combined forensic evidence, prosecutors believed Famalaro stopped to help when Denise's tire went flat, then overpowered her and took her to his nearby warehouse, where he killed her.",
+"detail": "He bought the freezer within days of the murder, kept her body in it for roughly two years, then stole a truck and moved both himself and the freezer to Arizona — running it continuously in his driveway for another year before a neighbor's suspicion ended it.",
+"quote": null },
+
+{ "year": "1997", "date": "June 20, 1997", "cat": "outcome", "persons": ["famalaro"],
+"title": "Convicted, six years after Denise disappeared",
+"summary": "John Famalaro was tried and convicted of first-degree murder and sentenced to death.",
+"detail": "The forensic evidence was contested at nearly every stage, with challenges reaching the state Supreme Court — but each one was ultimately upheld.",
+"quote": { "text": "Every challenge was beat back because of great forensics and great police work.", "cite": "Investigator on the case" } }
+]
+}
