@@ -1,0 +1,95 @@
+{
+"id": "jessica-knott-garbage-bag-1996",
+"title": "The Shape of the Bag",
+"location": "Suburban area, United States",
+"years": "1996",
+"statusBadge": { "label": "Trace evidence breakthrough", "color": "var(--teal)" },
+"dek": "A 9-year-old girl vanishes from outside her own home on the Friday before Easter. An anonymous caller leads police to her body, but the tip itself becomes the key clue — once forensic audio science untangles a voice buried in static.",
+"cardBlurb": "A neighbor's anonymous 911 call leads police to a missing child's body — and ultimately points back to the caller himself, once audio science and garbage-bag manufacturing analysis close the loop.",
+"source": "Timeline built from a Forensic Files episode summary and transcript describing the 1996 disappearance and murder of 9-year-old Jessica Knott and the forensic audio analysis, trace evidence, and manufacturing-based garbage bag analysis that identified and convicted James Edward Crowe.",
+"persons": {
+"jessica": { "name": "Jessica Knott", "role": "9 years old, disappeared while waiting outside for her father", "status": "Murdered", "statusColor": "var(--rust)" },
+"crowe":   { "name": "James Edward Crowe", "role": "35-year-old neighbor, walked his dog in the area", "status": "Pleaded no contest, 40 years, no parole", "statusColor": "var(--rust)" },
+"peggy":   { "name": "Peggy Knott", "role": "Jessica's mother; recognized the 911 caller's voice", "status": "Key to identifying the suspect", "statusColor": "var(--brass)" },
+"kevin":   { "name": "Kevin Knott", "role": "Jessica's father; initially investigated and cleared", "status": "Cleared by forensic evidence", "statusColor": "var(--brass)" }
+},
+"events": [
+{ "year": "1996", "date": "Friday before Easter, 1996", "cat": "crime", "persons": ["jessica", "kevin"],
+"title": "Jessica goes outside to wait for her father",
+"summary": "9-year-old Jessica Knott asked to go outside and wait for her father to return from shopping. A neighbor saw her reading outside a few hours later, but by the time her father got home, she was gone.",
+"detail": "Her parents searched everywhere before notifying police, who began a perimeter search of the surrounding area.",
+"quote": { "text": "She said, 'I'd like to go downstairs and wait for Dad.'", "cite": "Peggy Knott, Jessica's mother" } },
+
+{ "year": "1996", "date": "Shortly after", "cat": "invest", "persons": ["jessica"],
+"title": "An anonymous call leads to her body",
+"summary": "An anonymous call from a gas station pay phone told police where Jessica could be found, not far from her home. No one was there when officers arrived, but a body was located nearby a short time later, partially covered with a garbage bag near a water pump house.",
+"detail": "The caller's tone struck investigators as sympathetic, as though he knew Jessica personally — a detail that would become central to the case.",
+"quote": null },
+
+{ "year": "1996", "date": "1996", "cat": "forensic", "persons": ["jessica"],
+"title": "Evidence suggests she was moved, not killed there",
+"summary": "Crime scene investigators found Jessica's clothing largely intact aside from a missing shoe. Items found both beneath and on top of her, along with a drag mark in the sand matching her shoulder, indicated she had been placed there rather than killed at that location.",
+"detail": "A tire impression nearby was photographed and cast in plaster for later comparison.",
+"quote": null },
+
+{ "year": "1996", "date": "1996", "cat": "invest", "persons": ["kevin", "peggy"],
+"title": "Family questioned, father's bags examined",
+"summary": "As is standard procedure, investigators first looked closely at family members. Neither Kevin nor Peggy Knott could fully corroborate their whereabouts at the time Jessica disappeared, and police confiscated a roll of garbage bags from Kevin's vehicle for analysis.",
+"detail": "This was a routine step to rule out those closest to the victim before broadening the investigation.",
+"quote": null },
+
+{ "year": "1996", "date": "1996", "cat": "forensic", "persons": ["jessica"],
+"title": "An autopsy narrows the cause and timeline",
+"summary": "The autopsy found bruising on Jessica's neck and inside her mouth, consistent with suffocation, possibly combined with strangulation. Her stomach contents showed she had eaten a fast-food hamburger shortly before she died.",
+"detail": "Scott Ryland's analysis of the garbage bag covering her found no fingerprints, but confirmed it didn't match the type of bags found in her father's truck — eliminating Kevin Knott as a suspect.",
+"quote": null },
+
+{ "year": "1996", "date": "1996", "cat": "forensic", "persons": [],
+"title": "Trace evidence builds a profile of the killer",
+"summary": "Forensic scientist Max Houck examined hairs and fibers recovered from Jessica's body. A foreign hair was Caucasian, and two distinct types of carpet-like fibers suggested she had been in two different vehicles or locations.",
+"detail": "A notable quantity of animal hair was also present — distinctive enough in root shape and texture that, after comparison to FBI reference samples, Houck narrowed it specifically to a Shar-Pei.",
+"quote": null },
+
+{ "year": "1996", "date": "1996", "cat": "invest", "persons": [],
+"title": "NASA and a forensic audio expert take on the 911 tape",
+"summary": "Believing the anonymous caller was almost certainly the killer, investigators sent the static-filled recording to NASA for audio cleanup, then to forensic audio analyst Dr. Harry Hollien for voice comparison.",
+"detail": "Hollien felt confident he could identify the voice, but needed a suspect's voice sample to compare it against — leaving the case still waiting on a name.",
+"quote": null },
+
+{ "year": "1996", "date": "1996", "cat": "invest", "persons": ["peggy", "crowe"],
+"title": "Jessica's mother recognizes the voice",
+"summary": "On a hunch, investigators played the cleaned-up tape for Peggy Knott. She said it sounded immediately familiar, and after listening several times, realized it belonged to a neighbor she knew only as \"the guy with the dog.\"",
+"detail": "That neighbor was identified as 35-year-old James Edward Crowe, who lived nearby, had no prior arrests, and spent much of his time walking his dog, Pumpkin, around the neighborhood.",
+"quote": { "text": "This voice is very familiar to me... That's it, it's the guy with the dog.", "cite": "Peggy Knott, recognizing the 911 caller" } },
+
+{ "year": "1996", "date": "1996", "cat": "invest", "persons": ["crowe"],
+"title": "The pieces start lining up",
+"summary": "Crowe's dog, Pumpkin, was a Shar-Pei — matching the distinctive dog hair found on Jessica's body. A neighbor had also seen Crowe talking with Jessica outside her apartment building shortly before she disappeared.",
+"detail": "Crowe admitted to the conversation but denied any involvement in her disappearance. A search of his vehicle turned up a fast-food kids' meal bag, and investigators learned he'd replaced his truck's tires shortly after Jessica's death.",
+"quote": null },
+
+{ "year": "1996", "date": "1996", "cat": "forensic", "persons": ["crowe", "jessica"],
+"title": "Matching garbage bags down to the manufacturing batch",
+"summary": "Police found a box of black garbage bags in Crowe's apartment matching the size and brand of the bag found with Jessica's body. To determine how meaningful that match really was, investigators brought in quality control expert Noel Roberts and forensic scientist Scott Ryland.",
+"detail": "X-ray fluorescent spectrometry showed the chemical composition of the bags was virtually identical, and microscopic \"die line\" imperfections and fold offsets unique to specific short windows of manufacturing time lined up between Crowe's bags and the one from the crime scene — narrowing the pool of possible source boxes to roughly 17 out of millions produced that month.",
+"quote": { "text": "It almost gives you a fingerprint-type identification, where you can take one bag and really match it up with the next bag in a carton.", "cite": "Noel Roberts, quality control expert" } },
+
+{ "year": "1996", "date": "1996", "cat": "outcome", "persons": ["crowe"],
+"title": "Arrested, and a reconstructed timeline",
+"summary": "James Crowe was arrested and charged with Jessica's murder. Forensic evidence tied the carpet fibers on her body to both his apartment and his car, and Dr. Hollien concluded with roughly 90% confidence that Crowe's voice matched the 911 caller's.",
+"detail": "Prosecutors believed Crowe used his dog to start a conversation with Jessica while she waited outside, lured her into his car with the promise of a hamburger, took her back to his apartment where she picked up the carpet fibers and dog hair, and suffocated her there before disposing of her body and placing the anonymous call, apparently out of guilt.",
+"quote": null },
+
+{ "year": "1996", "date": "Pretrial hearing", "cat": "trial", "persons": ["crowe"],
+"title": "A judge calls the forensic testimony some of the best he's seen",
+"summary": "Crowe's defense challenged the admissibility of the garbage bag manufacturing analysis as a novel scientific technique. In a dedicated hearing, the judge ruled it not only admissible, but among the strongest forensic testimony he'd encountered.",
+"detail": "That ruling effectively removed Crowe's strongest avenue for keeping the trace evidence out of trial.",
+"quote": { "text": "I think it's some of the best forensic testimony that I've ever seen.", "cite": "Presiding judge, on the garbage bag evidence" } },
+
+{ "year": "1996", "date": "Plea", "cat": "outcome", "persons": ["crowe"],
+"title": "No contest, 40 years, no parole",
+"summary": "Facing the combined forensic case, Crowe pleaded no contest to second-degree murder in exchange for a 40-year sentence without parole, avoiding a possible death sentence.",
+"detail": "The plea spared the Knott family a full trial, though they addressed Crowe directly in court, including a poem Kevin Knott wrote and read aloud.",
+"quote": { "text": "If we had not had the capabilities of those labs, I think James Crowe would still be on the street.", "cite": "Prosecutor on the case" } }
+]
+}

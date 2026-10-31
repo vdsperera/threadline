@@ -1,0 +1,107 @@
+{
+"id": "toledo-landlords-double-homicide-1996",
+"title": "The Elephant Pendant",
+"location": "Toledo, Ohio",
+"years": "1996 – 2000",
+"statusBadge": { "label": "Wrong suspect, then DNA redirects", "color": "var(--teal)" },
+"dek": "An elderly couple is found bludgeoned in their own living room. Police arrest a tenant based on a tip that later unravels — then a pawnshop owner's two-year-old habit of never throwing anything away cracks the case wide open.",
+"cardBlurb": "A brutal double murder, a wrongly charged tenant cleared by his own DNA, and a pawned good-luck pendant that sat forgotten in a safe for two years until it named the real killer.",
+"source": "Timeline built from a Forensic Files episode summary and transcript describing the December 1996 murders of Gertrude \"Trudy\" Thompson and Edward Kowalzck in Toledo, Ohio, the initial, later-dismissed case against tenant Ethan Walls, and the 1998 discovery that led to the arrest and conviction of James Jordan. Exact dates between the 1996 murders and the 1998 break in the case are approximate, drawn from the episode's own account rather than court records.",
+"persons": {
+"trudy":  { "name": "Gertrude \"Trudy\" Thompson", "role": "69-year-old landlord, killed alongside her partner", "status": "Murdered", "statusColor": "var(--rust)" },
+"ed":     { "name": "Edward Kowalzck", "role": "72-year-old landlord, Trudy's business and life partner", "status": "Murdered", "statusColor": "var(--rust)" },
+"walls":  { "name": "Ethan Walls", "role": "A tenant, initially charged based on an informant's since-recanted claim", "status": "Charges dismissed; exonerated", "statusColor": "var(--teal)" },
+"jordan": { "name": "James Jordan", "role": "Handyman who had worked for Trudy; pawned her pendant", "status": "Convicted, sentenced to death", "statusColor": "var(--rust)" }
+},
+"events": [
+{ "year": "1996", "date": "December 1996", "cat": "crime", "persons": ["trudy", "ed"],
+"title": "A mail carrier notices something wrong",
+"summary": "A mail carrier noticed mail piling up outside the Toledo home of Trudy Thompson and Ed Kowalzck. Neighbors, unable to see inside past windows covered with plastic and foil for insulation, called police after days of no contact.",
+"detail": "Officers found personal belongings packed in boxes, as if someone had been preparing to move — and the elderly couple dead on the living room floor, killed with extreme violence days earlier.",
+"quote": { "text": "It was just so violent. You could see the bludgeoning, cut marks, stabs. One of the worst crime scenes I've ever seen as a police officer.", "cite": "Det. James Scott, Toledo Police" } },
+
+{ "year": "1996", "date": "1996", "cat": "forensic", "persons": ["trudy", "ed"],
+"title": "A frenzied scene, and signs of interrogation",
+"summary": "An autopsy found both victims died of blunt-force head injuries. Puncture wounds suggested the attacker had tortured them for information, likely demanding to know where money was hidden.",
+"detail": "Investigators initially assumed two attackers were involved, given the double homicide and the sheer violence of a crime carried out entirely with hand weapons rather than a firearm.",
+"quote": null },
+
+{ "year": "1996", "date": "1996", "cat": "invest", "persons": ["trudy", "ed"],
+"title": "No forced entry, and a missing pendant",
+"summary": "There was no sign of forced entry, suggesting the killer was someone the couple knew and let in. As landlords who rarely threw anything away, it was difficult to tell what, if anything, had been stolen — except one thing: Trudy's gold elephant pendant, worn daily, was missing.",
+"detail": "Police recognized the pendant's potential as a trackable clue and published its photo on the front page of the Toledo Blade, hoping someone who'd seen it would come forward. No one did.",
+"quote": null },
+
+{ "year": "1996", "date": "1996", "cat": "forensic", "persons": ["trudy", "ed"],
+"title": "The weapons identified, the attacker's blood left behind",
+"summary": "Forensic pathologist Dr. Diane Scala-Barnett matched skull wounds to a rectangular-based lamp at the scene, while forensic anthropologist Julie Saul matched another wound pattern to a separate brass lamp. Neither held fingerprints, but blood spatter analysis told a second story.",
+"detail": "Elongated spatter near the bodies came from the beatings themselves, but circular drip spots found away from the bodies — including inside a broken vase and a desk drawer — suggested blood from someone standing still and bleeding, most likely the attacker's own.",
+"quote": null },
+
+{ "year": "1996", "date": "1996", "cat": "forensic", "persons": ["ed"],
+"title": "A shard of glass answers a key question",
+"summary": "A tiny piece of broken light bulb glass embedded in the sole of Ed Kowalzck's galoshes indicated he had walked into the room sometime after the attack had already started, likely entering from outside, since his coat was found by the front door.",
+"detail": "This detail helped investigators reconstruct the sequence of the attack rather than assuming both victims were killed simultaneously.",
+"quote": null },
+
+{ "year": "1996", "date": "1996", "cat": "invest", "persons": ["walls"],
+"title": "A tenant's answering machine calls raise suspicion",
+"summary": "Messages on the couple's answering machine included repeated calls from one tenant, Ethan Walls. Questioned, he admitted dropping off a rent payment when no one answered the door, then returning days later to retrieve and spend that same money when no one had contacted him.",
+"detail": "Those two admissions placed Walls at the house around the time of the murders, and an informant separately claimed she'd seen him with blood on his shirt near the time of the crime.",
+"quote": { "text": "All of a sudden, Ethan's telling them this very bizarre story about dropping off a check and then coming back and picking it up.", "cite": "Tim Braun, assistant prosecuting attorney" } },
+
+{ "year": "1996", "date": "1996", "cat": "forensic", "persons": ["walls"],
+"title": "Physical evidence doesn't match Walls",
+"summary": "Police seized every knife from Walls's home; none tested positive for human blood. His shoes were compared to a bloody footprint at the scene; none matched.",
+"detail": "With the attacker's own blood left at the scene, investigators had a direct way to confirm or rule Walls out — all that remained was the DNA comparison.",
+"quote": null },
+
+{ "year": "late 1990s", "date": "late 1990s", "cat": "trial", "persons": ["walls"],
+"title": "Arrested despite an exclusion",
+"summary": "DNA analyst Angela Lineen compared Walls's blood markers to the crime-scene blood mixture and found his profile didn't match — he could be excluded as a contributor. He was arrested and charged anyway, based largely on the informant's account.",
+"detail": "Walls, facing a possible death sentence, maintained his innocence throughout, telling police as he was arrested not to stop looking for the real killer.",
+"quote": { "text": "Please don't stop looking for the killer, because while you're focusing on me, somebody is getting away with it.", "cite": "Ethan Walls, at his arrest" } },
+
+{ "year": "late 1990s", "date": "Before trial", "cat": "outcome", "persons": ["walls"],
+"title": "The informant recants, and charges are dropped",
+"summary": "Shortly before trial, the informant whose testimony anchored the case against Walls told prosecutor Tim Braun she had lied. She gave no clear explanation beyond saying it wasn't right and she wouldn't testify.",
+"detail": "With their key witness gone and no forensic link to Walls, prosecutors had no choice but to dismiss the charges — even with the case potentially carrying the death penalty.",
+"quote": { "text": "The day you dismiss a death-penalty case when you're a prosecutor, it's a bad, bad day.", "cite": "Tim Braun, assistant prosecuting attorney" } },
+
+{ "year": "1996-1998", "date": "Two years", "cat": "invest", "persons": ["trudy", "ed"],
+"title": "The case goes cold",
+"summary": "With their only suspect cleared, investigators had no further leads for two years, despite what they considered strong physical evidence — the attacker's blood and the still-missing pendant.",
+"detail": "Detectives acknowledged the case had long passed the critical early window typically most likely to produce a solve, but continued working it regardless.",
+"quote": null },
+
+{ "year": "1998", "date": "July 1998", "cat": "invest", "persons": ["trudy"],
+"title": "A pawnshop owner's old newspaper",
+"summary": "While helping her mother, a lifelong collector, clean out old newspapers at a pawnshop, Annette Chiaverini's daughter pulled out a two-year-old article about the unsolved double murder and recognized the gold elephant pendant in Trudy Thompson's photograph.",
+"detail": "Mrs. Chiaverini still had the pendant itself, unsold, sitting in her shop's safe — and crucially, she'd also kept the original pawn ticket.",
+"quote": { "text": "That's one in a million, I would say, for her to keep a newspaper like that.", "cite": "Case narration" } },
+
+{ "year": "1998", "date": "1998", "cat": "invest", "persons": ["jordan"],
+"title": "The pawn ticket leads to a name",
+"summary": "The pawn ticket, dated December 3, 1996, around the time of the murders, named a seller who said he was only a messenger — the pendant actually belonged to James Jordan, a handyman who had worked for Trudy Thompson.",
+"detail": "A background check found Jordan had been arrested weeks after the murders on an unrelated robbery charge and was already serving a 45-year sentence in Texas.",
+"quote": null },
+
+{ "year": "1998", "date": "1998", "cat": "forensic", "persons": ["jordan"],
+"title": "DNA finally finds a match",
+"summary": "Jordan denied killing the couple, but a cheek swab for DNA comparison matched him to the blood drops left at the crime scene — on the broken lamp, in the vase, and in the desk drawer.",
+"detail": "Investigators believed Jordan cut his hand on a crystal lamp while using it as a weapon, leaving blood behind as he searched the house for money.",
+"quote": { "text": "We concluded that James Jordan was the person that left blood at the crime scene.", "cite": "Angela Lineen, DNA analyst" } },
+
+{ "year": "1998", "date": "1998", "cat": "trial", "persons": ["jordan"],
+"title": "A self-represented defense, undone by details",
+"summary": "Jordan represented himself at trial, charged with killing both Thompson and Kowalzck. He explained the blood in the desk drawer as an old cut from searching for a Band-Aid, and claimed Trudy had given him the pendant as payment for handyman work.",
+"detail": "He had no explanation for his blood found inside the broken vase, and the jury did not believe his account of how he came to possess the pendant.",
+"quote": null },
+
+{ "year": "late 1990s/2000", "date": "Verdict", "cat": "outcome", "persons": ["jordan"],
+"title": "Convicted and sentenced to death",
+"summary": "James Jordan was convicted on two counts of aggravated murder and sentenced to death.",
+"detail": "Investigators credited the case's resolution to an unlikely combination: diligent forensic reconstruction of the crime, and a $20 pawn transaction Jordan hadn't realized would eventually trace straight back to him.",
+"quote": { "text": "He had to cash in that pendant. And but for that reckless act, we never would have linked him back.", "cite": "Tim Braun, assistant prosecuting attorney" } }
+]
+}

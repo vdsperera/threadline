@@ -1,0 +1,131 @@
+{
+"id": "katie-poirier-moose-lake",
+"title": "The Filling That Wasn't on the Market Yet",
+"location": "Moose Lake, Minnesota",
+"years": "Late 1990s",
+"statusBadge": { "label": "Identified by a dental filling", "color": "var(--teal)" },
+"dek": "A 19-year-old clerk is taken from a convenience store on camera, but the footage is too poor to identify her abductor. The case turns on a partial license plate, a NASA video-enhancement technique, and a single tooth with a filling material so new it wasn't yet sold.",
+"cardBlurb": "A store clerk's abduction is caught on grainy video. Investigators eventually identify her remains by a tooth fragment whose experimental filling material had not yet reached the market.",
+"source": "Timeline built from a Forensic Files episode summary and transcript describing the abduction and murder of Katie Poirier in Moose Lake, Minnesota, and the investigation that identified and convicted Donald Albin Blom. The transcript does not state the calendar year of the abduction (only that Katie graduated high school in 1998 and was 19), so events are dated by sequence rather than by exact date. The tail of the transcript contained repeated, garbled lines, which were disregarded.",
+"persons": {
+"katie":       { "name": "Katie Poirier",           "role": "19-year-old convenience store clerk, studying criminal justice", "status": "Murdered", "statusColor": "var(--rust)" },
+"blom":        { "name": "Donald Albin Blom",       "role": "50-year-old former janitor with prior convictions for assault, rape, and kidnapping", "status": "Convicted, life without parole", "statusColor": "var(--rust)" },
+"christensen": { "name": "Donald Dean Christensen", "role": "Tip-line suspect with a prior sex-offense conviction", "status": "Cleared by video evidence", "statusColor": "var(--brass)" },
+"norrlander":  { "name": "Dr. Ann Norrlander",      "role": "Forensic odontologist who examined the tooth fragments", "status": "Key forensic expert", "statusColor": "var(--teal)" }
+},
+"events": [
+{ "year": "Late 1990s", "date": "Before the abduction", "cat": "crime", "persons": ["katie"],
+"title": "A night shift alone at the Conoco",
+"summary": "Katie Poirier, 19, worked as a clerk at a Moose Lake convenience store while studying criminal justice. Her mother had never liked the idea of her working nights, but Katie brushed off the worry.",
+"detail": "Katie was engaged and hoped to become a police officer or game warden. She was often working the late shift alone.",
+"quote": null },
+
+{ "year": "Late 1990s", "date": "About three hours earlier", "cat": "invest", "persons": [],
+"title": "A black pickup and a partial plate",
+"summary": "An employee at the sandwich shop next door noticed a black pickup truck in the parking lot, its driver glaring at women leaving the store. On a hunch she wrote down part of the license plate: the first three digits 5-5-7, and a final letter Y.",
+"detail": "Neighbors also reported seeing a black pickup circling the area before the abduction. Police hoped that finding the truck would lead them to Katie.",
+"quote": null },
+
+{ "year": "Late 1990s", "date": "11:38 p.m.", "cat": "crime", "persons": ["katie"],
+"title": "Caught on camera, but too grainy to identify",
+"summary": "One of the store's four security cameras recorded a Caucasian man forcing Katie out the front door into the parking lot. The images were grainy and showed few details of him, and no cameras covered the parking lot or his vehicle.",
+"detail": "The store sat near a major highway, so the abductor could have left the area quickly. A search of nearby streets and parks found nothing.",
+"quote": null },
+
+{ "year": "Late 1990s", "date": "Around midnight", "cat": "invest", "persons": ["katie"],
+"title": "An open store, a missing clerk",
+"summary": "A customer called police after finding the store open with no one working. Officers found no signs of violence, no money missing from the register or safe, and Katie's car keys still behind the counter.",
+"detail": "Notes and cash left by customers who had bought items after she vanished were sitting on the counter. Her family was certain she would never have left on her own without locking up and calling her supervisor.",
+"quote": null },
+
+{ "year": "Late 1990s", "date": "Days after", "cat": "invest", "persons": [],
+"title": "Hundreds of trucks match the plate fragment",
+"summary": "Helicopters and community volunteers searched for Katie while police ran the partial plate through state records. Hundreds of black pickups matched it.",
+"detail": "Investigators believed they were dealing with an experienced predator, one comfortable enough to act in front of the cameras.",
+"quote": { "text": "This person that came in and took Katie was not afraid of the video camera.", "cite": "Investigator on the case" } },
+
+{ "year": "Late 1990s", "date": "Days after", "cat": "forensic", "persons": [],
+"title": "NASA's VISAR process sharpens the video",
+"summary": "Police sent the surveillance tapes to NASA, where solar physicist Dr. David Hathaway used his VISAR process to stabilize the video and combine its frames, reducing noise and doubling the effective resolution.",
+"detail": "The enhanced frames showed a man of about 5'10\" with short blond or gray hair and an average build, wearing a dark New York Yankees jersey with the number 23. Even so, his face could not be made out.",
+"quote": null },
+
+{ "year": "Late 1990s", "date": "Weeks after", "cat": "invest", "persons": ["christensen"],
+"title": "A promising suspect is ruled out by a tattoo",
+"summary": "A sketch and physical description released to the media brought in hundreds of tips. One led to Donald Dean Christensen, who had a prior sex-offense conviction and looked like the man on the video.",
+"detail": "But Christensen had a large tattoo on his left forearm, and the surveillance video showed the abductor's forearm bare. He was cleared.",
+"quote": null },
+
+{ "year": "Late 1990s", "date": "Three weeks after", "cat": "invest", "persons": ["blom"],
+"title": "Lead number 1,960",
+"summary": "A caller from the Minnesota Veterans Home in Minneapolis was suspicious of a janitor who had just quit. Donald Blom had changed his appearance around the time Katie disappeared, with a new haircut and his facial hair shaved. The caller said he had often worn a Yankees jersey.",
+"detail": "A dispatcher who took the call said it was the first time she felt the case might be breaking open.",
+"quote": { "text": "This was the very first time that I felt, we might be onto something here.", "cite": "Paula Francisco, dispatcher" } },
+
+{ "year": "Late 1990s", "date": "Background check", "cat": "invest", "persons": ["blom"],
+"title": "A history of violence against women",
+"summary": "Blom was 50, married, and a father of four. His record included assault, rape, and kidnapping convictions dating to the 1970s. His last conviction came in 1983, when he forced two young women into the woods at knifepoint and tied them to a tree. They escaped before being assaulted.",
+"detail": "One mismatch remained: motor vehicle records showed no black pickup registered to Blom.",
+"quote": null },
+
+{ "year": "Late 1990s", "date": "Search warrant", "cat": "forensic", "persons": ["blom", "katie"],
+"title": "A fire pit at a vacation property",
+"summary": "A search of Blom's home found no trace of Katie. Blom claimed an alibi. At his vacation property near Moose Lake, investigators noticed a large fire pit beside a trailer, and technicians sifting it recovered small fragments that looked like bone.",
+"detail": "Investigators did not tell Katie's family what they suspected until they had proof.",
+"quote": { "text": "I wasn't going to take that hope away from them until I had some proof.", "cite": "Investigator on the case" } },
+
+{ "year": "Late 1990s", "date": "Analysis of the fragments", "cat": "forensic", "persons": ["katie"],
+"title": "The remains are consistent with a young woman",
+"summary": "Forensic anthropologist Dr. Susan Thurston-Myster sorted the fragments into animal, human, and indeterminate piles. The human pieces indicated a female aged 17 to 24, based on the angle and ridging of a pelvic bone and the open sutures of the skull.",
+"detail": "This fit Katie, but it was not a positive identification. The bones were too damaged for DNA testing and made up only about 25 percent of a skeleton.",
+"quote": null },
+
+{ "year": "Late 1990s", "date": "Analysis of the teeth", "cat": "forensic", "persons": ["katie", "norrlander"],
+"title": "A tooth, and the remnants of a filling",
+"summary": "Forensic odontologist Dr. Ann Norrlander examined the largest intact tooth fragment. Its shape and size matched Katie's lower left second molar, tooth number 18, and she noticed what looked like remnants of a filling.",
+"detail": "She asked scientists at the Minnesota Bureau of Criminal Apprehension to analyze the filling material.",
+"quote": null },
+
+{ "year": "Late 1990s", "date": "Laboratory analysis", "cat": "forensic", "persons": ["katie"],
+"title": "An elemental fingerprint under the electron microscope",
+"summary": "Forensic scientist Mark Nielsen used a scanning electron microscope to determine the filling's elemental makeup. It contained zirconium and silicon in concentrations the lab had never seen in dental cement.",
+"detail": "The microscope fires an electron beam at a small area of the sample, and each element gives off a characteristic X-ray in response, which reveals the composition.",
+"quote": null },
+
+{ "year": "Late 1990s", "date": "Dentist's records", "cat": "forensic", "persons": ["katie", "norrlander"],
+"title": "A brand-new material, and a positive identification",
+"summary": "Katie's dentist had replaced a filling in tooth number 18 two weeks before the abduction, using a sample of a new cement called RelyX ARC that she had received at a dental conference and that was not yet on the market. The manufacturer, 3M, confirmed it contained zirconium and silicon in the same concentrations found in the tooth.",
+"detail": "That match positively identified the tooth as Katie's, and with it the fire pit remains.",
+"quote": { "text": "That was the positive identification of Katie Poirier.", "cite": "Investigator on the case" } },
+
+{ "year": "Late 1990s", "date": "Arrest", "cat": "invest", "persons": ["blom"],
+"title": "The truck was black after all",
+"summary": "In a garage on one of Blom's properties, police found the black pickup with the plate they were looking for. State records had listed it as white, a clerical error. Blom was arrested and charged with Katie's murder.",
+"detail": "The error explained why the truck had not turned up in the earlier vehicle search.",
+"quote": null },
+
+{ "year": "Late 1990s", "date": "After the arrest", "cat": "invest", "persons": ["blom", "katie"],
+"title": "A taped confession, then a recantation",
+"summary": "Confronted with the electron microscope findings, Blom confessed on tape to a special agent. He described taking Katie from the store, driving her to his property, and killing her at the fire pit. Two weeks later he recanted, claiming the confession was coerced.",
+"detail": "Investigators described a chilling calm in his voice during the confession.",
+"quote": { "text": "There was a coolness in his voice. This is a bad man.", "cite": "Investigator on the taped confession" } },
+
+{ "year": "Late 1990s", "date": "Trial", "cat": "trial", "persons": ["blom"],
+"title": "Placing Blom near the store, and the tooth for the jury",
+"summary": "Prosecutors showed Blom was in the area that day: credit card receipts put him buying liquor nearby around 5 p.m., and the sandwich shop employee saw him in the parking lot around 8 p.m., three hours before the abduction. They argued he may have noticed Katie then and returned at 11:30 when she was alone.",
+"detail": "Prosecutors walked the jury through the scanning electron analysis of the tooth, their key piece of evidence. The jury understood it.",
+"quote": null },
+
+{ "year": "Afterward", "date": "Verdict", "cat": "outcome", "persons": ["blom"],
+"title": "Life without parole",
+"summary": "Donald Blom was convicted of first-degree murder and sentenced to life in prison without parole.",
+"detail": "Katie's family said the verdict gave little comfort. They described an empty place setting at the dinner table and holidays that had to change.",
+"quote": { "text": "Science is what put Donald Blom in prison.", "cite": "Investigator on the case" } },
+
+{ "year": "Afterward", "date": "Aftermath", "cat": "outcome", "persons": ["katie"],
+"title": "Katie's Law",
+"summary": "After the case, Minnesota lawmakers passed \"Katie's Law,\" which brought stiffer penalties for convicted sex offenders and required better methods for police to track past offenders. The Conoco chain began requiring at least two workers on duty each shift.",
+"detail": "Katie's family and community had been closely involved in the search from the first night, with hundreds of volunteers taking part.",
+"quote": null }
+]
+}
